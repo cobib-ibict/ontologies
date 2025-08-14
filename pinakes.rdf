@@ -14,11 +14,12 @@
         <dc:title xml:lang="pt-br">Ontologia Pinakes</dc:title>
         <owl:versionInfo xml:lang="pt-br">1.0</owl:versionInfo>
         <terms:creator xml:lang="pt-br">COBIB (Ibict)</terms:creator>
-        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">CC BY 4.0</dc:rights>
         <terms:description xml:lang="en">Developed based on the LRM and PRESSoo models to structurally represent the concepts and relationships in the domain of bibliographic services (e.g., CCN and Bibliodata), modeling descriptions of resources, events, and links between entities used in bibliographic information access.</terms:description>
         <terms:description xml:lang="pt-br">Desenvolvida a partir dos modelos LRM e PRESSoo para representar, de forma estruturada, os conceitos e as relações do domínio dos serviços bibliográficos (ex, CCN e Bibliodata), modelando descrições de recursos, eventos e vínculos entre entidades usados no acesso à informação bibliográfica.</terms:description>
         <rdfs:isDefinedBy xml:lang="pt-br">Modelo de dados que representa um conjunto de conceitos e os relacionamentos que abrangem os serviços bibliográficos integrados ao projeto Pinakes.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Ontologia Pinakes</rdfs:label>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
     </owl:Ontology>
 
 
