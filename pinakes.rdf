@@ -22,6 +22,7 @@
         <rdfs:label xml:lang="pt-br">Ontologia Pinakes</rdfs:label>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
         <doap:repository rdf:resource="https://github.com/cobib-ibict/ontologies"/>
+        <doap:bug-database rdf:resource="https://github.com/cobib-ibict/ontologies/issues"/>
     </owl:Ontology>
 
 
