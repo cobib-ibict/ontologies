@@ -178,7 +178,7 @@ Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-212
         <owl:inverseOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAdminNatureOf"/>
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#NaturezaAdministrativa"/>
-        <rdfs:comment xml:lang="pt">Essa propriedade é usada para relacionar uma instituição a um tipo específico de natureza administrativa que ela possui.</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">Essa propriedade é usada para relacionar uma instituição a um tipo específico de natureza administrativa que ela possui.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Refere-se à associação de uma instituição a uma categoria de natureza administrativa, indicando o tipo de administração que caracteriza a instituição.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem natureza administrativa</rdfs:label>
     </owl:ObjectProperty>
@@ -885,7 +885,7 @@ Ao contrário do relacionamento todo-parte entre expressões, as expressões sel
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"/>
         <rdfs:comment xml:lang="pt-br">Esta propriedade conecta uma expressão com o agente que a criou.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="pt">Indica a relação inversa em que uma expressão foi criada por um agente.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="pt-br">Indica a relação inversa em que uma expressão foi criada por um agente.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Expressão foi criada por</rdfs:label>
     </owl:ObjectProperty>
 
@@ -992,7 +992,7 @@ Por exemplo, ‘USA’ é equivalente a ‘United States of America’, ‘τὰ
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Item"/>
         <rdfs:comment xml:lang="pt-br">A conexão lógica serve como base tanto para identificar a manifestação exemplificada por um item individual, bem como, para garantir que todos os itens de uma mesma manifestação estejam vinculados com essa manifestação. Indiretamente, os relacionamentos entre uma manifestação e os vários itens que exemplificam essa manifestação também servem para estabelecer uma relação “de parentesco” entre os
 vários itens de uma manifestação.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="pt">Este relacionamento conecta uma manifestação com qualquer item que reflete as características dessa manifestação.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="pt-br">Este relacionamento conecta uma manifestação com qualquer item que reflete as características dessa manifestação.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">é exemplificada por</rdfs:label>
     </owl:ObjectProperty>
 
@@ -2196,7 +2196,7 @@ Os autômatos (como dispositivos de registro climático, programas de tradução
 coletivo, desde que sejam identificados por um nome específico e possam atuar como uma unidade. Pseudônimos conjuntos ou pseudônimos coletivos são nomens que se referem a instâncias da entidade agente coletivo como o agente por trás da identidade consiste em duas ou mais pessoas que possuem um nome específico e atuam como uma unidade, apesar de terem escolhido ser identificadas por um nome culturalmente associado a pessoas individuais.
 Uma reunião de pessoas é considerada um agente coletivo somente quando demonstra características organizacionais que lhes permitem executar ações que refletem a agência em relação a instâncias de entidades de interesse bibliográfico (como aprovar um relatório, publicar os trabalhos de uma conferência). Essas ações coletivas podem ser executadas por representantes selecionados por um todo, e não por todos os membros individuais agindo juntos. Grupos de pessoas que não se qualificam como agentes (por exemplo, grupos nacionais, religiosos, culturais ou étnicos, como ítalo-canadenses ou encontros referidos por um termo descritivo geral em vez de um nome específico) não são exemplos da entidade agente coletivo. A distinção essencial entre um agente coletivo e uma reunião de pessoas que não é uma instância da entidade agente coletivo está no fato de que o nome utilizado pela instância da entidade  deve ser um nome específico e não apenas uma descrição genérica para a reunião.
 Famílias e órgãos corporativos são tipos específicos de agentes coletivos que podem ser relevantes em uma aplicação bibliográfica específica.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="pt">Uma reunião ou organização de pessoas com um nome específico e capaz de atuar como uma unidade.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="pt-br">Uma reunião ou organização de pessoas com um nome específico e capaz de atuar como uma unidade.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Agente Coletivo</rdfs:label>
     </owl:Class>
 
@@ -2507,7 +2507,7 @@ http://linkedgeodata.org/ontology/City (Usada para representar cidades no contex
 Um lugar pode ter limites difusos. Os limites de um lugar podem mudar com o tempo (como uma cidade que incorpora subúrbios adjacentes) sem alterar a identidade do lugar para fins bibliográficos.
 
 Como pode ser um quadro de referência móvel, a entidade Lugar não é necessariamente identificada apenas por suas coordenadas geoespaciais.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="pt">(LRM-E10) Lugar: Uma extensão de espaço determinada.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="pt-br">(LRM-E10) Lugar: Uma extensão de espaço determinada.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Lugar</rdfs:label>
     </owl:Class>
 
@@ -2680,7 +2680,7 @@ http://www.geonames.org/ontology#Country (Representa países no contexto de dado
         <rdfs:comment xml:lang="pt-br">A entidade pessoa é restrita a pessoas reais que vivem ou presume-se que tenham vivido.
 
 Não é necessária uma prova estrita da existência de uma pessoa, desde que haja uma aceitação geral de sua provável historicidade. No entanto, figuras geralmente consideradas fictícias (por exemplo, Caco, o Sapo), literárias (por exemplo, Miss Jane Marple) ou puramente lendárias (por exemplo, o mago Merlin) não são instâncias da entidade pessoa.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="pt">Um ser humano individual</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="pt-br">Um ser humano individual</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Pessoa</rdfs:label>
     </owl:Class>
 
@@ -3277,7 +3277,7 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
         <rdf:type rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma"/>
         <nome xml:lang="pt-br">português</nome>
         <sigla xml:lang="pt-br">pt</sigla>
-        <rdfs:isDefinedBy xml:lang="pt">Idioma do Brasil.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="pt-br">Idioma do Brasil.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Português-BR</rdfs:label>
     </owl:NamedIndividual>
 
@@ -3824,7 +3824,7 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
 
     <owl:NamedIndividual rdf:about="https://cobib-ibict.github.io/ontologies/pinakes.rdf#nota_4">
         <rdf:type rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"/>
-        <notaDeComplexidade xml:lang="pt">Absorveu: Wine East (ISSN 0892-662X).</notaDeComplexidade>
+        <notaDeComplexidade xml:lang="pt-br">Absorveu: Wine East (ISSN 0892-662X).</notaDeComplexidade>
         <rdfs:label xml:lang="pt-br">Nota de Complexidade</rdfs:label>
     </owl:NamedIndividual>
 
