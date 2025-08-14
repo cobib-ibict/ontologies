@@ -10,6 +10,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:pinakes="https://cobib-ibict.github.io/ontologies/pinakes.rdf#">
     <owl:Ontology rdf:about="https://cobib-ibict.github.io/ontologies/pinakes.rdf">
+        <dc:title xml:lang="en">Pinakes Ontology</dc:title>
+        <dc:title xml:lang="pt-br">Ontologia Pinakes</dc:title>
         <owl:versionInfo>1.0</owl:versionInfo>
         <terms:creator xml:lang="pt-br">COBIB (Ibict)</terms:creator>
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by/4.0/</dc:rights>
