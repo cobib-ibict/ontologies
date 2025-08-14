@@ -12,11 +12,11 @@
     <owl:Ontology rdf:about="https://cobib-ibict.github.io/ontologies/pinakes.rdf">
         <dc:title xml:lang="en">Pinakes Ontology</dc:title>
         <dc:title xml:lang="pt-br">Ontologia Pinakes</dc:title>
-        <owl:versionInfo>1.0</owl:versionInfo>
+        <owl:versionInfo xml:lang="pt-br">1.0</owl:versionInfo>
         <terms:creator xml:lang="pt-br">COBIB (Ibict)</terms:creator>
-        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by/4.0/</dc:rights>
-        <rdfs:comment>Esta Ontologia foi desenvolvida com base nos modelos LRM e PRESSoo, para a representação do domínio de serviços bibliográficos.</rdfs:comment>
-        <rdfs:isDefinedBy>Modelo de dados que representa um conjunto de conceitos e os relacionamentos que abrangem os serviços bibliográficos integrados ao projeto Pinakes.</rdfs:isDefinedBy>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+        <rdfs:comment xml:lang="pt-br">Esta Ontologia foi desenvolvida com base nos modelos LRM e PRESSoo, para a representação do domínio de serviços bibliográficos.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="pt-br">Modelo de dados que representa um conjunto de conceitos e os relacionamentos que abrangem os serviços bibliográficos integrados ao projeto Pinakes.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Ontologia Pinakes</rdfs:label>
     </owl:Ontology>
 
@@ -257,8 +257,8 @@ Por exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1
         <owl:inverseOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCollectionOf"/>
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao"/>
-        <rdfs:comment>Relacionamento entre coleções e bibliotecas.</rdfs:comment>
-        <rdfs:isDefinedBy>Propriedade que vincula uma biblioteca às coleções que ela disponibiliza.</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="pt-br">Relacionamento entre coleções e bibliotecas.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="pt-br">Propriedade que vincula uma biblioteca às coleções que ela disponibiliza.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem coleção</rdfs:label>
     </owl:ObjectProperty>
 
@@ -309,8 +309,8 @@ Por exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1
         <owl:inverseOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCountryPublicationOf"/>
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais"/>
-        <rdfs:comment>Relaciona cada publicação seriada a ao país onde foi publicada.</rdfs:comment>
-        <rdfs:isDefinedBy>Propriedade que vincula uma publicação seriada ao País de publicação.</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="pt-br">Relaciona cada publicação seriada a ao país onde foi publicada.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="pt-br">Propriedade que vincula uma publicação seriada ao País de publicação.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem país de publicação</rdfs:label>
     </owl:ObjectProperty>
 
@@ -790,7 +790,7 @@ Ao contrário do relacionamento todo-parte entre expressões, as expressões sel
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade"/>
         <rdfs:comment xml:lang="pt-br">Associação entre instâncias de uma Unidade.</rdfs:comment>
-        <rdfs:isDefinedBy>Propriedade que faz associações entre instâncias da classe Unidade.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="pt-br">Propriedade que faz associações entre instâncias da classe Unidade.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">é associação de</rdfs:label>
     </owl:ObjectProperty>
 
@@ -2213,7 +2213,7 @@ Famílias e órgãos corporativos são tipos específicos de agentes coletivos q
 Técnicas de recuperação da informação, por exemplo, é área de conhecimento da Ciência da Informação e Medicina Veterinária é área de conhecimento de Especialidade médica.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Um ramo do conhecimento ou campo específico de estudo.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Área de Conhecimento</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.eurocris.org/ontologies/cerif/1.3#ResearchField (Usada para categorizar áreas de pesquisa e conhecimento).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://www.eurocris.org/ontologies/cerif/1.3#ResearchField (Usada para categorizar áreas de pesquisa e conhecimento).
 
 http://example.org/libo#KnowledgeArea (Usada para categorizar áreas de conhecimento em bibliotecas).
 
@@ -2235,7 +2235,7 @@ http://example.org/aiio#FieldOfKnowledge (Representa campos de conhecimento dent
 &apos;Ensino a distância&apos; é um termo que categoriza &apos;Aprendizado a distância&apos; no Tesauro Brasileiro de Ciência da Informação.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Método de indexação que utiliza um vocabulário controlado.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Assunto Controlado</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/dc/elements/1.1/subject (Esta classe é usada para representar o assunto ou tema de um recurso).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://purl.org/dc/elements/1.1/subject (Esta classe é usada para representar o assunto ou tema de um recurso).
 
 http://id.loc.gov/subject/headings (Esta classe é usada para representar assuntos controlados em bibliotecas e sistemas de catalogação).</rdfs:seeAlso>
     </owl:Class>
@@ -2284,7 +2284,7 @@ Atributo com informações de contato referente a Entidade E6-A1 do modelo LRM.
 
 Por exemplo, (61)32176145 é o telefone e biblioteca@ibict.br é o email da da Biblioteca do IBICT.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Informações de Contato.</rdfs:isDefinedBy>
-        <rdfs:label>Contato</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Contato</rdfs:label>
     </owl:Class>
 
 
@@ -2300,7 +2300,7 @@ Por exemplo, (61)32176145 é o telefone e biblioteca@ibict.br é o email da da B
 Por exemplo, o Instituto Brasileiro de Informação em Ciência e Tecnologia é a Editora da publicação seriada: Ciência da Informação.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Parte que publicou o recurso.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Editora</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/Publisher (Representa a editora de um recurso bibliográfico).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://purl.org/ontology/bibo/Publisher (Representa a editora de um recurso bibliográfico).
 
 http://purl.org/vocab/frbr/core#CorporateBody (Representa uma entidade corporativa, como uma editora).
 
@@ -2328,7 +2328,7 @@ http://xmlns.com/foaf/0.1/Organization (Representa qualquer tipo de organizaçã
 
 Por exemplo, o Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar  ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente.</rdfs:label>
         <rdfs:label xml:lang="pt-br">Endereço</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://schema.org/PostalAddress (Usada para representar endereços postais)
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://schema.org/PostalAddress (Usada para representar endereços postais)
 
 http://www.w3.org/2006/vcard/ns#Address (Usada para descrever informações de endereço em formato de cartão de visita (vCard)
 
@@ -2380,7 +2380,7 @@ Da mesma forma, mudanças nas convenções ou instrumentos intelectuais empregad
 (Pressoo Z11) URL: Esta classe inclui identificadores de servidores a partir dos quais os arquivos digitais podem ser obtidos online.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Endereço eletrônico.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Homepage</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://schema.org/WebPage</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://schema.org/WebPage</rdfs:seeAlso>
     </owl:Class>
 
 
@@ -2392,14 +2392,14 @@ Da mesma forma, mudanças nas convenções ou instrumentos intelectuais empregad
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasSupport"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger" xml:lang="pt-br">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#MeioFisico"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#isISSNOf"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger" xml:lang="pt-br">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2411,7 +2411,7 @@ O ISSN é usado em muitos sistemas de catalogação, assinaturas, intercâmbio i
 Por exemplo: o código 0100-1965 é o ISSN impresso da publicação seriada Ciência da Informação.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Número Internacional Normalizado para Publicações Seriadas.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">ISSN</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1590/2318-0889202234e210072
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://doi.org/10.1590/2318-0889202234e210072
 
 https://id.loc.gov/issn
 
@@ -2433,7 +2433,7 @@ http://purl.org/ontology/bibo/issn (usada para representar o ISSN de publicaçõ
 O idioma principal da publicação seriada Ciência da Informação, por exemplo, é o português.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Idioma de uma publicação.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Idioma</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://schema.org/Language
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://schema.org/Language
 
 http://purl.org/ontology/bibo/Language
 
@@ -2481,7 +2481,7 @@ Um item pode fazer parte de um objeto físico maior, por exemplo, quando um arqu
 Por exemplo, Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Cidade especificada em um endereço de uma Biblioteca, Instituição ou onde uma obra foi publicada</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Localidade</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/ontology/City (Representa cidades como entidades geográficas e administrativas)
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://dbpedia.org/ontology/City (Representa cidades como entidades geográficas e administrativas)
 
 https://schema.org/City (Usada para representar cidades no contexto de dados estruturados.)
 
@@ -2656,7 +2656,7 @@ em que novas expressões dela são criadas.</rdfs:comment>
 Por exemplo, O Brasil é país ou território geográfico onde uma Publicação seriada foi publicada.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Nação ou região geográfica definida com uma população distinta e soberania política sobre seu território.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">País</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/ontology/Country (Representa países como entidades geopolíticas).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://dbpedia.org/ontology/Country (Representa países como entidades geopolíticas).
 
 http://www.geonames.org/ontology#Country (Usada para representar países e suas informações geográficas).
 
@@ -2695,7 +2695,7 @@ Não é necessária uma prova estrita da existência de uma pessoa, desde que ha
 Por exemplo, a revista Ciência da Informação foi publicada em 1972 em Brasília pela Editora Ibict. Essas são as informações de imprenta da revista.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Entidade relacionada à  informação de imprenta referente à data de publicação.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Publicação Imprenta</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/vocab/frbr/core#Publication (Representa a entidade de publicação no modelo FRBR).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://purl.org/vocab/frbr/core#Publication (Representa a entidade de publicação no modelo FRBR).
 
 http://purl.org/dc/elements/1.1/publisher (Representa a entidade de publicação, incluindo informações sobre imprenta).
 
@@ -2721,7 +2721,7 @@ Exemplos: Bibliografia Brasileira de Ciência da Informação é uma continuaç�
 Granja Avícola; A Granja do Ano; AG Leilões; Revista AG; Guia AG Leilões do Criador são suplementos  relacionados à publicação: A Granja.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Publicação relacionada associada à publicação seriada principal.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Publicação Relacionada</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/RelatedDocument</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://purl.org/ontology/bibo/RelatedDocument</rdfs:seeAlso>
     </owl:Class>
 
 
@@ -2738,7 +2738,7 @@ Granja Avícola; A Granja do Ano; AG Leilões; Revista AG; Guia AG Leilões do C
 Exemplo: Ciência da Informação é publicação seriada quadrimestral</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Publicação periódica emitida em partes sucessivas.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Publicação Seriada</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/SerialPublication (usada para representar publicações seriadas, como revistas e jornais).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://purl.org/ontology/bibo/SerialPublication (usada para representar publicações seriadas, como revistas e jornais).
 
 https://schema.org/Periodical (usada para representar publicações periódicas, como revistas e jornais).</rdfs:seeAlso>
     </owl:Class>
@@ -2766,7 +2766,7 @@ https://schema.org/Periodical (usada para representar publicações periódicas,
 Por exemplo, Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Divisão territorial de um País. Território que se diferencia de outro por possuir características próprias de população, localização, clima etc.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Região</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/ontology/Region (Representa regiões geográficas ou administrativas)
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://dbpedia.org/ontology/Region (Representa regiões geográficas ou administrativas)
 
 https://schema.org/Place (Usada para representar lugares, incluindo regiões)
 
@@ -2812,7 +2812,7 @@ http://psi.oasis-open.org/iso/3166-2/#Region (Usada para representar subdivisõe
 Exemplos: Classificação das Áreas do Conhecimento da Tabela de áreas do conhecimento /avaliação CAPES - 1º Nível: Grande área; 2º Nível: Área do conhecimento; 3º Nível: Subárea; 4º Nível: Especialidade.                                       Organização da Tabela de áreas do conhecimento CNPq: Grande área; Área; Sub-área; Especialidade.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Instrumento que organiza informações por as áreas de conhecimento.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Tabela de Área de Conhecimento</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.eurocris.org/ontologies/cerif/1.3#Classification  (Usada para categorizar áreas de pesquisa e conhecimento, incluindo tabelas de classificação).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://www.eurocris.org/ontologies/cerif/1.3#Classification  (Usada para categorizar áreas de pesquisa e conhecimento, incluindo tabelas de classificação).
 
 http://www.scholarlydata.org/ontology/edu#KnowledgeAreaTable (Representa tabelas de áreas de conhecimento no contexto educacional).
 
@@ -2830,7 +2830,7 @@ http://id.loc.gov/authorities/classification (Representa classes de áreas de co
 Inteligência artificial, por exemplo, é um termo livre.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Palavras ou frases escolhidas livremente pelo autor ou indexador para representar o conteúdo do documento ou publicação</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Termo Livre</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/2004/02/skos/core#Concept (é usada para representar termos livres ou conceitos).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://www.w3.org/2004/02/skos/core#Concept (é usada para representar termos livres ou conceitos).
 
 http://purl.org/ontology/bibo/Term (é usada para representar termos livres).</rdfs:seeAlso>
     </owl:Class>
@@ -2862,7 +2862,7 @@ Bilioteca central e setorial são categorias de bibliotecas.</rdfs:comment>
 Por exemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Elemento textual, como um subtítulo ou forma abreviada, que complementa o título principal ao fornecer informações adicionais sobre o conteúdo, finalidade ou escopo do recurso.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Título Complementar</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/Subtitle (usada para representar títulos complementares ou subtítulos de documentos).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://purl.org/ontology/bibo/Subtitle (usada para representar títulos complementares ou subtítulos de documentos).
 
 https://schema.org/alternativeHeadline (usada para representar títulos alternativos ou complementares de artigos de notícias).</rdfs:seeAlso>
     </owl:Class>
@@ -2893,7 +2893,7 @@ Por exemplo, o Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unid
 Por exemplo, o Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="pt-br">Entidade subnacional de um país com certo grau de autonomia e dotada de governo.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Unidade Federativa</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/ontology/AdministrativeRegion (Representa regiões administrativas, incluindo unidades federativas).
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">http://dbpedia.org/ontology/AdministrativeRegion (Representa regiões administrativas, incluindo unidades federativas).
 
 http://psi.oasis-open.org/iso/3166-2/#Subdivision (Usada para representar subdivisões de países conforme a norma ISO 3166-2).
 
@@ -3045,16 +3045,16 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
         <hasContact rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato_1"/>
         <hasLibraryType rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipoBiblioteca_1"/>
         <hasUnit rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade_1"/>
-        <dataAtualizacaoBiblioteca rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-12T00:00:00</dataAtualizacaoBiblioteca>
-        <dataCadastroBiblioteca rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-11-09T00:00:00</dataCadastroBiblioteca>
+        <dataAtualizacaoBiblioteca rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xml:lang="pt-br">2021-11-12T00:00:00</dataAtualizacaoBiblioteca>
+        <dataCadastroBiblioteca rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xml:lang="pt-br">1995-11-09T00:00:00</dataCadastroBiblioteca>
         <denominacao xml:lang="pt-br">Lydia De Queiroz Sambaquy</denominacao>
-        <paginaWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://biblioteca.ibict.br</paginaWeb>
-        <servicosBiblioteca>Bibliodata</servicosBiblioteca>
-        <servicosBiblioteca>CCN</servicosBiblioteca>
+        <paginaWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://biblioteca.ibict.br</paginaWeb>
+        <servicosBiblioteca xml:lang="pt-br">Bibliodata</servicosBiblioteca>
+        <servicosBiblioteca xml:lang="pt-br">CCN</servicosBiblioteca>
         <servicosBiblioteca xml:lang="pt-br">COMUT</servicosBiblioteca>
         <sigla xml:lang="pt-br">LQS</sigla>
         <softwareUtilizado xml:lang="pt-br">Koha</softwareUtilizado>
-        <urlDoCatalogo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://biblioteca.ibict.br.</urlDoCatalogo>
+        <urlDoCatalogo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://biblioteca.ibict.br.</urlDoCatalogo>
         <rdfs:comment xml:lang="pt-br">Biblioteca do Instituto Brasileiro de Informação em Ciencia e Tecnologia (Ibict)</rdfs:comment>
         <rdfs:label xml:lang="pt-br">Lydia de Queiroz Sambaquy</rdfs:label>
     </owl:NamedIndividual>
@@ -3402,7 +3402,7 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
         <anoFinal xml:lang="pt-br">2015</anoFinal>
         <anoInicial xml:lang="pt-br">1972</anoInicial>
         <conteudo xml:lang="pt-br">Científico</conteudo>
-        <dataDeAtualizacao rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-11T00:00:00</dataDeAtualizacao>
+        <dataDeAtualizacao rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xml:lang="pt-br">2022-05-11T00:00:00</dataDeAtualizacao>
         <dataDeCadastro xml:lang="pt-br">2005</dataDeCadastro>
         <formatoDeCatalogacao xml:lang="pt-br">AACR2</formatoDeCatalogacao>
         <formatoDeCatalogacao xml:lang="pt-br">Dublin Core</formatoDeCatalogacao>
@@ -3410,7 +3410,7 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
         <frequencia xml:lang="pt-br">Quadrimestral</frequencia>
         <nivelBibliografico xml:lang="pt-br">Periódico</nivelBibliografico>
         <nivelDeCatalogacao xml:lang="pt-br">Nível Central</nivelDeCatalogacao>
-        <numero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</numero>
+        <numero rdf:datatype="http://www.w3.org/2001/XMLSchema#int" xml:lang="pt-br">1</numero>
         <requerimentoDeLigacao xml:lang="pt-br">0100-1965 (ISSN-L)</requerimentoDeLigacao>
         <responsavelIntelectual xml:lang="pt-br">Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)</responsavelIntelectual>
         <situacaoDaPublicacao xml:lang="pt-br">Descontinuada (versão impressa)</situacaoDaPublicacao>
@@ -3418,7 +3418,7 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
         <tipo xml:lang="pt-br">Periódico</tipo>
         <tipoDeRegistro xml:lang="pt-br">Material textual</tipoDeRegistro>
         <tituloProprio xml:lang="pt-br">Ciência da Informação</tituloProprio>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</volume>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#int" xml:lang="pt-br">1</volume>
         <rdfs:comment xml:lang="pt-br">Publicação seriada quadrimestral.</rdfs:comment>
         <rdfs:label xml:lang="pt-br">Ciência da Informação</rdfs:label>
     </owl:NamedIndividual>
@@ -3689,8 +3689,8 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
         <rdf:type rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade"/>
         <nome xml:lang="pt-br">Coordenação de Serviços Bibliográficos</nome>
         <sigla xml:lang="pt-br">COBIB</sigla>
-        <rdfs:comment>Unidade do IBICT que administra a biblioteca.</rdfs:comment>
-        <rdfs:label>Coordenação de Serviços Bibliográficos</rdfs:label>
+        <rdfs:comment xml:lang="pt-br">Unidade do IBICT que administra a biblioteca.</rdfs:comment>
+        <rdfs:label xml:lang="pt-br">Coordenação de Serviços Bibliográficos</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3723,9 +3723,9 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
         <rdf:type rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"/>
         <isLocatedIn rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Brasilia"/>
         <cep xml:lang="pt-br">70070-912</cep>
-        <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-15.8024936</latitude>
+        <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal" xml:lang="pt-br">-15.8024936</latitude>
         <logradouro xml:lang="pt-br">Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.</logradouro>
-        <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-47.8824090</longitude>
+        <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal" xml:lang="pt-br">-47.8824090</longitude>
         <rdfs:comment xml:lang="pt-br">Logradouro da Biblioteca do Ibict</rdfs:comment>
         <rdfs:label xml:lang="pt-br">Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.</rdfs:label>
     </owl:NamedIndividual>
@@ -3976,7 +3976,7 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
     <owl:NamedIndividual rdf:about="https://revista.ibict.br/Homepage_1">
         <rdf:type rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes.rdf#Homepage"/>
         <rdfs:comment xml:lang="pt-br">HomePage da Revista Ciência da Informação.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://revista.ibict.br/ciinf/article/view/6125.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI" xml:lang="pt-br">https://revista.ibict.br/ciinf/article/view/6125.</rdfs:label>
     </owl:NamedIndividual>
     <rdf:Description>
         <alfabetacao xml:lang="pt-br"></alfabetacao>
