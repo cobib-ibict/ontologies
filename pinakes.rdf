@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="https://cobib-ibict.github.io/ontologies/pinakes.rdf#"
      xml:base="https://cobib-ibict.github.io/ontologies/pinakes.rdf"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dct="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:pinakes="https://cobib-ibict.github.io/ontologies/pinakes.rdf#">
     <owl:Ontology rdf:about="https://cobib-ibict.github.io/ontologies/pinakes.rdf">
-        <dc:title xml:lang="pt-br">Ontologia Pinakes</dc:title>
+        <dct:title xml:lang="pt-br">Ontologia Pinakes</dct:title>
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by/4.0/</dc:rights>
         <rdfs:comment>Esta Ontologia foi desenvolvida com base nos modelos LRM e PRESSoo, para a representação do domínio de serviços bibliográficos.</rdfs:comment>
         <rdfs:isDefinedBy>Modelo de dados que representa um conjunto de conceitos e os relacionamentos que abrangem os serviços bibliográficos integrados ao projeto Pinakes.</rdfs:isDefinedBy>
