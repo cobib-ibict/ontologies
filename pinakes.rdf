@@ -8,6 +8,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:pinakes="https://cobib-ibict.github.io/ontologies/pinakes.rdf#">
     <owl:Ontology rdf:about="https://cobib-ibict.github.io/ontologies/pinakes.rdf">
         <dc:title xml:lang="en">Pinakes Ontology</dc:title>
@@ -20,6 +21,7 @@
         <rdfs:isDefinedBy xml:lang="pt-br">Modelo de dados que representa um conjunto de conceitos e os relacionamentos que abrangem os serviços bibliográficos integrados ao projeto Pinakes.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Ontologia Pinakes</rdfs:label>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
+        <doap:repository rdf:resource="https://github.com/cobib-ibict/ontologies"/>
     </owl:Ontology>
 
 
