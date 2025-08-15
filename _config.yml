@@ -1,0 +1,16 @@
+headers:
+  - for: "/*.rdf"
+    values:
+      Content-Type: "application/rdf+xml; charset=utf-8"
+  - for: "/*.owl"
+    values:
+      Content-Type: "application/rdf+xml; charset=utf-8"
+  - for: "/*.ttl"
+    values:
+      Content-Type: "text/turtle; charset=utf-8"
+  - for: "/*.nt"
+    values:
+      Content-Type: "application/n-triples; charset=utf-8"
+  - for: "/*.jsonld"
+    values:
+      Content-Type: "application/ld+json; charset=utf-8"
