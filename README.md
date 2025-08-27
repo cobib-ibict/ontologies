@@ -1,5 +1,3 @@
-# Sprint
-
 ## Centralização de repositórios
 
 ▶ Atualmente, os repositórios [pinakesontology](https://github.com/Riverlance/pinakesontology) (onde era publicado a ontologia oficial), [Pinakes_Ontologia_Documentation](https://github.com/cobib-ibict/Pinakes_Ontologia_Documentation) (onde era publicado a documentação da ontologia) e [ontologiapinakes_webvowl](https://github.com/cobib-ibict/ontologiapinakes_webvowl) (onde era publicado o arquivo para a visualização da ontologia) foram mesclados no repositório [ontologies](https://github.com/cobib-ibict/ontologies).
@@ -79,3 +77,191 @@ Resumo do que tem para ser feito:
 
 > [!note]
   Algumas das atualizações sugeridas foram postas no comentário posterior.
+
+# Sprint
+
+## [As 5 estrelas dos dados abertos](https://5stardata.info/pt-BR/) (Tim Berners-Lee)
+
+Os 5 princípios da Web Semântica propostos por Tim Berners-Lee funcionam como um guia para avaliar se uma ontologia realmente está publicada de forma a ser parte da Web Semântica.
+
+---
+
+* ### 1 estrela
+
+Disponibilizar os dados na Web, de forma que qualquer pessoa possa acessar.
+
+✔ No nosso caso, a ontologia Pinakes está publicada no GitHub Pages, garantindo 1 estrela.
+
+---
+
+* ### 2 estrelas
+
+Disponibilizar em formato estruturado, legível por máquinas.
+
+✔ No nosso caso, a ontologia Pinakes está publicada como [`.rdf`](https://github.com/cobib-ibict/ontologies/blob/main/pinakes/ontology.rdf) (já suficiente), mas também em [`.owl`](https://github.com/cobib-ibict/ontologies/blob/main/pinakes/ontology.owl), [`.ttl`](https://github.com/cobib-ibict/ontologies/blob/main/pinakes/ontology.ttl), [`.jsonld`](https://github.com/cobib-ibict/ontologies/blob/main/pinakes/ontology.jsonld) e [`.nt`](https://github.com/cobib-ibict/ontologies/blob/main/pinakes/ontology.nt) (todos legíveis por máquinas), garantindo 2 estrelas, no total.
+
+---
+
+* ### 3 estrelas
+
+Usar formatos abertos e não proprietários (não depender de softwares fechados, como `.xlsx` do `Excel`, para abrir os dados).
+
+✔ No nosso caso, a ontologia Pinakes está publicada em `RDF/XML`, `OWL/XML`, `Turtle`, `JSON-LD` e `N-Triple` (todos formatos baseados em padrões pela W3C para representar dados da Web Semântica), garantindo 3 estrelas, no total.
+
+---
+
+* ### 4 estrelas
+
+Cada recurso (classe, propriedade, atributo) deve ter uma URI única.
+Assim, qualquer pessoa ou sistema pode referenciar a mesma coisa na Web.
+
+✔ No nosso caso, a ontologia Pinakes já possui URIs únicas, garantindo 4 estrelas, no total.
+
+Exemplos:
+* Classes:
+  * https://cobib-ibict.github.io/ontologies/pinakes#Agente
+  * https://cobib-ibict.github.io/ontologies/pinakes#AgenteColetivo
+  * https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado
+  * https://cobib-ibict.github.io/ontologies/pinakes#Biblioteca
+  * https://cobib-ibict.github.io/ontologies/pinakes#Colecao
+* Relacionamentos:
+  * https://cobib-ibict.github.io/ontologies/pinakes#assigned
+  * https://cobib-ibict.github.io/ontologies/pinakes#createdExpressao
+  * https://cobib-ibict.github.io/ontologies/pinakes#createdObra
+  * https://cobib-ibict.github.io/ontologies/pinakes#distributes
+  * https://cobib-ibict.github.io/ontologies/pinakes#modifies
+* Atributos:
+  * https://cobib-ibict.github.io/ontologies/pinakes#urlDoCatalogo
+  * https://cobib-ibict.github.io/ontologies/pinakes#dataAtualizacaoBiblioteca
+  * https://cobib-ibict.github.io/ontologies/pinakes#dataCadastroBiblioteca
+  * https://cobib-ibict.github.io/ontologies/pinakes#denominacao
+  * https://cobib-ibict.github.io/ontologies/pinakes#paginaWeb
+
+> [!caution]
+  A ontologia Pinakes atualmente possui URIs únicas para classes, relacionamentos e atributos, mas, ao inserir dados do CCN, futuramente, como instâncias (indivíduos), se não mantiver o padrão de URIs únicas para as instâncias também, a ontologia perderá essa estrela.
+
+---
+
+Conectar a ontologia com outras ontologias na Web.
+
+❌ No nosso caso, a ontologia Pinakes está isolada e, portanto, não está conectada à Web Semântica global.
+Portanto, a ontologia Pinakes mantém-se com 4 estrelas.
+
+Para solucionar isso, precisamos conectar as classes, atributos e relacionamentos (não precisa ser tudo) com outras ontologias (vocabulário semântico), através de `owl:equivalentClass` (para classes) e `owl:equivalentProperty` (para relacionamentos e atributos). Também pode ser uma hierarquia de herança utilizando `rdfs:subClassOf` (para classes) e `rdfs:subPropertyOf` (para relacionamentos e atributos).
+
+▶ Ontologia isolada (semelhante a como está na ontologia Pinakes atualmente):
+```xml
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:ex="http://example.org/onto#">
+
+  <!-- Classe -->
+  <owl:Class rdf:about="http://example.org/onto#Obra"/>
+
+  <!-- Relacionamento -->
+  <owl:ObjectProperty rdf:about="http://example.org/onto#temAutor"/>
+
+  <!-- Atributo -->
+  <owl:DatatypeProperty rdf:about="http://example.org/onto#titulo"/>
+
+</rdf:RDF>
+```
+
+▶ Com `owl:equivalentClass` e `owl:equivalentProperty`
+Para quando a classe/relacionamento/atributo tiver literalmente o mesmo significado da que está na outra ontologia.
+Por exemplo, abaixo estamos dizendo que:
+1. A classe `Obra` é equivalente à classe `http://purl.org/dc/terms/BibliographicResource`.
+2. O relacionamento `temAutor` é equivalente ao relacionamento `http://purl.org/dc/terms/creator`.
+3. O atributo `titulo` é equivalente ao atributo `http://purl.org/dc/terms/title`.
+```xml
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:ex="http://example.org/onto#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <!-- Classe -->
+  <owl:Class rdf:about="http://example.org/onto#Obra">
+    <owl:equivalentClass rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+  </owl:Class>
+
+  <!-- Relacionamento -->
+  <owl:ObjectProperty rdf:about="http://example.org/onto#temAutor">
+    <owl:equivalentProperty rdf:resource="http://purl.org/dc/terms/creator"/>
+  </owl:ObjectProperty>
+
+  <!-- Atributo -->
+  <owl:DatatypeProperty rdf:about="http://example.org/onto#titulo">
+    <owl:equivalentProperty rdf:resource="http://purl.org/dc/terms/title"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>
+```
+
+▶ Com `rdfs:subClassOf` e `rdfs:subPropertyOf`
+Para quando a classe/relacionamento/atributo é uma especialização (subclasse ou subpropriedade — hierarquia de herança) da que está na outra ontologia.
+Por exemplo, abaixo estamos dizendo que:
+1. A classe `Obra` é subclasse (herda) de `http://purl.org/dc/terms/BibliographicResource`.
+2. O relacionamento `temAutor` é subpropriedade (herda) de `http://purl.org/dc/terms/creator`.
+3. O atributo `titulo` é subpropriedade (herda) de `http://purl.org/dc/terms/title`.
+```xml
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:ex="http://example.org/onto#"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <!-- Classe -->
+  <owl:Class rdf:about="http://example.org/onto#Obra">
+    <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+  </owl:Class>
+
+  <!-- Relacionamento -->
+  <owl:ObjectProperty rdf:about="http://example.org/onto#temAutor">
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/creator"/>
+  </owl:ObjectProperty>
+
+  <!-- Atributo -->
+  <owl:DatatypeProperty rdf:about="http://example.org/onto#titulo">
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>
+```
+
+> [!caution]
+  Para fazer o que está descrito acima, talvez seja necessário fazer uma correção antes.
+  Criamos as classes, relacionamentos e atributos manualmente, mas acredito que deveriam ter sido criados, pelo menos as classes, a partir das ontologias do IFLA LRM e do PRESSoo (que existem):
+  • IFLA LRM — IRI: `http://iflastandards.info/ns/lrm/lrmer/`
+  • IFLA LRM — Como importar via `RDF/XML`: `xmlns:lrmer="http://iflastandards.info/ns/lrm/lrmer/"`
+  • IFLA LRM — Fonte (`.rdf`): [lrmer.zip](https://github.com/user-attachments/files/21979440/lrmer.zip) ou https://www.iflastandards.info/lrm/lrmer.html
+  • PRESSoo — IRI: `http://iflastandards.info/ns/fr/frbr/pressoo/`
+  • PRESSoo — Como importar via `RDF/XML`: `xmlns:pressoo="http://iflastandards.info/ns/fr/frbr/pressoo/"`
+  • PRESSoo — Fonte (`.rdf`): [PRESSoo_v1.0.zip](https://github.com/user-attachments/files/21979445/PRESSoo_v1.0.zip) ou https://cidoc-crm.org/sites/default/files/PRESSoo_v1.0.rdfs
+  ▶ **Sugestão importante**: O projeto de ontologia `RDF/XML` do PRESSoo me parece ter sido abandonado, visto que só o encontrei via IA (Inteligência Artificial). Não o encontrei no Website oficial [cidoc-crm.org](https://cidoc-crm.org). Portanto, talvez seja interessante trocá-lo, futuramente, por algum outro dos modelos disponíveis no Website do [IFLA](https://www.iflastandards.info/) (todos os modelos têm suas respectivas ontologias).
+  .<img width="350" height="300" alt="Image" src="https://github.com/user-attachments/assets/92cb2ccf-7fd5-45a8-81db-b691b66bb52c" />
+
+> [!important]
+  Apenas utilizar o IFLA LRM e PRESSoo na ontologia, não dá a 5ª estrela.
+  ▶ Isso será um trabalho necessário, apesar de não afetar a quantidade de estrelas.
+  Para isso, é preciso conectar a ontologia com outras ontologias através das equivalências de classes, relacionamentos e atributos (vocabulário semântico).
+  Ou seja, utilizar `owl:equivalentClass`, `owl:equivalentProperty`, `rdfs:subClassOf` e `rdfs:subPropertyOf` conectando a ontologia Pinakes com outras ontologias, como já mencionado.
+
+> [!tip]
+  Essa 5ª estrela, não exige que a ontologia esteja publicada em catálogos como o LOV ou em qualquer outro catálogo, mas, mesmo assim, publicar em catálogos como o LOV é uma boa prática de visibilidade e de reuso para a ontologia.
+  ▶ Isso será um trabalho necessário, apesar de também não afetar a quantidade de estrelas.
+
+## Atualizações futuras sugeridas
+
+Resumo do que tem para ser feito:
+
+* Utilizar classes, relacionamentos e atributos das ontologias IFLA LRM e PRESSoo na ontologia Pinakes. Não apenas conceitualmente como está atualmente, mas utilizando as ontologias IFLA LRM e PRESSoo de fato.
+* Como mencionado, o projeto de ontologia `RDF/XML` do PRESSoo parece ter sido abandonado, portanto sugiro, futuramente, trocá-lo por algum outro dos modelos disponíveis no Website do [IFLA](https://www.iflastandards.info/).
+* Conectar a ontologia Pinakes com outras ontologias (vocabulário semântico), ou seja utilizar `owl:equivalentClass`, `owl:equivalentProperty`, `rdfs:subClassOf` e `rdfs:subPropertyOf`, para atribuir a 5ª estrela à ontologia Pinakes.
+* Indexar a ontologia em catálogos renomados como o LOV, com o objetivo de aumentar a visibilidade da ontologia, facilitar o reuso por outras ontologias, garantir interoperabilidade (integrá-la com outras ontologias e dados ligados — Linked Data) e exibir detalhes formais da ontologia. Isso é importante mesmo mantendo o repositório `ontologies`, que foi criado para o versionamento e publicação das ontologias nas plataformas vigentes (Website Pinakes, documentação das ontologias, visualização WebVOWL e acesso das ontologias via Protégé).
+* Inserir dados do CCN como instâncias (indivíduos), mantendo o padrão de URIs únicas para essas instâncias, mantendo a 4ª estrela dos dados abertos.
