@@ -78,8 +78,6 @@ Resumo do que tem para ser feito:
 > [!note]
   Algumas das atualizações sugeridas foram postas no comentário posterior.
 
-# Sprint
-
 ## [As 5 estrelas dos dados abertos](https://5stardata.info/pt-BR/) (Tim Berners-Lee)
 
 Os 5 princípios da Web Semântica propostos por Tim Berners-Lee funcionam como um guia para avaliar se uma ontologia realmente está publicada de forma a ser parte da Web Semântica.
