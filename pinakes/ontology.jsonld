@@ -467,6 +467,9 @@
     "@language" : "pt-br",
     "@value" : "informação da imprenta referente a data de publicação da revista A hora Veterinária"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#2014"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "2014"
@@ -481,6 +484,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla AC"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Acre"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Acre"
@@ -491,6 +497,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "A entidade Agente é uma superclasse estritamente equivalente à união das entidades pessoa e do agente coletivo. Ela é definida para reduzir a redundância no modelo, fornecendo uma única entidade para servir como domínio ou abrangência de certos relacionamentos que se aplicam a todos os tipos específicos de\nagentes.\n\nOs autômatos (como dispositivos de registro climático, programas de tradução de software etc.), às vezes chamados de agentes tecnológicos, são vistos neste modelo como ferramentas utilizadas e configuradas por um agente real."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -505,6 +514,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Entidade que designa grupos nomeados de pessoas capazes de agir como unidade. Inclui famílias, instituições, organizações, associações, grupos artísticos, governos e suas subunidades, bem como reuniões ou eventos identificados por nome específico (conferências, festivais, feiras etc.). Também abrange pseudônimos coletivos. Um grupo só é considerado agente coletivo se possuir características organizacionais que permitam executar ações representativas. Grupos genéricos ou descritos apenas por termos gerais (ex.: grupos étnicos ou culturais) não são agentes coletivos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AgenteColetivo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -523,6 +535,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla AL"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Alagoas"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Alagoas"
@@ -536,6 +551,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla AP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Amapa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -551,6 +569,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla AM"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Amazonas"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Amazonas"
@@ -560,6 +581,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaDeConhecimento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaConhecimento_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -583,6 +607,9 @@
     "@language" : "pt-br",
     "@value" : "Entidade que representa o conjunto de conhecimentos inter-relacionados, coletivamente construído, reunido segundo a natureza do objeto de investigação com finalidades de ensino, pesquisa e aplicações práticas.\n\nTécnicas de recuperação da informação, por exemplo, é área de conhecimento da Ciência da Informação e Medicina Veterinária é área de conhecimento de Especialidade médica."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaDeConhecimento"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Área de Conhecimento"
@@ -601,6 +628,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Um dos cabeçãlhos mais específicos da revista Ciência da Informação."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoContolado_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -621,6 +651,9 @@
     "@language" : "pt-br",
     "@value" : "Conjunto de termos predefinidos para uso em um determinado contexto para descrever o conteúdo de um documento ou recurso de informação, visando evitar a variação linguística e garantir a uniformidade na comunicação.\n\n'Ensino a distância' é um termo que categoriza 'Aprendizado a distância' no Tesauro Brasileiro de Ciência da Informação."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Assunto Controlado"
@@ -640,6 +673,9 @@
     "@language" : "pt-br",
     "@value" : "Um cabeçalho específico."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Recursos de informação"
@@ -657,6 +693,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Aprendizado a distâcia USE Ensino a distância - Tesauro Brasileiro de Ciência da Informação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -676,6 +715,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla BA"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Bahia"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Bahia"
@@ -685,6 +727,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#BeloHorizonte"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca",
@@ -692,6 +737,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Uma organização que mantém uma ou mais coleções de recursos de informação físicos e/ou eletrônicos para acesso ou empréstimo.\nPor exemplo, Lydia de Queiroz Sambaquy é Biblioteca do Instituto Brasileiro em Ciência e Tecnologia."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -719,6 +767,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Biblioteca do Instituto Brasileiro de Informação em Ciencia e Tecnologia (Ibict)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -792,6 +843,9 @@
     "@language" : "pt-br",
     "@value" : "República Federativa do Brasil"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Brasil"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Brasil (BR)"
@@ -823,6 +877,9 @@
     "@language" : "pt-br",
     "@value" : "Cidade pertencente ao Distrtrito Federal, onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Brasilia"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Brasília"
@@ -853,6 +910,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla CE"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Ceara"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Ceará"
@@ -866,6 +926,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Divisão regional onde localiza-se o Distrito Fereal e EstadoBiblioteca Lydia de Queiroz Sambaquy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#CentroOeste"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -884,6 +947,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#China"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "China"
@@ -894,6 +960,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Um conjunto de materiais bibliográficos, independentemente do formato, que são reunidos e mantidos por uma biblioteca ou outra instituição. As coleções podem ser organizadas de várias maneiras, incluindo por assunto, tipo de material, idioma, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -918,6 +987,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "As informações do conteúdo da Coleções são suas transcrições."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -947,6 +1019,9 @@
     "@language" : "pt-br",
     "@value" : "Exemplo de Coleção de periódicos por assunto"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Ciência da informação e Bibliografias"
@@ -957,6 +1032,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Entidade que reune um conjunto de dados que permite que uma biblioteca seja contatada. Essa informação geralmente inclui número de telefone, endereço de e-mail e outras formas de contato.\n\nPor exemplo, (61)32176145 é o telefone e biblioteca@ibict.br é o email da da Biblioteca do IBICT."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -976,6 +1054,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Informação do  contato da Biblioteca do IBICT."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1001,6 +1082,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla DF"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#DistritoFederal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1030,6 +1114,9 @@
     "@language" : "pt-br",
     "@value" : "Representa o subcampo da Imprenta designado pela Editora.\n\nPor exemplo, o Instituto Brasileiro de Informação em Ciência e Tecnologia é a Editora da publicação seriada: Ciência da Informação."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Editora"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Editora"
@@ -1040,6 +1127,9 @@
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Define uma localidade (como rua, logradouro, bairro, setor, avenida) como parte de um endereço postal e ou coordenadas geográficas.\n\nPor exemplo, o Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar  ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente."
@@ -1062,6 +1152,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla ES"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#EspiritoSanto"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Espirito Santo"
@@ -1076,6 +1169,9 @@
     "@language" : "pt-br",
     "@value" : "Estados Unidos da América"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#EstadosUnidos"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Estados Unidos (USA)"
@@ -1086,6 +1182,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Entidade abstrata que representa a forma intelectual ou artística específica que uma obra adquire quando é realizada. Consiste em sinais visuais, auditivos ou gestuais destinados a transmitir conteúdo, distinta do suporte físico que a materializa. Cada tradução, revisão ou alteração substancial gera uma nova expressão, enquanto variações menores (como ortografia) permanecem na mesma expressão. Corresponde à entidade Expressão do modelo LRM."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1107,6 +1206,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla GO"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Goias"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Goiás"
@@ -1117,6 +1219,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Representa o endereço eletrônico (homepage) de uma Obra, Publicação Seriada ou qualquer outro tipo documental."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Homepage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1140,6 +1245,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#IBCT"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Instituto Brasileiro em Ciência e Tecnologia"
@@ -1150,6 +1258,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Código internacional de oito dígitos que identifica de forma única publicações seriadas. O último dígito é de controle (podendo ser “X”), calculado por algoritmo. O ISSN é amplamente usado em catalogação, assinaturas e intercâmbio internacional como identificador eficiente e padronizado\n\nPor exemplo: o código 0100-1965 é o ISSN impresso da publicação seriada Ciência da Informação."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1171,6 +1282,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "ISSN impresso da publicação seriada: Ciência da Informação."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1196,6 +1310,9 @@
     "@language" : "pt-br",
     "@value" : "Código ISSN impresso da publicação seriada: A hora veterinária"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "0101-9163"
@@ -1217,6 +1334,9 @@
     "@language" : "pt-br",
     "@value" : "ISSN da revista Wines & Vines Yearbook of the Wine Industry"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_3"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "0271-5694"
@@ -1231,6 +1351,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_4"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "0096-8471"
@@ -1244,6 +1367,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1263,6 +1389,9 @@
     "@language" : "pt-br",
     "@value" : "Idioma predominante em uma publicação, Indica o idioma principal em que a Obra foi publicada.\n\nO idioma principal da publicação seriada Ciência da Informação, por exemplo, é o português."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Idioma"
@@ -1277,6 +1406,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma_1"
+  }, {
     "@language" : "pt-br",
     "@value" : "Idioma do Brasil."
   } ],
@@ -1302,6 +1433,9 @@
     "@language" : "pt-br",
     "@value" : "Uma língua germânica ocidental que se originou nos reinos anglo-saxões da Inglaterra e se espalhou para outras regiões, tornando-se um dos idiomas mais falados no mundo. Hoje, é a língua oficial de diversos países, incluindo Estados Unidos, Reino Unido, Canadá, Austrália e Nova Zelândia, além de ser amplamente utilizada como segunda língua em muitos outros."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Inglês"
@@ -1324,6 +1458,9 @@
     "@language" : "pt-br",
     "@value" : "Idioma ou linguagem"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma_3"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "espanhol"
@@ -1342,6 +1479,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Uma organização fundada para apoiar ou promover determinados interesses ou atividades de pesquisa, educação ou políticas públicas. Um Instituto normalmente tem um foco de pesquisa, mas também pode cumprir funções de instrução ou divulgação.\n\nO Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) é um exemplo de uma instituição de pesquisa."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1367,6 +1507,9 @@
     "@language" : "pt-br",
     "@value" : "Nome da organização de pesquisa"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao_1"
+  } ],
   "https://cobib-ibict.github.io/ontologies/pinakes.rdf#cnpj" : [ {
     "@language" : "pt-br",
     "@value" : "04.082.993/0001-49"
@@ -1389,6 +1532,9 @@
     "@language" : "pt-br",
     "@value" : "Em termos de conteúdo intelectual ou artístico e forma física, um item exemplificando uma manifestação normalmente reflete todas as características que definem a própria manifestação. Um item é, em muitos casos, um único objeto físico, mas em outros casos, um item pode consistir em várias peças ou objetos\nfísicos.\nUm item pode fazer parte de um objeto físico maior, por exemplo, quando um arquivo é armazenado em um disco que também contém outros arquivos, a parte do disco que contém o arquivo é o suporte físico ou o item."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Item"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Item"
@@ -1402,6 +1548,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Lugar vinculado a um edereço específico de uma Biblioteca ou Instituição; Subcampo da Imprenta designado pelo local de publicacão de uma publicação seriada.\n\nPor exemplo, Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1422,6 +1571,9 @@
     "@language" : "pt-br",
     "@value" : "Entidade cultural que representa a identificação humana de uma área geográfica ou extensão do espaço, distinta dos órgãos que exercem jurisdição sobre ela. Lugares podem ser físicos, históricos ou geopolíticos, com limites variáveis ao longo do tempo, mas não incluem territórios imaginários ou fictícios."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Lugar"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Lugar"
@@ -1438,6 +1590,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Entidade que representa a realização física de uma expressão. Diferenças mínimas na embalagem ou pequenas variações podem não constituir nova manifestação. Alterações no processo de produção que afetam os itens resultam em uma nova manifestação, enquanto mudanças posteriores em exemplares individuais (danos, reparos) não. Combinações físicas de itens de diferentes manifestações originam uma manifestação avulsa."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1456,6 +1611,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla MA"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Maranhao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Maranhão"
@@ -1469,6 +1627,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla MT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#MatoGrosso"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1484,6 +1645,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla MGS"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#MatoGrossoS"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Mato Grosso do sul"
@@ -1494,6 +1658,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Suporte físico de uma coleção e ou issn registrado.\n\nPor exemplo,  Publicação seriada impressa é um item físico."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#MeioFisico"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1512,6 +1679,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla MG"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#MinasGerais"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Minas Gerais"
@@ -1522,6 +1692,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "A natureza administrativa de uma instituição refere-se à sua organização, estrutura e funcionamento no âmbito da administração pública ou privada.\n\nExemplo: Lydia de Queiroz Sambaquy é uma Biblioteca de natureza administrativa Pública ou Pública Federal."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#NaturezaAdministrativa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1537,6 +1710,9 @@
     "@language" : "pt-br",
     "@value" : "Entidade que associa um conjunto de sinais (nomen string) a uma instância de outra entidade do universo bibliográfico. Um nomen não é o string em si, mas a ligação entre o string e a entidade referida. A mesma entidade pode ter múltiplos nomens (sinonímia) e o mesmo string pode nomear entidades diferentes (polissemia). Variações significativas na forma do string resultam em novos nomens."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nomen"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Nomen"
@@ -1550,6 +1726,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nordeste"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Nordeste"
@@ -1559,6 +1738,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Norte"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1570,6 +1752,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Comentário adicional de uma obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1586,6 +1771,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Entidade abstrata que reúne expressões consideradas equivalentes funcionais ou quase equivalentes. Representa a criação intelectual ou artística subjacente, distinta de qualquer objeto material. Uma obra existe a partir de sua primeira expressão e pode evoluir conforme novas expressões são criadas. Obras com conteúdo semelhante, mas resultantes de esforços independentes, são distintas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1609,6 +1797,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Publicação seriada quadrimestral."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1744,6 +1935,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "A hora veterinária"
@@ -1763,6 +1957,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1784,6 +1981,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_4"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Wine Review (Los Angeles)"
@@ -1803,6 +2003,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1828,6 +2031,9 @@
     "@language" : "pt-br",
     "@value" : "BIB: revista brasileira de informação bibliográfica em Ciências Sociais"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_6"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "BIB"
@@ -1845,6 +2051,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_7"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Eine kleine Nachtmusik"
@@ -1859,6 +2068,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Uma entidade que define um território onde a publicação seriada foi publicada.\n\nPor exemplo, O Brasil é país ou território geográfico onde uma Publicação seriada foi publicada."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1880,6 +2092,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla PA"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Para"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Pará"
@@ -1893,6 +2108,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla PB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Paraiba"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1908,6 +2126,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla PR"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Parana"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Paraná"
@@ -1922,6 +2143,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla PE"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pernambuco"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Pernambuco"
@@ -1932,6 +2156,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "A entidade pessoa é restrita a pessoas reais que vivem ou presume-se que tenham vivido.\n\nNão é necessária uma prova estrita da existência de uma pessoa, desde que haja uma aceitação geral de sua provável historicidade. No entanto, figuras geralmente consideradas fictícias (por exemplo, Caco, o Sapo), literárias (por exemplo, Miss Jane Marple) ou puramente lendárias (por exemplo, o mago Merlin) não são instâncias da entidade pessoa."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pessoa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1950,6 +2177,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla PI"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Piaui"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Piauí"
@@ -1959,6 +2189,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Porto_Alegre"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1970,6 +2203,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Entidade que contém a data de publicação de uma obra e que se relaciona com as entidades Editora e Localidade para representarem as informações de imprenta, especialmente das publicações seriadsa,\n\nPor exemplo, a revista Ciência da Informação foi publicada em 1972 em Brasília pela Editora Ibict. Essas são as informações de imprenta da revista."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoImprenta"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1991,6 +2227,9 @@
     "@language" : "pt-br",
     "@value" : "tipifica relações entre obras. \nSuplemento, títulos anteriores, títulos em outros idiomas, ..."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoRelacionada"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Publicação Relacionada"
@@ -2011,6 +2250,9 @@
     "@language" : "pt-br",
     "@value" : "Publicações em qualquer suporte, emitidas em partes sucessivas com designações numéricas ou cronológicas e destinadas a ser continuadas indefinidamente.\n\nExemplo: Ciência da Informação é publicação seriada quadrimestral"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Publicação Seriada"
@@ -2028,6 +2270,9 @@
     "@language" : "pt-br",
     "@value" : "Usado para categorizar e organizar informações durante o processo de indexação dos títulos dos periódicos em bases de dados ou diretórios, nacionais ou estrangeiros."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Referenciador"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Referenciador"
@@ -2042,6 +2287,9 @@
     "@language" : "pt-br",
     "@value" : "Porção de território determinada por certas características comuns ou circunstâncias especiais.\n\nPor exemplo, Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Região"
@@ -2055,6 +2303,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Res (“coisa” em latim) é a entidade superior do modelo LRM. Res inclui coisas e conceitos materiais ou físicos. Tudo o que é considerado relevante para o universo bibliográfico, que é o universo do discurso neste caso, está incluído. Res é uma superclasse de todas as outras entidades explicitamente definidas, bem como de quaisquer outras entidades não especificamente identificadas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Res"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2072,6 +2323,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Responsavel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2093,6 +2347,9 @@
     "@language" : "pt-br",
     "@value" : "Rio de janeiro"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#RioDeJaneiro"
+  } ],
   "http://www.w3.org/2002/07/owl#differentFrom" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#RiodeJaneiro"
   } ]
@@ -2105,6 +2362,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla RGN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#RioGrandeN"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2120,6 +2380,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla RGS"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#RioGrandeS"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Rio Grande do Sul"
@@ -2133,6 +2396,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla RJ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#RiodeJaneiro"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2148,6 +2414,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla RO"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Rondonia"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Rondônia"
@@ -2161,6 +2430,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla RR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Roraima"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2178,6 +2450,9 @@
   }, {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla SC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#SantaCatarina"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#SaoPaulo",
@@ -2188,6 +2463,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla SP."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#SaoPaulo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2206,6 +2484,9 @@
     "@language" : "pt-br",
     "@value" : "Cidade do Estado de São Paulo."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Sao_Paulo"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "São Paulo"
@@ -2215,6 +2496,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Sergipe"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2230,6 +2514,9 @@
     "@language" : "pt-br",
     "@value" : "Enquanto uma obra pode adquirir novos membros durante o tempo em que evolui, as Expressões e Manifestações são identificadas com um determinado estado alcançado em um determinado momento. Portanto, em geral, não há uma única Expressão ou Manifestação que represente uma obra serial completa, a menos que a obra serial tenha terminado. As Obras em Série podem ou não ter um plano para uma expressão geral."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#SerialWork"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Obra Seriada"
@@ -2243,6 +2530,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Sudeste"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Sudeste"
@@ -2252,6 +2542,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Sul"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2263,6 +2556,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Listagens das grandes áreas e sub-áreas do conhecimento. Classificações hierárquicas utilizadas por CAPES e CNPq para organizar grandes áreas, subáreas e especialidades do conhecimento científico e tecnológico. Cada área abrange diversos campos de estudo, como “Ciências Exatas e da Terra”, que inclui Matemática, Física, Química, Computação, entre outros."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TabelaAreaDeConhecimento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2277,6 +2573,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Diferente do “Assunto Controlado”, que usa um vocabulário predefinido, o “Termo livre” permite maior flexibilidade e pode incluir jargões, abreviações, neologismos e outras expressões que podem não estar presentes em um vocabulário controlado.\n\nInteligência artificial, por exemplo, é um termo livre."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TermoLivre"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2295,6 +2594,9 @@
     "@language" : "pt-br",
     "@value" : "Compreende conceitos denotados por termos de vocabulários controlados usados para caracterizar e classificar instâncias da classe Biblioteca.\n\nPor exemplo, Biblioteca especializada é  um tipo de biblioteca.\nBilioteca central e setorial são categorias de bibliotecas."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TipoDeBiblioteca"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Tipo de Biblioteca"
@@ -2308,6 +2610,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Título complementar, abreviado ou subtítulo que fornece informações adicionais ou complementam o título principal.\n\nPor exemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TituloComplementar"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2331,6 +2636,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade federativa do Brasil representada pela sigla TO"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Tocantins"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Tocantins"
@@ -2341,6 +2649,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Uma unidade ou departamento dentro de uma Instituição, geralmente dedicada a funções específicas.\n\nPor exemplo, o Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2359,6 +2670,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Entidade subnacional que junto a outras unidades compõem uma federação, um país federado.\n\nPor exemplo, o Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2384,6 +2698,9 @@
     "@language" : "pt-br",
     "@value" : "Unidade do IBICT que administra a biblioteca."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade_1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Coordenação de Serviços Bibliográficos"
@@ -2406,6 +2723,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#alfabetacao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "alfabetação"
@@ -2423,6 +2743,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ano"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "ano"
@@ -2439,6 +2762,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#anoFinal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2459,6 +2785,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#anoInicial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2481,6 +2810,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#assigned"
+  }, {
     "@language" : "pt-br",
     "@value" : "Este relacionamento vincula um agente com um determinado nomen que foi atribuído por tal agente."
   } ],
@@ -2504,6 +2835,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#assunto"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "assunto"
@@ -2524,6 +2858,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#cep"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "cep"
@@ -2540,6 +2877,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#cnpj"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2558,6 +2898,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Referenciador"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#codIndex"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "código indexador"
@@ -2574,6 +2917,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaDeConhecimento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#codigo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2592,6 +2938,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#codigoIso"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "código ISO"
@@ -2608,6 +2957,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#codigoMarc"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2627,6 +2979,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#complements"
+  }, {
     "@language" : "pt-br",
     "@value" : "Este é o relacionamento entre duas obras que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou companhamento."
   } ],
@@ -2648,6 +3002,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#contains"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esta propriedade conecta uma entidade com a entidade que ela contém."
   } ],
@@ -2671,6 +3027,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#conteudo"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tipologia funcional"
@@ -2687,6 +3046,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#conteudoColecao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2706,6 +3068,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#createdExpressao"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esta propriedade conecta um Agente entidade com a expressão que foi criada por ela."
   } ],
@@ -2730,6 +3094,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#createdManifestacao"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esta propriedade conecta um Agente com a manifestação que foi criada por ele."
   } ],
@@ -2754,6 +3120,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#createdObra"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esta propriedade conecta um Agente com a obra que foi criada por ele."
   } ],
@@ -2777,6 +3145,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataAtualizacaoBiblioteca"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "data de atualização da biblioteca"
@@ -2793,6 +3164,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataCadastroBiblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2811,6 +3185,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataDeAtualizacao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "data de atualização do registro"
@@ -2827,6 +3204,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataDeCadastro"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2845,6 +3225,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoImprenta"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataFinalPI"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "data final da Imprenta"
@@ -2861,6 +3244,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Data incial de publicação Imprenta da publicação seriada Ciência da Informação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataImpreta_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2880,6 +3266,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoImprenta"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataInicialPI"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "data inicial da Imprenta"
@@ -2897,6 +3286,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#denominacao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "denominação"
@@ -2913,6 +3305,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#descricao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2934,6 +3329,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#designacaoNumerica"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "designação numérica"
@@ -2952,6 +3350,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#distributes"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esta propriedade conecta um Agente com a manifestação distribuida."
   } ],
@@ -2975,6 +3375,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#edicao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "edição"
@@ -2990,6 +3393,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Editora"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#editora_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3012,6 +3418,9 @@
     "@language" : "pt-br",
     "@value" : "Editora da publicação seriada: A Granja"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#editora_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Centaurus"
@@ -3030,6 +3439,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#email"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "e-mail"
@@ -3047,6 +3459,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Homepage"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#enderecoEletronico"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "endereço eletrônico"
@@ -3063,6 +3478,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Logradouro da Biblioteca do Ibict"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#endereco_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3098,6 +3516,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Item"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#exemplifies"
+  }, {
     "@language" : "pt-br",
     "@value" : "Indica a relação em que um Item exemplifica ou representa uma Manifestação específica."
   } ],
@@ -3121,6 +3541,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#fonte"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "fonte do vocabulário controlado"
@@ -3137,6 +3560,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#formatoDeCatalogacao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3155,6 +3581,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#formatoDocumento"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "formato do documento"
@@ -3171,6 +3600,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#frequencia"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3190,6 +3622,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAddress"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esta propriedade conecta uma entidade com o endereço que ela possui."
   } ],
@@ -3214,6 +3648,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAdminNature"
+  }, {
     "@language" : "pt-br",
     "@value" : "Refere-se à associação de uma instituição a uma categoria de natureza administrativa, indicando o tipo de administração que caracteriza a instituição."
   } ],
@@ -3238,6 +3674,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAffiliation"
+  }, {
     "@language" : "pt-br",
     "@value" : "Refere-se à associação de uma biblioteca ou sistema de bibliotecas com uma instituição específica, indicando que a biblioteca faz parte ou é afiliada a essa instituição."
   } ],
@@ -3262,6 +3700,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAlternative"
+  }, {
     "@language" : "pt-br",
     "@value" : "Este relacionamento envolve manifestações que efetivamente servem como alternativas umas para as outras."
   } ],
@@ -3283,6 +3723,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Res"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAssociationWith"
+  }, {
     "@language" : "pt-br",
     "@value" : "Este relacionamento vincula dois res que possuem algum tipo de associação."
   } ],
@@ -3304,6 +3746,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Res"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAssociationWithLugar"
+  }, {
     "@language" : "pt-br",
     "@value" : "Este relacionamento vincula qualquer entidade com uma determinada extensão de espaço."
   } ],
@@ -3328,6 +3772,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasCity"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esta propriedade conecta um País com a cidade específica que ele possui ou com a qual está associada."
   } ],
@@ -3352,6 +3798,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasCollection"
+  }, {
     "@language" : "pt-br",
     "@value" : "Propriedade que vincula uma biblioteca às coleções que ela disponibiliza."
   } ],
@@ -3376,6 +3824,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasContact"
+  }, {
     "@language" : "pt-br",
     "@value" : "Propriedade que vincula obrigatoriamente uma Biblioteca a pelo menos um conjunto de informações contato."
   } ],
@@ -3400,6 +3850,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasControlledSubject"
+  }, {
     "@language" : "pt-br",
     "@value" : "Este relacionamento vincula obrigatoriamente Publicação(ões) seriada(s) ao(s) assunto(s)."
   } ],
@@ -3424,6 +3876,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasCountry"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esta propriedade conecta uma entidade com o país específico que ela possui ou com o qual está associada."
   } ],
@@ -3448,6 +3902,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasCountryPublication"
+  }, {
     "@language" : "pt-br",
     "@value" : "Propriedade que vincula uma publicação seriada ao País de publicação."
   } ],
@@ -3472,6 +3928,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Res"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasDenomination"
+  }, {
     "@language" : "pt-br",
     "@value" : "Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais ou símbolos por meio dos quais essa entidade é referida em um determinado esquema ou contexto."
   } ],
@@ -3495,6 +3953,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasFederativeUnit"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tem unidade federativa"
@@ -3514,6 +3975,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasFreeTerm"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3535,6 +3999,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasHomepage"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "possui homepage"
@@ -3555,6 +4022,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasISSN"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tem código ISSN"
@@ -3573,6 +4043,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasInstituition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3594,6 +4067,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasInstituitionAddress"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tem endereço de instituição"
@@ -3613,6 +4089,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaDeConhecimento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasKnowledgeAreaTable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3634,6 +4113,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasKnowledgeField"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tem área de conhecimento"
@@ -3653,6 +4135,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasLibraryType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3674,6 +4159,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AgenteColetivo"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasMember"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "possui membro"
@@ -3693,6 +4181,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasNote"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3714,6 +4205,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AgenteColetivo"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartAgenteColetivo"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Agente Coletivo possui parte"
@@ -3730,6 +4224,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartExpressao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3748,6 +4245,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Lugar"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartLugar"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Lugar possui parte"
@@ -3764,6 +4264,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartManifestacao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3782,6 +4285,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nomen"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartNomen"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Nomen possui parte"
@@ -3799,6 +4305,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartObra"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Obra possui parte"
@@ -3815,6 +4324,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoImprenta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPlacePublication"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3836,6 +4348,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPublicationDate"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "possui imprenta (ano de publicação)"
@@ -3855,6 +4370,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPublicationLanguage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3876,6 +4394,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoImprenta"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPublisher"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "possui editora"
@@ -3895,6 +4416,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasRegion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3916,6 +4440,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasRelatedPublication"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tem publicação relacionada"
@@ -3936,6 +4463,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasReproduction"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "possui reprodução"
@@ -3952,6 +4482,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasReproductionItem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3973,6 +4506,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasSubject"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "possui como assunto"
@@ -3992,6 +4528,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasSupport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4013,6 +4552,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasSupportCollection"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Coleção tem suporte"
@@ -4032,6 +4574,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasTitleComplement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4053,6 +4598,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasUnit"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "possui unidade"
@@ -4072,6 +4620,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#indexedBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4093,6 +4644,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAddressOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é endereço de"
@@ -4111,6 +4665,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#NaturezaAdministrativa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAdminNatureOf"
+  }, {
     "@language" : "pt-br",
     "@value" : "Refere-se à relação em que uma categoria de natureza administrativa é atribuída a uma instituição, indicando que a natureza administrativa pertence a essa instituição."
   } ],
@@ -4131,6 +4687,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAffiliatedWith"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é filiado com"
@@ -4147,6 +4706,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAggregatedBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4165,6 +4727,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nomen"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAssignedBy"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é atribuído por"
@@ -4181,6 +4746,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Lugar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAssociatedWithLugar"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4199,6 +4767,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAssociationOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é associação de"
@@ -4215,6 +4786,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCityOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4233,6 +4807,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCollectionOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é coleção de"
@@ -4249,6 +4826,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isContactOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4267,6 +4847,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isContainedIn"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "está contida em"
@@ -4283,6 +4866,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isControlledSubjectOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4301,6 +4887,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCountryOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é país de"
@@ -4317,6 +4906,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCountryPublicationOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4335,6 +4927,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCreatedExpressaoBy"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Expressão foi criada por"
@@ -4351,6 +4946,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCreatedManifestacaoBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4369,6 +4967,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCreatedObraBy"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Obra foi criada por"
@@ -4385,6 +4986,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nomen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isDenominationOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4403,6 +5007,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isDerivedOfExpressao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Expressão é derivação de"
@@ -4419,6 +5026,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nomen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isDerivedOfNomen"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4437,6 +5047,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isDistributedBy"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é distribuída por"
@@ -4453,6 +5066,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nomen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isEqualTo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4471,6 +5087,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isExemplifiedBy"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é exemplificada por"
@@ -4487,6 +5106,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isFederativeUnitOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4505,6 +5127,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TermoLivre"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isFreeTermOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é termo livre de"
@@ -4521,6 +5146,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Homepage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isHomepageOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4539,6 +5167,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isISSNOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é ISSN de"
@@ -4556,6 +5187,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Referenciador"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isIndexOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é indexador de"
@@ -4572,6 +5206,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isInspirationFor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4593,6 +5230,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isInstituicaoOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade"
   } ]
@@ -4605,6 +5245,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isInstituitonAddressOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4623,6 +5266,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TabelaAreaDeConhecimento"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isKnowledgeAreaTableOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é tabela de"
@@ -4640,6 +5286,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaDeConhecimento"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isKnowledgeFieldOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é área de conhecimento de"
@@ -4656,6 +5305,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isLocalityOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4677,6 +5329,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isLocatedIn"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "está localizado(a) em"
@@ -4693,6 +5348,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isManufacturedBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4715,6 +5373,8 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isMaterializedIn"
+  }, {
     "@language" : "pt-br",
     "@value" : "Este relacionamento vincula uma expressão com uma manifestação na qual a expressão aparece."
   } ],
@@ -4738,6 +5398,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isMemberOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é membro de"
@@ -4754,6 +5417,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isModifiedBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4775,6 +5441,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isNoteOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é nota de"
@@ -4791,6 +5460,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPerformedThrough"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4812,6 +5484,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPlacePublicationOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é local da publicação de"
@@ -4828,6 +5503,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPropertyOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4849,6 +5527,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isProprietorOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é proprietário de"
@@ -4865,6 +5546,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoImprenta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPublicationDateOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4883,6 +5567,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPublicationLanguageOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é idioma de publicação de"
@@ -4899,6 +5586,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isRegionOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4917,6 +5607,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoRelacionada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isRelatedPublicationWith"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é publicação relacionada com"
@@ -4933,6 +5626,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isReproductionOfItem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4951,6 +5647,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Res"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isSubjectOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é assunto de"
@@ -4967,6 +5666,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#MeioFisico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isSupportCollectionOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4985,6 +5687,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#MeioFisico"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isSupportOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é meio físico de"
@@ -5001,6 +5706,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TituloComplementar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isTitleComplementOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5019,6 +5727,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isTransformationOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é transformação de"
@@ -5035,6 +5746,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#isUnitOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5053,6 +5767,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#latitude"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "latitude"
@@ -5069,6 +5786,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TipoDeBiblioteca"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#libraryTypeOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5087,6 +5807,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#logradouro"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "logradouro"
@@ -5103,6 +5826,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#longitude"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5121,6 +5847,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#manufactures"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "produziu"
@@ -5137,6 +5866,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#materializes"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5155,6 +5887,9 @@
     "@language" : "pt-br",
     "@value" : "meio físico dos códigos ISSN"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#meioFisico_1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Impresso"
@@ -5171,6 +5906,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#MeioFisico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#meioFisico_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5190,6 +5928,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#modifies"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "modificou"
@@ -5206,6 +5947,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Categoria da natureza administrativa de uma biblioteca"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#naturezaAdministrativa_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5228,6 +5972,9 @@
     "@language" : "pt-br",
     "@value" : "Tipo de natureza administratica de uma institução"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#naturezaAdministrativa_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Federal"
@@ -5245,6 +5992,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Categoria da natureza administrativa de uma biblioteca.[Natureza administrativa da biblioteca.."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#naturezaAdministrativa_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5264,6 +6014,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#nivelBibliografico"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "nível bibliográfico"
@@ -5280,6 +6033,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#nivelDeCatalogacao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5298,6 +6054,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#nome"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "nome"
@@ -5314,6 +6073,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#notaDeComplexidade"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5332,6 +6094,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#notaDeSuplemento"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "nota de suplemento"
@@ -5344,6 +6109,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#nota_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5358,6 +6126,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#nota_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5377,6 +6148,9 @@
     "@language" : "pt-br",
     "@value" : "Nota para publicação seriada BIB: revista brasileira de informação bibliográfica em Ciências Sociais."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#nota_3"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Publicação impressa suspensa"
@@ -5390,6 +6164,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#nota_4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5409,6 +6186,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#notasGerais"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "notas gerais"
@@ -5425,6 +6205,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#numero"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5446,6 +6229,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#paginaWeb"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "página Web"
@@ -5462,6 +6248,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#performs"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5480,6 +6269,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#AgenteColetivo"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#precedesAgenteColetivo"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "precede Agente coletivo"
@@ -5496,6 +6288,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#precedesObra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5514,6 +6309,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#principal"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "contato principal"
@@ -5526,6 +6324,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoRelacionada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#publicacaoRelacionada_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5545,6 +6346,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Editora"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#publisherOf"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "é editora de"
@@ -5561,6 +6365,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Indexador de uma publicação seriada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#referenciador_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5580,6 +6387,9 @@
     "@language" : "pt-br",
     "@value" : "Indexador da publicação seriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#referenciador_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Information science abstracts"
@@ -5597,6 +6407,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Dados de critérios para o Diretório Indexador Scielo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#referenciador_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5619,6 +6432,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#requerimentoDeLigacao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "requerimento de ligação"
@@ -5635,6 +6451,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#responsavelIntelectual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5653,6 +6472,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#servico"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "serviço"
@@ -5669,6 +6491,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#servicosBiblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5687,6 +6512,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Res"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#sigla"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "sigla"
@@ -5703,6 +6531,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#situacaoDaPublicacao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5721,6 +6552,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#softwareUtilizado"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "software utilizado"
@@ -5738,6 +6572,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#statusDoRegistro"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "status do registro"
@@ -5754,6 +6591,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Classificação das Áreas do Conhecimento - 1º Nível: Grande área; 2º Nível: Área do conhecimento; 3º Nível: Subárea; 4º Nível: Especialidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tabela_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5773,6 +6613,9 @@
     "@language" : "pt-br",
     "@value" : "Grande área; Área; Sub-área; Especialidade"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tabela_2"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "Tabela o CNPq"
@@ -5791,6 +6634,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#telefone"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "telefone fixo"
@@ -5808,6 +6654,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#telefoneMovel"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "telefone móvel ou celular"
@@ -5824,6 +6673,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Termo livre da resvista Ciência da Informação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#termoLivre_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5843,6 +6695,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipo"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tipologia documental"
@@ -5855,6 +6710,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TipoDeBiblioteca"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipoBiblioteca_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5869,6 +6727,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#TipoDeBiblioteca"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipoBiblioteca_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5888,6 +6749,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipoDeRegistro"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tipo de registro"
@@ -5905,6 +6769,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoRelacionada"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipoRelacao"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "tipo de relação"
@@ -5918,6 +6785,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Título abreviado de: Ciência da Informação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tituloComplementar_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5940,6 +6810,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#tituloProprio"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "título próprio"
@@ -5957,6 +6830,9 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#urlDoCatalogo"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "URL do catálogo"
@@ -5973,6 +6849,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes.rdf#volume"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
