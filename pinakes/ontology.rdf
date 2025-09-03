@@ -8,7 +8,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:pinakes="https://cobib-ibict.github.io/ontologies/pinakes.rdf#">
     <owl:Ontology rdf:about="https://cobib-ibict.github.io/ontologies/pinakes.rdf">
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">CC BY 4.0</dc:rights>
         <dc:title xml:lang="pt-br">Ontologia Pinakes</dc:title>
