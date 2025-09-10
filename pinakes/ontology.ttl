@@ -1,12 +1,12 @@
-@prefix : <https://cobib-ibict.github.io/ontologies/pinakes.rdf#> .
+@prefix : <https://cobib-ibict.github.io/ontologies/pinakes#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://cobib-ibict.github.io/ontologies/pinakes.rdf#> .
+@base <https://cobib-ibict.github.io/ontologies/pinakes#> .
 
-<https://cobib-ibict.github.io/ontologies/pinakes.rdf> rdf:type owl:Ontology ;
+<https://cobib-ibict.github.io/ontologies/pinakes> rdf:type owl:Ontology ;
                                                         <http://purl.org/dc/elements/1.1/rights> "CC BY 4.0"^^xsd:anyURI ;
                                                         <http://purl.org/dc/elements/1.1/title> "Ontologia Pinakes"@pt-br ,
                                                                                                 "Pinakes Ontology"@en ;
@@ -17,7 +17,7 @@
                                                         <http://purl.org/dc/terms/publisher> <https://pinakes.ibict.br> ;
                                                         <http://usefulinc.com/ns/doap#bug-database> <https://github.com/cobib-ibict/ontologies/issues> ;
                                                         <http://usefulinc.com/ns/doap#repository> <https://github.com/cobib-ibict/ontologies> ;
-                                                        rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes.rdf> ,
+                                                        rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes> ,
                                                                          "https://cobib-ibict.github.io/ontologies/pinakes"@pt-br ;
                                                         rdfs:label "Ontologia Pinakes"@pt-br ;
                                                         owl:versionInfo "1.0"@pt-br .
@@ -70,12 +70,12 @@ xsd:gYear rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#assigned
+###  https://cobib-ibict.github.io/ontologies/pinakes#assigned
 :assigned rdf:type owl:ObjectProperty ;
           owl:inverseOf :isAssignedBy ;
           rdfs:domain :Agente ;
           rdfs:range :Nomen ;
-          rdfs:comment """atribuiu [LRM-R14] 
+          rdfs:comment """atribuiu [LRM-R14]
 Este relacionamento vincula um agente com um determinado nomen que foi atribuído por tal agente. No contexto bibliográfico, a atribuição do nomen se aplica à criação de termos para assunto, pontos de acesso controlado, identificadores, entre outros. [Fonte: IFLA LRM, 2017].
 
 Por exemplo, a agência ISBN atribuiu ‘0-553-10953-7’ para a publicação de
@@ -85,12 +85,12 @@ Por exemplo, a agência ISBN atribuiu ‘0-553-10953-7’ para a publicação de
           rdfs:label "atribuiu"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#complements
+###  https://cobib-ibict.github.io/ontologies/pinakes#complements
 :complements rdf:type owl:ObjectProperty ,
                       owl:SymmetricProperty ;
              rdfs:domain :Obra ;
              rdfs:range :Obra ;
-             rdfs:comment """acompanha/complementa [LRM-R20] 
+             rdfs:comment """acompanha/complementa [LRM-R20]
 Este é o relacionamento entre duas obras que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou acompanhamento. As duas obras podem agregar valor uma à outra (nesse caso, o relacionamento é simétrico); em outros casos, uma das obras é considerada secundária. [Fonte: IFLA LRM, 2017].
 
 Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-2127’ é acompanhamento de / é complemento de periódico Applied Economics Quarterly  (ISSN 1611-6607)."""@pt-br ;
@@ -99,7 +99,7 @@ Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-212
              rdfs:label "acompanha"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#contains
+###  https://cobib-ibict.github.io/ontologies/pinakes#contains
 :contains rdf:type owl:ObjectProperty ;
           owl:inverseOf :isContainedIn ;
           rdfs:domain :Colecao ;
@@ -110,7 +110,7 @@ Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-212
           rdfs:label "contém"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#createdExpressao
+###  https://cobib-ibict.github.io/ontologies/pinakes#createdExpressao
 :createdExpressao rdf:type owl:ObjectProperty ;
                   owl:inverseOf :isCreatedExpressaoBy ;
                   rdfs:domain :Agente ;
@@ -122,7 +122,7 @@ Indica a relaçãoem que um Agente criou uma expressão, como uma obra de arte, 
                   rdfs:label "criou Expressão"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#createdManifestacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#createdManifestacao
 :createdManifestacao rdf:type owl:ObjectProperty ;
                      owl:inverseOf :isCreatedManifestacaoBy ;
                      rdfs:domain :Agente ;
@@ -134,31 +134,31 @@ Indica a relação em que uma entidade criou uma manifestação, como uma ediç�
                      rdfs:label "criou Manifestação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#createdObra
+###  https://cobib-ibict.github.io/ontologies/pinakes#createdObra
 :createdObra rdf:type owl:ObjectProperty ;
              owl:inverseOf :isCreatedObraBy ;
              rdfs:domain :Agente ;
              rdfs:range :Obra ;
-             rdfs:comment """criou [LRM-R5i] 
+             rdfs:comment """criou [LRM-R5i]
 Indica a relação em que um Agente criou uma Obra, como um livro, uma pintura, uma composição musical, etc. [Fonte: IFLA LRM, 2017]."""@pt-br ;
              rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#createdObra> ,
                               "Esta propriedade conecta um Agente com a Obra que foi criada por ele."@pt-br ;
              rdfs:label "criou Obra"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#distributes
+###  https://cobib-ibict.github.io/ontologies/pinakes#distributes
 :distributes rdf:type owl:ObjectProperty ;
              owl:inverseOf :isDistributedBy ;
              rdfs:domain :Agente ;
              rdfs:range :Manifestacao ;
-             rdfs:comment """distribuiu [LRM-R9i] 
+             rdfs:comment """distribuiu [LRM-R9i]
 Indica a relação inversa em que um agente distribui manifestação. [Fonte: IFLA LRM, 2017]."""@pt-br ;
              rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#distributes> ,
                               "Esta propriedade conecta um Agente com a manifestação distribuida."@pt-br ;
              rdfs:label "distribuiu"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#exemplifies
+###  https://cobib-ibict.github.io/ontologies/pinakes#exemplifies
 :exemplifies rdf:type owl:ObjectProperty ;
              owl:inverseOf :isExemplifiedBy ;
              rdfs:domain :Item ;
@@ -170,7 +170,7 @@ Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fo
              rdfs:label "exemplifica"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAddress
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasAddress
 :hasAddress rdf:type owl:ObjectProperty ;
             owl:inverseOf :isAddressOf ;
             rdfs:domain :Biblioteca ;
@@ -181,7 +181,7 @@ Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fo
             rdfs:label "tem endereço"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAdminNature
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasAdminNature
 :hasAdminNature rdf:type owl:ObjectProperty ;
                 owl:inverseOf :isAdminNatureOf ;
                 rdfs:domain :Instituicao ;
@@ -192,7 +192,7 @@ Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fo
                 rdfs:label "tem natureza administrativa"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAffiliation
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasAffiliation
 :hasAffiliation rdf:type owl:ObjectProperty ;
                 owl:inverseOf :isAffiliatedWith ;
                 rdfs:domain :Biblioteca ;
@@ -203,7 +203,7 @@ Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fo
                 rdfs:label "tem filiação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAlternative
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasAlternative
 :hasAlternative rdf:type owl:ObjectProperty ,
                          owl:SymmetricProperty ;
                 rdfs:domain :Manifestacao ;
@@ -215,7 +215,7 @@ Por exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1
                 rdfs:label "possui alternativa"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAssociationWith
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasAssociationWith
 :hasAssociationWith rdf:type owl:ObjectProperty ,
                              owl:SymmetricProperty ;
                     rdfs:domain :Res ;
@@ -226,19 +226,19 @@ Por exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1
                     rdfs:label "possui associação com"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasAssociationWithLugar
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasAssociationWithLugar
 :hasAssociationWithLugar rdf:type owl:ObjectProperty ;
                          owl:inverseOf :isAssociatedWithLugar ;
                          rdfs:domain :Res ;
                          rdfs:range :Lugar ;
-                         rdfs:comment """possui associação com Lugar [LRM-R33] 
+                         rdfs:comment """possui associação com Lugar [LRM-R33]
 Este relacionamento vincula qualquer entidade com uma determinada extensão de espaço. Na maioria das implementações, esse relacionamento seria refinado para refletir a natureza exata da associação, por exemplo: lugar de concepção ou criação da obra, lugar de criação da expressão (por exemplo, lugar da apresentação musical), lugar de publicação ou fabricação, lugar atual ou anterior de um item e a localização de um agente. [Fonte: IFLA LRM, 2017]."""@pt-br ;
                          rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#hasAssociationWithLugar> ,
                                           "Este relacionamento vincula qualquer entidade com uma determinada extensão de espaço."@pt-br ;
                          rdfs:label "possui associação com Lugar"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasCity
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasCity
 :hasCity rdf:type owl:ObjectProperty ;
          owl:inverseOf :isCityOf ;
          rdfs:domain :Pais ;
@@ -249,7 +249,7 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
          rdfs:label "possui localidade"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasCollection
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasCollection
 :hasCollection rdf:type owl:ObjectProperty ;
                owl:inverseOf :isCollectionOf ;
                rdfs:domain :Biblioteca ;
@@ -260,7 +260,7 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
                rdfs:label "tem coleção"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasContact
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasContact
 :hasContact rdf:type owl:ObjectProperty ;
             owl:inverseOf :isContactOf ;
             rdfs:domain :Biblioteca ;
@@ -271,7 +271,7 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
             rdfs:label "possui contato"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasControlledSubject
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasControlledSubject
 :hasControlledSubject rdf:type owl:ObjectProperty ;
                       owl:inverseOf :isControlledSubjectOf ;
                       rdfs:domain :Obra ;
@@ -282,7 +282,7 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
                       rdfs:label "possui assunto controlado"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasCountry
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasCountry
 :hasCountry rdf:type owl:ObjectProperty ;
             owl:inverseOf :isCountryOf ;
             rdfs:domain :UnidadeFederativa ;
@@ -293,7 +293,7 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
             rdfs:label "tem país"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasCountryPublication
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasCountryPublication
 :hasCountryPublication rdf:type owl:ObjectProperty ;
                        owl:inverseOf :isCountryPublicationOf ;
                        rdfs:domain :Obra ;
@@ -304,7 +304,7 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
                        rdfs:label "tem país de publicação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasDenomination
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasDenomination
 :hasDenomination rdf:type owl:ObjectProperty ;
                  owl:inverseOf :isDenominationOf ;
                  rdfs:domain :Res ;
@@ -316,7 +316,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
                  rdfs:label "possui denominação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasFederativeUnit
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasFederativeUnit
 :hasFederativeUnit rdf:type owl:ObjectProperty ;
                    owl:inverseOf :isFederativeUnitOf ;
                    rdfs:domain :Localidade ;
@@ -326,7 +326,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
                    rdfs:label "tem unidade federativa"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasFreeTerm
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasFreeTerm
 :hasFreeTerm rdf:type owl:ObjectProperty ;
              owl:inverseOf :isFreeTermOf ;
              rdfs:domain :Obra ;
@@ -336,7 +336,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
              rdfs:label "tem termo livre"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasHomepage
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasHomepage
 :hasHomepage rdf:type owl:ObjectProperty ;
              owl:inverseOf :isHomepageOf ;
              rdfs:domain :Obra ;
@@ -346,7 +346,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
              rdfs:label "possui homepage"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasISSN
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasISSN
 :hasISSN rdf:type owl:ObjectProperty ;
          owl:inverseOf :isISSNOf ;
          rdfs:domain :PublicacaoSeriada ;
@@ -356,7 +356,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
          rdfs:label "tem código ISSN"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasInstituition
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasInstituition
 :hasInstituition rdf:type owl:ObjectProperty ;
                  owl:inverseOf :isInstituicaoOf ;
                  rdfs:domain :Unidade ;
@@ -366,7 +366,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
                  rdfs:label "tem Instituição"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasInstituitionAddress
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasInstituitionAddress
 :hasInstituitionAddress rdf:type owl:ObjectProperty ;
                         owl:inverseOf :isInstituitonAddressOf ;
                         rdfs:domain :Instituicao ;
@@ -376,7 +376,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
                         rdfs:label "tem endereço de instituição"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasKnowledgeAreaTable
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasKnowledgeAreaTable
 :hasKnowledgeAreaTable rdf:type owl:ObjectProperty ;
                        owl:inverseOf :isKnowledgeAreaTableOf ;
                        rdfs:domain :AreaDeConhecimento ;
@@ -386,7 +386,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
                        rdfs:label "tem tabela"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasKnowledgeField
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasKnowledgeField
 :hasKnowledgeField rdf:type owl:ObjectProperty ;
                    owl:inverseOf :isKnowledgeFieldOf ;
                    rdfs:domain :Obra ;
@@ -396,7 +396,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
                    rdfs:label "tem área de conhecimento"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasLibraryType
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasLibraryType
 :hasLibraryType rdf:type owl:ObjectProperty ;
                 owl:inverseOf :libraryTypeOf ;
                 rdfs:domain :Biblioteca ;
@@ -406,7 +406,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
                 rdfs:label "possui tipo de biblioteca"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasMember
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasMember
 :hasMember rdf:type owl:ObjectProperty ;
            owl:inverseOf :isMemberOf ;
            rdfs:domain :AgenteColetivo ;
@@ -417,7 +417,7 @@ Propriedade inversa da propriedade de objeto \"é membro de\" (isMemberOf)."""@p
            rdfs:label "possui membro"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasNote
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasNote
 :hasNote rdf:type owl:ObjectProperty ;
          owl:inverseOf :isNoteOf ;
          rdfs:domain :Obra ;
@@ -427,7 +427,7 @@ Propriedade inversa da propriedade de objeto \"é membro de\" (isMemberOf)."""@p
          rdfs:label "tem nota"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasOriginalPublication
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasOriginalPublication
 :hasOriginalPublication rdf:type owl:ObjectProperty ;
                         owl:inverseOf :isOriginalPublicationOf ;
                         rdfs:domain :PublicacaoRelacionada ;
@@ -437,7 +437,7 @@ Propriedade inversa da propriedade de objeto \"é membro de\" (isMemberOf)."""@p
                         rdfs:label "tem publicação de origem"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartAgenteColetivo
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPartAgenteColetivo
 :hasPartAgenteColetivo rdf:type owl:ObjectProperty ,
                                 owl:SymmetricProperty ;
                        rdfs:domain :AgenteColetivo ;
@@ -450,7 +450,7 @@ Por exermplo, IFLA Cataloguing Section é parte de IFLA."""@pt-br ;
                        rdfs:label "Agente Coletivo possui parte"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartExpressao
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPartExpressao
 :hasPartExpressao rdf:type owl:ObjectProperty ,
                            owl:SymmetricProperty ;
                   rdfs:domain :Expressao ;
@@ -461,7 +461,7 @@ Este é um relacionamento entre duas expressões em que uma é componente da out
                   rdfs:label "Expressão possui parte"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartLugar
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPartLugar
 :hasPartLugar rdf:type owl:ObjectProperty ,
                        owl:SymmetricProperty ;
               rdfs:domain :Lugar ;
@@ -474,18 +474,18 @@ Por exemplo, a Califórnia é parte dos Estados Unidos da América (USA)."""@pt-
               rdfs:label "Lugar possui parte"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartManifestacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPartManifestacao
 :hasPartManifestacao rdf:type owl:ObjectProperty ,
                               owl:SymmetricProperty ;
                      rdfs:domain :Manifestacao ;
                      rdfs:range :Manifestacao ;
-                     rdfs:comment """Manifestação possui parte [LRM-R26]  
+                     rdfs:comment """Manifestação possui parte [LRM-R26]
 Este é um relacionamento entre duas manifestações em que uma é componente da outra. Em alguns casos, os componentes de uma manifestação são baseados em considerações físicas relacionadas ao suporte na qual a manifestação deve ser emitida (por exemplo, uma gravação é muito longa para caber em um único disco e é publicada em uma caixa de dois discos). Uma manifestação alternativa em outro suporte pode não exibir os mesmos componentes. No entanto, no caso em que o relacionamento componente-todo é um aspecto inerente das obras, se aplica para todas as expressões e manifestações da obra maior e de suas obras componentes, se a expressão ou manifestação compreende a obra maior ou apenas um ou mais (mas não todas) das obras componentes. [Fonte: IFLA LRM, 2017]."""@pt-br ;
                      rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#hasPartManifestacao> ;
                      rdfs:label "Manifestação possui parte"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartNomen
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPartNomen
 :hasPartNomen rdf:type owl:ObjectProperty ,
                        owl:SymmetricProperty ;
               rdfs:domain :Nomen ;
@@ -498,18 +498,18 @@ Por exemplo, Schubert, Franz, 1797-1828. Sonatas, piano, D. 959, A major’ poss
               rdfs:label "Nomen possui parte"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPartObra
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPartObra
 :hasPartObra rdf:type owl:ObjectProperty ,
                       owl:SymmetricProperty ;
              rdfs:domain :Obra ;
              rdfs:range :Obra ;
-             rdfs:comment """Obra possui parte [LRM-R18] 
+             rdfs:comment """Obra possui parte [LRM-R18]
 Este é o relacionamento entre duas obras em que o conteúdo de uma é componente da outra. Isto se aplica quando o relacionamento componente-todo é um aspecto inerente das obras e vale para todas as expressões e manifestações da obra maior e de suas obras componentes, se a expressão ou manifestação compreende a obra maior ou apenas uma ou várias obras componentes (mas não todas). Exemplos: movimentos de concertos, poemas em ciclos de poesia, romances multipartes e trípticos. [Fonte: IFLA LRM, 2017]."""@pt-br ;
              rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#hasPartObra> ;
              rdfs:label "Obra possui parte"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPlacePublication
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPlacePublication
 :hasPlacePublication rdf:type owl:ObjectProperty ;
                      owl:inverseOf :isPlacePublicationOf ;
                      rdfs:domain :PublicacaoImprenta ;
@@ -519,7 +519,7 @@ Este é o relacionamento entre duas obras em que o conteúdo de uma é component
                      rdfs:label "tem local de publicação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPublicationDate
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPublicationDate
 :hasPublicationDate rdf:type owl:ObjectProperty ;
                     owl:inverseOf :isPublicationDateOf ;
                     rdfs:domain :Obra ;
@@ -529,7 +529,7 @@ Este é o relacionamento entre duas obras em que o conteúdo de uma é component
                     rdfs:label "possui imprenta (ano de publicação)"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPublicationLanguage
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPublicationLanguage
 :hasPublicationLanguage rdf:type owl:ObjectProperty ;
                         owl:inverseOf :isPublicationLanguageOf ;
                         rdfs:domain :Obra ;
@@ -539,7 +539,7 @@ Este é o relacionamento entre duas obras em que o conteúdo de uma é component
                         rdfs:label "tem idioma de publicação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasPublisher
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasPublisher
 :hasPublisher rdf:type owl:ObjectProperty ;
               owl:inverseOf :publisherOf ;
               rdfs:domain :PublicacaoImprenta ;
@@ -549,7 +549,7 @@ Este é o relacionamento entre duas obras em que o conteúdo de uma é component
               rdfs:label "possui editora"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasRegion
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasRegion
 :hasRegion rdf:type owl:ObjectProperty ;
            owl:inverseOf :isRegionOf ;
            rdfs:domain :UnidadeFederativa ;
@@ -559,7 +559,7 @@ Este é o relacionamento entre duas obras em que o conteúdo de uma é component
            rdfs:label "possui região"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasRelatedPublication
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasRelatedPublication
 :hasRelatedPublication rdf:type owl:ObjectProperty ;
                        owl:inverseOf :isRelatedPublicationWith ;
                        rdfs:domain :PublicacaoRelacionada ;
@@ -569,7 +569,7 @@ Este é o relacionamento entre duas obras em que o conteúdo de uma é component
                        rdfs:label "tem publicação relacionada"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasReproduction
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasReproduction
 :hasReproduction rdf:type owl:ObjectProperty ,
                           owl:SymmetricProperty ;
                  rdfs:domain :Manifestacao ;
@@ -580,7 +580,7 @@ Este é o relacionamento entre duas manifestações que fornecem ao usuário fin
                  rdfs:label "possui reprodução"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasReproductionItem
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasReproductionItem
 :hasReproductionItem rdf:type owl:ObjectProperty ;
                      owl:inverseOf :isReproductionOfItem ;
                      rdfs:domain :Item ;
@@ -590,18 +590,18 @@ Este é o relacionamento entre duas manifestações que fornecem ao usuário fin
                      rdfs:label "Item tem reprodução"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasSubject
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasSubject
 :hasSubject rdf:type owl:ObjectProperty ;
             owl:inverseOf :isSubjectOf ;
             rdfs:domain :Obra ;
             rdfs:range :Res ;
-            rdfs:comment """possui como assunto [LRM-R12] 
+            rdfs:comment """possui como assunto [LRM-R12]
 Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre uma obra e uma entidade de assunto relacionada serve como base tanto para identificar o assunto de uma obra individual como para garantir que todos as obras relevantes para um determinado assunto estejam vinculadas a este assunto. [Fonte: IFLA LRM, 2017]."""@pt-br ;
             rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#hasSubject> ;
             rdfs:label "possui como assunto"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasSupport
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasSupport
 :hasSupport rdf:type owl:ObjectProperty ;
             owl:inverseOf :isSupportOf ;
             rdfs:domain :ISSN ;
@@ -611,7 +611,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
             rdfs:label "tem meio físico"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasSupportCollection
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasSupportCollection
 :hasSupportCollection rdf:type owl:ObjectProperty ;
                       owl:inverseOf :isSupportCollectionOf ;
                       rdfs:domain :Colecao ;
@@ -621,7 +621,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
                       rdfs:label "Coleção tem suporte"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasTitleComplement
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasTitleComplement
 :hasTitleComplement rdf:type owl:ObjectProperty ;
                     owl:inverseOf :isTitleComplementOf ;
                     rdfs:domain :Obra ;
@@ -631,7 +631,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
                     rdfs:label "tem título complementar"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#hasUnit
+###  https://cobib-ibict.github.io/ontologies/pinakes#hasUnit
 :hasUnit rdf:type owl:ObjectProperty ;
          owl:inverseOf :isUnitOf ;
          rdfs:domain :Biblioteca ;
@@ -641,7 +641,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
          rdfs:label "possui unidade"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#indexedBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#indexedBy
 :indexedBy rdf:type owl:ObjectProperty ;
            owl:inverseOf :isIndexOf ;
            rdfs:domain :Obra ;
@@ -651,7 +651,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
            rdfs:label "indexada por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAddressOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isAddressOf
 :isAddressOf rdf:type owl:ObjectProperty ;
              rdfs:domain :Endereco ;
              rdfs:range :Biblioteca ;
@@ -660,7 +660,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
              rdfs:label "é endereço de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAdminNatureOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isAdminNatureOf
 :isAdminNatureOf rdf:type owl:ObjectProperty ;
                  rdfs:domain :NaturezaAdministrativa ;
                  rdfs:range :Instituicao ;
@@ -670,7 +670,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
                  rdfs:label "é natureza administrativa de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAffiliatedWith
+###  https://cobib-ibict.github.io/ontologies/pinakes#isAffiliatedWith
 :isAffiliatedWith rdf:type owl:ObjectProperty ;
                   rdfs:domain :Instituicao ;
                   rdfs:range :Biblioteca ;
@@ -679,7 +679,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
                   rdfs:label "é filiado com"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAggregatedBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isAggregatedBy
 :isAggregatedBy rdf:type owl:ObjectProperty ,
                          owl:SymmetricProperty ;
                 rdfs:domain :Expressao ;
@@ -691,7 +691,7 @@ Ao contrário do relacionamento todo-parte entre expressões, as expressões sel
                 rdfs:label "foi agregado por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAssignedBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isAssignedBy
 :isAssignedBy rdf:type owl:ObjectProperty ;
               rdfs:domain :Nomen ;
               rdfs:range :Agente ;
@@ -701,17 +701,17 @@ Propriedade inversa da propriedade de objeto \"atribuiu\" (assigned)."""@pt-br ;
               rdfs:label "é atribuído por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAssociatedWithLugar
+###  https://cobib-ibict.github.io/ontologies/pinakes#isAssociatedWithLugar
 :isAssociatedWithLugar rdf:type owl:ObjectProperty ;
                        rdfs:domain :Lugar ;
                        rdfs:range :Res ;
-                       rdfs:comment """Lugar é associado com [LRM-R33i] 
+                       rdfs:comment """Lugar é associado com [LRM-R33i]
 Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
                        rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#isAssociatedWithLugar> ;
                        rdfs:label "Lugar é associado com"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isAssociationOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isAssociationOf
 :isAssociationOf rdf:type owl:ObjectProperty ,
                           owl:SymmetricProperty ;
                  rdfs:domain :Unidade ;
@@ -721,7 +721,7 @@ Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
                  rdfs:label "é associação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCityOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isCityOf
 :isCityOf rdf:type owl:ObjectProperty ;
           rdfs:domain :Localidade ;
           rdfs:range :Pais ;
@@ -730,7 +730,7 @@ Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
           rdfs:label "é cidade de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCollectionOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isCollectionOf
 :isCollectionOf rdf:type owl:ObjectProperty ;
                 rdfs:domain :Colecao ;
                 rdfs:range :Biblioteca ;
@@ -739,7 +739,7 @@ Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
                 rdfs:label "é coleção de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isContactOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isContactOf
 :isContactOf rdf:type owl:ObjectProperty ;
              rdfs:domain :Contato ;
              rdfs:range :Biblioteca ;
@@ -748,7 +748,7 @@ Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
              rdfs:label "é contato de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isContainedIn
+###  https://cobib-ibict.github.io/ontologies/pinakes#isContainedIn
 :isContainedIn rdf:type owl:ObjectProperty ;
                rdfs:domain :PublicacaoSeriada ;
                rdfs:range :Colecao ;
@@ -757,7 +757,7 @@ Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
                rdfs:label "está contida em"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isControlledSubjectOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isControlledSubjectOf
 :isControlledSubjectOf rdf:type owl:ObjectProperty ;
                        rdfs:domain :AssuntoControlado ;
                        rdfs:range :Obra ;
@@ -766,7 +766,7 @@ Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
                        rdfs:label "é assunto controlado de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCountryOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isCountryOf
 :isCountryOf rdf:type owl:ObjectProperty ;
              rdfs:domain :Pais ;
              rdfs:range :UnidadeFederativa ;
@@ -775,7 +775,7 @@ Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
              rdfs:label "é país de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCountryPublicationOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isCountryPublicationOf
 :isCountryPublicationOf rdf:type owl:ObjectProperty ;
                         rdfs:domain :Pais ;
                         rdfs:range :Obra ;
@@ -784,7 +784,7 @@ Indica a relação em que um lugar está associado a outra entidade."""@pt-br ;
                         rdfs:label "é país de publicação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCreatedExpressaoBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isCreatedExpressaoBy
 :isCreatedExpressaoBy rdf:type owl:ObjectProperty ;
                       rdfs:domain :Expressao ;
                       rdfs:range :Agente ;
@@ -794,27 +794,27 @@ Este relacionamento vincula uma expressão a um agente responsável pela realiza
                       rdfs:label "Expressão foi criada por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCreatedManifestacaoBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isCreatedManifestacaoBy
 :isCreatedManifestacaoBy rdf:type owl:ObjectProperty ;
                          rdfs:domain :Manifestacao ;
                          rdfs:range :Agente ;
-                         rdfs:comment """Manifestação foi criada por [LRM-R7] 
+                         rdfs:comment """Manifestação foi criada por [LRM-R7]
 Este relacionamento vincula uma manifestação a um agente responsável pela criação da manifestação. Para uma manifestação, a noção de criação inclui, em termos gerais, o processo de publicação das manifestações publicadas. A conexão lógica entre uma manifestação e um agente relacionado serve como base tanto para identificar um agente responsável pela criação de uma manifestação quanto para garantir que todas as manifestações criadas por um agente estejam vinculadas a esse agente. [Fonte: IFLA LRM, 2017]."""@pt-br ;
                          rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#isCreatedManifestacaoBy> ;
                          rdfs:label "Manifestação foi criada por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isCreatedObraBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isCreatedObraBy
 :isCreatedObraBy rdf:type owl:ObjectProperty ;
                  rdfs:domain :Obra ;
                  rdfs:range :Agente ;
-                 rdfs:comment """Obra foi criada por [LRM-R5] 
+                 rdfs:comment """Obra foi criada por [LRM-R5]
 Este relacionamento vincula uma obra a um agente responsável pela criação do conteúdo intelectual ou artístico. A conexão lógica entre uma obra e um agente relacionado serve como base tanto para identificar um agente responsável por uma obra individual, quanto para garantir que todas as obras de um agente em particular estejam vinculadas com tal agente. [Fonte: IFLA LRM, 2017]."""@pt-br ;
                  rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#isCreatedObraBy> ;
                  rdfs:label "Obra foi criada por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isDenominationOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isDenominationOf
 :isDenominationOf rdf:type owl:ObjectProperty ;
                   rdfs:domain :Nomen ;
                   rdfs:range :Res ;
@@ -824,7 +824,7 @@ Propriedade inversa da propriedade de objeto \"possui denominação\" (hasDenomi
                   rdfs:label "é denominação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isDerivedOfExpressao
+###  https://cobib-ibict.github.io/ontologies/pinakes#isDerivedOfExpressao
 :isDerivedOfExpressao rdf:type owl:ObjectProperty ,
                                owl:SymmetricProperty ;
                       rdfs:domain :Expressao ;
@@ -835,7 +835,7 @@ Este relacionamento indica que em duas expressões da mesma obra, a segunda foi 
                       rdfs:label "Expressão é derivação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isDerivedOfNomen
+###  https://cobib-ibict.github.io/ontologies/pinakes#isDerivedOfNomen
 :isDerivedOfNomen rdf:type owl:ObjectProperty ,
                            owl:SymmetricProperty ;
                   rdfs:domain :Nomen ;
@@ -846,7 +846,7 @@ Este relacionamento indica que um nomen foi utilizado como base para outro nomen
                   rdfs:label "Nomen é derivação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isDistributedBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isDistributedBy
 :isDistributedBy rdf:type owl:ObjectProperty ;
                  rdfs:domain :Manifestacao ;
                  rdfs:range :Agente ;
@@ -858,7 +858,7 @@ Por exemplo, a publicação de Cai Hua, A Society without Fathers or Husbands: t
                  rdfs:label "é distribuída por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isEqualTo
+###  https://cobib-ibict.github.io/ontologies/pinakes#isEqualTo
 :isEqualTo rdf:type owl:ObjectProperty ,
                     owl:SymmetricProperty ;
            rdfs:domain :Nomen ;
@@ -871,7 +871,7 @@ Por exemplo, ‘USA’ é equivalente a ‘United States of America’, ‘τὰ
            rdfs:label "é equivalente a"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isExemplifiedBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isExemplifiedBy
 :isExemplifiedBy rdf:type owl:ObjectProperty ;
                  rdfs:domain :Manifestacao ;
                  rdfs:range :Item ;
@@ -881,7 +881,7 @@ Este relacionamento conecta uma manifestação com qualquer item que reflete as 
                  rdfs:label "é exemplificada por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isFederativeUnitOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isFederativeUnitOf
 :isFederativeUnitOf rdf:type owl:ObjectProperty ;
                     rdfs:domain :UnidadeFederativa ;
                     rdfs:range :Localidade ;
@@ -890,7 +890,7 @@ Este relacionamento conecta uma manifestação com qualquer item que reflete as 
                     rdfs:label "é unidade federativa de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isFreeTermOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isFreeTermOf
 :isFreeTermOf rdf:type owl:ObjectProperty ;
               rdfs:domain :TermoLivre ;
               rdfs:range :Obra ;
@@ -899,7 +899,7 @@ Este relacionamento conecta uma manifestação com qualquer item que reflete as 
               rdfs:label "é termo livre de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isHomepageOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isHomepageOf
 :isHomepageOf rdf:type owl:ObjectProperty ;
               rdfs:domain :Homepage ;
               rdfs:range :Obra ;
@@ -908,7 +908,7 @@ Este relacionamento conecta uma manifestação com qualquer item que reflete as 
               rdfs:label "é homepage de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isISSNOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isISSNOf
 :isISSNOf rdf:type owl:ObjectProperty ;
           rdfs:domain :ISSN ;
           rdfs:range :PublicacaoSeriada ;
@@ -917,7 +917,7 @@ Este relacionamento conecta uma manifestação com qualquer item que reflete as 
           rdfs:label "é ISSN de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isIndexOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isIndexOf
 :isIndexOf rdf:type owl:ObjectProperty ;
            rdfs:domain :Referenciador ;
            rdfs:range :Obra ;
@@ -926,18 +926,18 @@ Este relacionamento conecta uma manifestação com qualquer item que reflete as 
            rdfs:label "é indexador de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isInspirationFor
+###  https://cobib-ibict.github.io/ontologies/pinakes#isInspirationFor
 :isInspirationFor rdf:type owl:ObjectProperty ,
                            owl:SymmetricProperty ;
                   rdfs:domain :Obra ;
                   rdfs:range :Obra ;
-                  rdfs:comment """é inspiração para [LRM-R21] 
+                  rdfs:comment """é inspiração para [LRM-R21]
 Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu como fonte de ideias para o segundo. [Fonte: IFLA LRM, 2017]."""@pt-br ;
                   rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#isInspirationFor> ;
                   rdfs:label "é inspiração para"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isInstituicaoOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isInstituicaoOf
 :isInstituicaoOf rdf:type owl:ObjectProperty ;
                  rdfs:domain :Instituicao ;
                  rdfs:range :Unidade ;
@@ -946,7 +946,7 @@ Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu 
                  rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#isInstituicaoOf> .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isInstituitonAddressOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isInstituitonAddressOf
 :isInstituitonAddressOf rdf:type owl:ObjectProperty ;
                         rdfs:domain :Endereco ;
                         rdfs:range :Instituicao ;
@@ -955,7 +955,7 @@ Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu 
                         rdfs:label "é endereço institucional de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isKnowledgeAreaTableOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isKnowledgeAreaTableOf
 :isKnowledgeAreaTableOf rdf:type owl:ObjectProperty ;
                         rdfs:domain :TabelaAreaDeConhecimento ;
                         rdfs:range :AreaDeConhecimento ;
@@ -964,7 +964,7 @@ Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu 
                         rdfs:label "é tabela de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isKnowledgeFieldOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isKnowledgeFieldOf
 :isKnowledgeFieldOf rdf:type owl:ObjectProperty ;
                     rdfs:domain :AreaDeConhecimento ;
                     rdfs:range :Obra ;
@@ -973,7 +973,7 @@ Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu 
                     rdfs:label "é área de conhecimento de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isLocalityOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isLocalityOf
 :isLocalityOf rdf:type owl:ObjectProperty ;
               owl:inverseOf :isLocatedIn ;
               rdfs:domain :Localidade ;
@@ -983,7 +983,7 @@ Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu 
               rdfs:label "é localidade de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isLocatedIn
+###  https://cobib-ibict.github.io/ontologies/pinakes#isLocatedIn
 :isLocatedIn rdf:type owl:ObjectProperty ;
              rdfs:domain :Endereco ;
              rdfs:range :Localidade ;
@@ -992,7 +992,7 @@ Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu 
              rdfs:label "está localizado(a) em"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isManufacturedBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isManufacturedBy
 :isManufacturedBy rdf:type owl:ObjectProperty ;
                   owl:inverseOf :manufactures ;
                   rdfs:domain :Manifestacao ;
@@ -1004,7 +1004,7 @@ Por exemplo, a publicação de 2013 da Historical Society of Western Pennsylvani
                   rdfs:label "foi produzida por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isMaterializedIn
+###  https://cobib-ibict.github.io/ontologies/pinakes#isMaterializedIn
 :isMaterializedIn rdf:type owl:ObjectProperty ;
                   owl:inverseOf :materializes ;
                   rdfs:domain :Expressao ;
@@ -1017,7 +1017,7 @@ Por exemplo, a notação musical do arranjo para piano de Hans Günter Heumann, 
                   rdfs:label "é materializado em"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isMemberOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isMemberOf
 :isMemberOf rdf:type owl:ObjectProperty ;
             rdfs:domain :Agente ;
             rdfs:range :AgenteColetivo ;
@@ -1027,7 +1027,7 @@ Este é um relacionamento entre um agente e um agente coletivo em que o agente i
             rdfs:label "é membro de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isModifiedBy
+###  https://cobib-ibict.github.io/ontologies/pinakes#isModifiedBy
 :isModifiedBy rdf:type owl:ObjectProperty ;
               owl:inverseOf :modifies ;
               rdfs:domain :Item ;
@@ -1041,7 +1041,7 @@ foi modificado pela encadernadora Monique Mathieu."""@pt-br ;
               rdfs:label "foi modificado por"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isNoteOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isNoteOf
 :isNoteOf rdf:type owl:ObjectProperty ;
           rdfs:domain :Nota ;
           rdfs:range :Obra ;
@@ -1050,7 +1050,7 @@ foi modificado pela encadernadora Monique Mathieu."""@pt-br ;
           rdfs:label "é nota de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isOriginalPublicationOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isOriginalPublicationOf
 :isOriginalPublicationOf rdf:type owl:ObjectProperty ;
                          rdfs:domain :Obra ;
                          rdfs:range :PublicacaoRelacionada ;
@@ -1059,7 +1059,7 @@ foi modificado pela encadernadora Monique Mathieu."""@pt-br ;
                          rdfs:label "é publicação original de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPerformedThrough
+###  https://cobib-ibict.github.io/ontologies/pinakes#isPerformedThrough
 :isPerformedThrough rdf:type owl:ObjectProperty ;
                     owl:inverseOf :performs ;
                     rdfs:domain :Obra ;
@@ -1072,7 +1072,7 @@ Por exemplo, a obra conhecida como Eine kleine Nachtmusik é realizada através 
                     rdfs:label "é realizada através de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPlacePublicationOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isPlacePublicationOf
 :isPlacePublicationOf rdf:type owl:ObjectProperty ;
                       rdfs:domain :Localidade ;
                       rdfs:range :PublicacaoImprenta ;
@@ -1081,7 +1081,7 @@ Por exemplo, a obra conhecida como Eine kleine Nachtmusik é realizada através 
                       rdfs:label "é local da publicação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPropertyOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isPropertyOf
 :isPropertyOf rdf:type owl:ObjectProperty ;
               owl:inverseOf :isProprietorOf ;
               rdfs:domain :Item ;
@@ -1094,7 +1094,7 @@ Por exemplo, o exemplar com o número de chamada VMA-991 (2,26) da publicação 
               rdfs:label "é propriedade de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isProprietorOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isProprietorOf
 :isProprietorOf rdf:type owl:ObjectProperty ;
                 rdfs:domain :Agente ;
                 rdfs:range :Item ;
@@ -1104,7 +1104,7 @@ Relacionamento inverso da propriedade de objeto \" é propriedade de \" (isPrope
                 rdfs:label "é proprietário de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPublicationDateOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isPublicationDateOf
 :isPublicationDateOf rdf:type owl:ObjectProperty ;
                      rdfs:domain :PublicacaoImprenta ;
                      rdfs:range :Obra ;
@@ -1113,7 +1113,7 @@ Relacionamento inverso da propriedade de objeto \" é propriedade de \" (isPrope
                      rdfs:label "é ano de publicação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isPublicationLanguageOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isPublicationLanguageOf
 :isPublicationLanguageOf rdf:type owl:ObjectProperty ;
                          rdfs:domain :Idioma ;
                          rdfs:range :Obra ;
@@ -1122,7 +1122,7 @@ Relacionamento inverso da propriedade de objeto \" é propriedade de \" (isPrope
                          rdfs:label "é idioma de publicação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isRegionOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isRegionOf
 :isRegionOf rdf:type owl:ObjectProperty ;
             rdfs:domain :Regiao ;
             rdfs:range :UnidadeFederativa ;
@@ -1131,7 +1131,7 @@ Relacionamento inverso da propriedade de objeto \" é propriedade de \" (isPrope
             rdfs:label "é região de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isRelatedPublicationWith
+###  https://cobib-ibict.github.io/ontologies/pinakes#isRelatedPublicationWith
 :isRelatedPublicationWith rdf:type owl:ObjectProperty ;
                           rdfs:domain :Obra ;
                           rdfs:range :PublicacaoRelacionada ;
@@ -1140,7 +1140,7 @@ Relacionamento inverso da propriedade de objeto \" é propriedade de \" (isPrope
                           rdfs:label "é publicação relacionada com"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isReproductionOfItem
+###  https://cobib-ibict.github.io/ontologies/pinakes#isReproductionOfItem
 :isReproductionOfItem rdf:type owl:ObjectProperty ;
                       rdfs:domain :Manifestacao ;
                       rdfs:range :Item ;
@@ -1150,7 +1150,7 @@ Relacionamento inverso de \"Item tem reprodução\". Indica que um item é repro
                       rdfs:label "Item é reprodução de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isSubjectOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isSubjectOf
 :isSubjectOf rdf:type owl:ObjectProperty ;
              rdfs:domain :Res ;
              rdfs:range :Obra ;
@@ -1160,7 +1160,7 @@ Propriedade inversa da propriedade de objeto \"possui como assunto\"."""@pt-br ;
              rdfs:label "é assunto de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isSupportCollectionOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isSupportCollectionOf
 :isSupportCollectionOf rdf:type owl:ObjectProperty ;
                        rdfs:domain :MeioFisico ;
                        rdfs:range :Colecao ;
@@ -1169,7 +1169,7 @@ Propriedade inversa da propriedade de objeto \"possui como assunto\"."""@pt-br ;
                        rdfs:label "é suporte de coleção"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isSupportOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isSupportOf
 :isSupportOf rdf:type owl:ObjectProperty ;
              rdfs:domain :MeioFisico ;
              rdfs:range :ISSN ;
@@ -1178,7 +1178,7 @@ Propriedade inversa da propriedade de objeto \"possui como assunto\"."""@pt-br ;
              rdfs:label "é meio físico de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isTitleComplementOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isTitleComplementOf
 :isTitleComplementOf rdf:type owl:ObjectProperty ;
                      rdfs:domain :TituloComplementar ;
                      rdfs:range :Obra ;
@@ -1187,18 +1187,18 @@ Propriedade inversa da propriedade de objeto \"possui como assunto\"."""@pt-br ;
                      rdfs:label "é título complementar de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isTransformationOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isTransformationOf
 :isTransformationOf rdf:type owl:ObjectProperty ,
                              owl:SymmetricProperty ;
                     rdfs:domain :Obra ;
                     rdfs:range :Obra ;
-                    rdfs:comment """é transformação de [LRM-R22] 
+                    rdfs:comment """é transformação de [LRM-R22]
 Este relacionamento indica que uma nova obra foi criada alterando o escopo ou a política editorial (como em uma obra seriada ou agregada), o gênero ou a forma literária (dramatização, novelização), público-alvo (adaptação para crianças) ou estilo (paráfrase, imitação, paródia) de uma obra existente. Algumas transformações podem ser consideradas inspiradas apenas por uma obra existente. [Fonte: IFLA LRM, 2017]."""@pt-br ;
                     rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#isTransformationOf> ;
                     rdfs:label "é transformação de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#isUnitOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#isUnitOf
 :isUnitOf rdf:type owl:ObjectProperty ;
           rdfs:domain :Unidade ;
           rdfs:range :Biblioteca ;
@@ -1207,7 +1207,7 @@ Este relacionamento indica que uma nova obra foi criada alterando o escopo ou a 
           rdfs:label "é unidade de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#libraryTypeOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#libraryTypeOf
 :libraryTypeOf rdf:type owl:ObjectProperty ;
                rdfs:domain :TipoDeBiblioteca ;
                rdfs:range :Biblioteca ;
@@ -1216,7 +1216,7 @@ Este relacionamento indica que uma nova obra foi criada alterando o escopo ou a 
                rdfs:label "tipo de biblioteca de"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#manufactures
+###  https://cobib-ibict.github.io/ontologies/pinakes#manufactures
 :manufactures rdf:type owl:ObjectProperty ;
               rdfs:domain :Agente ;
               rdfs:range :Manifestacao ;
@@ -1225,17 +1225,17 @@ Este relacionamento indica que uma nova obra foi criada alterando o escopo ou a 
               rdfs:label "produziu"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#materializes
+###  https://cobib-ibict.github.io/ontologies/pinakes#materializes
 :materializes rdf:type owl:ObjectProperty ;
               rdfs:domain :Manifestacao ;
               rdfs:range :Expressao ;
-              rdfs:comment """materializa [LRM-R3i] 
+              rdfs:comment """materializa [LRM-R3i]
 Relacionamento inverso da propriedade \"é materializada em\" (isMaterializedIn)."""@pt-br ;
               rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#materializes> ;
               rdfs:label "materializa"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#modifies
+###  https://cobib-ibict.github.io/ontologies/pinakes#modifies
 :modifies rdf:type owl:ObjectProperty ;
           rdfs:domain :Agente ;
           rdfs:range :Item ;
@@ -1245,7 +1245,7 @@ Propriedade de objeto inversa da propriedade \"foi modificado por\" (isModifiedB
           rdfs:label "modificou"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#performs
+###  https://cobib-ibict.github.io/ontologies/pinakes#performs
 :performs rdf:type owl:ObjectProperty ;
           rdfs:domain :Expressao ;
           rdfs:range :Obra ;
@@ -1255,7 +1255,7 @@ Propriedade inversa da propriedade é realizado através de (isPerformadedThroug
           rdfs:label "realiza"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#precedesAgenteColetivo
+###  https://cobib-ibict.github.io/ontologies/pinakes#precedesAgenteColetivo
 :precedesAgenteColetivo rdf:type owl:ObjectProperty ,
                                  owl:SymmetricProperty ;
                         rdfs:domain :AgenteColetivo ;
@@ -1266,18 +1266,18 @@ Propriedade inversa da propriedade é realizado através de (isPerformadedThroug
                         rdfs:label "precede Agente coletivo"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#precedesObra
+###  https://cobib-ibict.github.io/ontologies/pinakes#precedesObra
 :precedesObra rdf:type owl:ObjectProperty ,
                        owl:SymmetricProperty ;
               rdfs:domain :Obra ;
               rdfs:range :Obra ;
-              rdfs:comment """Obra precede [LRM-R19] 
+              rdfs:comment """Obra precede [LRM-R19]
 Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma continuação lógica da primeira. O relacionamento é sobre uma sequência de ideias que não deve ser confundida com o tempo de criação das respectivas obras. Como esse relacionamento diz respeito à continuação lógica do conteúdo das respectivas obras, ele não se aplica às obras em série que se transformam ao longo do tempo (por meio de grandes alterações de título, alterações no tipo de mídia e entre outros), mas mantêm uma continuidade em sua forma ou esquema de numeração. [Fonte: IFLA LRM, 2017]."""@pt-br ;
               rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#precedesObra> ;
               rdfs:label "precede Obra"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#publisherOf
+###  https://cobib-ibict.github.io/ontologies/pinakes#publisherOf
 :publisherOf rdf:type owl:ObjectProperty ;
              rdfs:domain :Editora ;
              rdfs:range :PublicacaoImprenta ;
@@ -1299,7 +1299,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                                   rdfs:label "ano de publicação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Responsavel
+###  https://cobib-ibict.github.io/ontologies/pinakes#Responsavel
 :Responsavel rdf:type owl:DatatypeProperty ;
              rdfs:domain :Contato ;
              rdfs:range rdfs:Literal ;
@@ -1308,7 +1308,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
              rdfs:label "responsável (nome)"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#alfabetacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#alfabetacao
 :alfabetacao rdf:type owl:DatatypeProperty ;
              rdfs:domain :Obra ;
              rdfs:range rdfs:Literal ;
@@ -1317,7 +1317,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
              rdfs:label "alfabetação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#anoFinal
+###  https://cobib-ibict.github.io/ontologies/pinakes#anoFinal
 :anoFinal rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf <http://purl.org/dc/terms/issued> ;
           rdfs:domain :Obra ;
@@ -1327,7 +1327,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
           rdfs:label "ano final"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#anoInicial
+###  https://cobib-ibict.github.io/ontologies/pinakes#anoInicial
 :anoInicial rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf <http://purl.org/dc/terms/issued> ;
             rdfs:domain :Obra ;
@@ -1337,7 +1337,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
             rdfs:label "ano inicial"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#assunto
+###  https://cobib-ibict.github.io/ontologies/pinakes#assunto
 :assunto rdf:type owl:DatatypeProperty ;
          rdfs:domain :AssuntoControlado ;
          rdfs:range rdfs:Literal ;
@@ -1347,7 +1347,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
          rdfs:seeAlso "http://purl.org/dc/elements/1.1/subject" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#cep
+###  https://cobib-ibict.github.io/ontologies/pinakes#cep
 :cep rdf:type owl:DatatypeProperty ;
      rdfs:domain :Endereco ;
      rdfs:range rdfs:Literal ;
@@ -1356,7 +1356,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
      rdfs:label "cep"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#cnpj
+###  https://cobib-ibict.github.io/ontologies/pinakes#cnpj
 :cnpj rdf:type owl:DatatypeProperty ;
       rdfs:domain :Instituicao ;
       rdfs:range rdfs:Literal ;
@@ -1365,7 +1365,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
       rdfs:label "cnpj"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#codIndex
+###  https://cobib-ibict.github.io/ontologies/pinakes#codIndex
 :codIndex rdf:type owl:DatatypeProperty ;
           rdfs:domain :Referenciador ;
           rdfs:range xsd:float ;
@@ -1374,7 +1374,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
           rdfs:label "código indexador"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#codigo
+###  https://cobib-ibict.github.io/ontologies/pinakes#codigo
 :codigo rdf:type owl:DatatypeProperty ;
         rdfs:domain :AreaDeConhecimento ;
         rdfs:range rdfs:Literal ;
@@ -1383,7 +1383,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
         rdfs:label "código"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#codigoIso
+###  https://cobib-ibict.github.io/ontologies/pinakes#codigoIso
 :codigoIso rdf:type owl:DatatypeProperty ;
            rdfs:domain :Pais ;
            rdfs:range rdfs:Literal ;
@@ -1392,7 +1392,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
            rdfs:label "código ISO"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#codigoMarc
+###  https://cobib-ibict.github.io/ontologies/pinakes#codigoMarc
 :codigoMarc rdf:type owl:DatatypeProperty ;
             rdfs:domain :Pais ;
             rdfs:range rdfs:Literal ;
@@ -1401,7 +1401,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
             rdfs:label "código Marc"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#conteudo
+###  https://cobib-ibict.github.io/ontologies/pinakes#conteudo
 :conteudo rdf:type owl:DatatypeProperty ;
           rdfs:domain :PublicacaoSeriada ;
           rdfs:range rdfs:Literal ;
@@ -1410,7 +1410,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
           rdfs:label "tipologia funcional"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#conteudoColecao
+###  https://cobib-ibict.github.io/ontologies/pinakes#conteudoColecao
 :conteudoColecao rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Colecao ;
                  rdfs:range rdfs:Literal ;
@@ -1419,7 +1419,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                  rdfs:label "conteúdo da Coleção"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataAtualizacaoBiblioteca
+###  https://cobib-ibict.github.io/ontologies/pinakes#dataAtualizacaoBiblioteca
 :dataAtualizacaoBiblioteca rdf:type owl:DatatypeProperty ;
                            rdfs:domain :Biblioteca ;
                            rdfs:range xsd:dateTime ;
@@ -1428,7 +1428,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                            rdfs:label "data de atualização da biblioteca"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataCadastroBiblioteca
+###  https://cobib-ibict.github.io/ontologies/pinakes#dataCadastroBiblioteca
 :dataCadastroBiblioteca rdf:type owl:DatatypeProperty ;
                         rdfs:domain :Biblioteca ;
                         rdfs:range xsd:dateTime ;
@@ -1437,7 +1437,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                         rdfs:label "data de cadastro da biblioteca"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataDeAtualizacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#dataDeAtualizacao
 :dataDeAtualizacao rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Obra ;
                    rdfs:range xsd:dateTime ;
@@ -1446,7 +1446,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                    rdfs:label "data de atualização do registro"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataDeCadastro
+###  https://cobib-ibict.github.io/ontologies/pinakes#dataDeCadastro
 :dataDeCadastro rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Obra ;
                 rdfs:range rdfs:Literal ;
@@ -1455,7 +1455,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                 rdfs:label "data de cadastro do registro"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataFinalPI
+###  https://cobib-ibict.github.io/ontologies/pinakes#dataFinalPI
 :dataFinalPI rdf:type owl:DatatypeProperty ;
              rdfs:domain :PublicacaoImprenta ;
              rdfs:range xsd:gYear ;
@@ -1464,7 +1464,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
              rdfs:label "data final da Imprenta"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#dataInicialPI
+###  https://cobib-ibict.github.io/ontologies/pinakes#dataInicialPI
 :dataInicialPI rdf:type owl:DatatypeProperty ;
                rdfs:domain :PublicacaoImprenta ;
                rdfs:range xsd:gYear ;
@@ -1473,7 +1473,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                rdfs:label "data inicial da Imprenta"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#descricao
+###  https://cobib-ibict.github.io/ontologies/pinakes#descricao
 :descricao rdf:type owl:DatatypeProperty ;
            rdfs:domain :ISSN ;
            rdfs:range rdfs:Literal ;
@@ -1483,7 +1483,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
            rdfs:seeAlso "http://purl.org/ontology/bibo/issn" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#designacaoNumerica
+###  https://cobib-ibict.github.io/ontologies/pinakes#designacaoNumerica
 :designacaoNumerica rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Obra ;
                     rdfs:range rdfs:Literal ;
@@ -1492,7 +1492,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                     rdfs:label "designação numérica"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#edicao
+###  https://cobib-ibict.github.io/ontologies/pinakes#edicao
 :edicao rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf :designacaoNumerica ;
         rdfs:domain :Obra ;
@@ -1502,7 +1502,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
         rdfs:label "edição"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#email
+###  https://cobib-ibict.github.io/ontologies/pinakes#email
 :email rdf:type owl:DatatypeProperty ;
        rdfs:domain :Contato ;
        rdfs:range rdfs:Literal ;
@@ -1511,7 +1511,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
        rdfs:label "e-mail"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#enderecoEletronico
+###  https://cobib-ibict.github.io/ontologies/pinakes#enderecoEletronico
 :enderecoEletronico rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Homepage ;
                     rdfs:range xsd:anyURI ;
@@ -1520,7 +1520,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                     rdfs:label "endereço eletrônico"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#fonte
+###  https://cobib-ibict.github.io/ontologies/pinakes#fonte
 :fonte rdf:type owl:DatatypeProperty ;
        rdfs:domain :AssuntoControlado ;
        rdfs:range rdfs:Literal ;
@@ -1529,7 +1529,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
        rdfs:label "fonte do vocabulário controlado"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#formatoDeCatalogacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#formatoDeCatalogacao
 :formatoDeCatalogacao rdf:type owl:DatatypeProperty ;
                       rdfs:domain :PublicacaoSeriada ;
                       rdfs:range rdfs:Literal ;
@@ -1538,17 +1538,17 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
                       rdfs:label "formato de catalogação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#formatoDocumento
+###  https://cobib-ibict.github.io/ontologies/pinakes#formatoDocumento
 :formatoDocumento rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Colecao ;
                   rdfs:range rdfs:Literal ;
-                  rdfs:comment """Indica o padrão ou extensão disponível para exportação das informações de uma publicação seriada ou coleção. 
+                  rdfs:comment """Indica o padrão ou extensão disponível para exportação das informações de uma publicação seriada ou coleção.
 Exemplo: MARC 21."""@pt-br ;
                   rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#formatoDocumento> ;
                   rdfs:label "formato do documento"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#frequencia
+###  https://cobib-ibict.github.io/ontologies/pinakes#frequencia
 :frequencia rdf:type owl:DatatypeProperty ;
             rdfs:domain :PublicacaoSeriada ;
             rdfs:range rdfs:Literal ;
@@ -1557,7 +1557,7 @@ Exemplo: MARC 21."""@pt-br ;
             rdfs:label "frequência"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#latitude
+###  https://cobib-ibict.github.io/ontologies/pinakes#latitude
 :latitude rdf:type owl:DatatypeProperty ;
           rdfs:domain :Endereco ;
           rdfs:range rdfs:Literal ;
@@ -1566,7 +1566,7 @@ Exemplo: MARC 21."""@pt-br ;
           rdfs:label "latitude"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#logradouro
+###  https://cobib-ibict.github.io/ontologies/pinakes#logradouro
 :logradouro rdf:type owl:DatatypeProperty ;
             rdfs:domain :Endereco ;
             rdfs:range rdfs:Literal ;
@@ -1575,7 +1575,7 @@ Exemplo: MARC 21."""@pt-br ;
             rdfs:label "logradouro"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#longitude
+###  https://cobib-ibict.github.io/ontologies/pinakes#longitude
 :longitude rdf:type owl:DatatypeProperty ;
            rdfs:domain :Endereco ;
            rdfs:range rdfs:Literal ;
@@ -1584,7 +1584,7 @@ Exemplo: MARC 21."""@pt-br ;
            rdfs:label "longitude"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#nivelBibliografico
+###  https://cobib-ibict.github.io/ontologies/pinakes#nivelBibliografico
 :nivelBibliografico rdf:type owl:DatatypeProperty ;
                     rdfs:domain :PublicacaoSeriada ;
                     rdfs:range rdfs:Literal ;
@@ -1593,7 +1593,7 @@ Exemplo: MARC 21."""@pt-br ;
                     rdfs:label "nível bibliográfico"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#nivelDeCatalogacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#nivelDeCatalogacao
 :nivelDeCatalogacao rdf:type owl:DatatypeProperty ;
                     rdfs:domain :PublicacaoSeriada ;
                     rdfs:range rdfs:Literal ;
@@ -1602,7 +1602,7 @@ Exemplo: MARC 21."""@pt-br ;
                     rdfs:label "nível de catalogação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#nome
+###  https://cobib-ibict.github.io/ontologies/pinakes#nome
 :nome rdf:type owl:DatatypeProperty ;
       rdfs:domain owl:Thing ;
       rdfs:range rdfs:Literal ;
@@ -1611,7 +1611,7 @@ Exemplo: MARC 21."""@pt-br ;
       rdfs:label "nome"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#notaDeComplexidade
+###  https://cobib-ibict.github.io/ontologies/pinakes#notaDeComplexidade
 :notaDeComplexidade rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Nota ;
                     rdfs:range rdfs:Literal ;
@@ -1620,7 +1620,7 @@ Exemplo: MARC 21."""@pt-br ;
                     rdfs:label "nota de complexidade"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#notaDeSuplemento
+###  https://cobib-ibict.github.io/ontologies/pinakes#notaDeSuplemento
 :notaDeSuplemento rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Nota ;
                   rdfs:range rdfs:Literal ;
@@ -1629,7 +1629,7 @@ Exemplo: MARC 21."""@pt-br ;
                   rdfs:label "nota de suplemento"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#notasGerais
+###  https://cobib-ibict.github.io/ontologies/pinakes#notasGerais
 :notasGerais rdf:type owl:DatatypeProperty ;
              rdfs:domain :Nota ;
              rdfs:range rdfs:Literal ;
@@ -1638,7 +1638,7 @@ Exemplo: MARC 21."""@pt-br ;
              rdfs:label "notas gerais"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#numero
+###  https://cobib-ibict.github.io/ontologies/pinakes#numero
 :numero rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf :designacaoNumerica ;
         rdfs:domain :Obra ;
@@ -1648,7 +1648,7 @@ Exemplo: MARC 21."""@pt-br ;
         rdfs:label "número"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#paginaWeb
+###  https://cobib-ibict.github.io/ontologies/pinakes#paginaWeb
 :paginaWeb rdf:type owl:DatatypeProperty ;
            rdfs:domain :Biblioteca ;
            rdfs:range xsd:anyURI ;
@@ -1657,7 +1657,7 @@ Exemplo: MARC 21."""@pt-br ;
            rdfs:label "página Web"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#principal
+###  https://cobib-ibict.github.io/ontologies/pinakes#principal
 :principal rdf:type owl:DatatypeProperty ;
            rdfs:domain :Contato ;
            rdfs:range xsd:anyURI ;
@@ -1666,7 +1666,7 @@ Exemplo: MARC 21."""@pt-br ;
            rdfs:label "contato principal"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#requerimentoDeLigacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#requerimentoDeLigacao
 :requerimentoDeLigacao rdf:type owl:DatatypeProperty ;
                        rdfs:domain :PublicacaoSeriada ;
                        rdfs:range rdfs:Literal ;
@@ -1675,7 +1675,7 @@ Exemplo: MARC 21."""@pt-br ;
                        rdfs:label "requerimento de ligação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#responsavelIntelectual
+###  https://cobib-ibict.github.io/ontologies/pinakes#responsavelIntelectual
 :responsavelIntelectual rdf:type owl:DatatypeProperty ;
                         rdfs:domain :PublicacaoSeriada ;
                         rdfs:range rdfs:Literal ;
@@ -1684,7 +1684,7 @@ Exemplo: MARC 21."""@pt-br ;
                         rdfs:label "responsável intelectual"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#servico
+###  https://cobib-ibict.github.io/ontologies/pinakes#servico
 :servico rdf:type owl:DatatypeProperty ;
          rdfs:domain :Contato ;
          rdfs:range rdfs:Literal ;
@@ -1693,7 +1693,7 @@ Exemplo: MARC 21."""@pt-br ;
          rdfs:label "serviço"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#servicosBiblioteca
+###  https://cobib-ibict.github.io/ontologies/pinakes#servicosBiblioteca
 :servicosBiblioteca rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Biblioteca ;
                     rdfs:range rdfs:Literal ;
@@ -1702,7 +1702,7 @@ Exemplo: MARC 21."""@pt-br ;
                     rdfs:label "serviços bibliográficos"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#sigla
+###  https://cobib-ibict.github.io/ontologies/pinakes#sigla
 :sigla rdf:type owl:DatatypeProperty ;
        rdfs:domain :Res ;
        rdfs:range rdfs:Literal ;
@@ -1711,7 +1711,7 @@ Exemplo: MARC 21."""@pt-br ;
        rdfs:label "sigla"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#situacaoDaPublicacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#situacaoDaPublicacao
 :situacaoDaPublicacao rdf:type owl:DatatypeProperty ;
                       rdfs:domain :PublicacaoSeriada ;
                       rdfs:range rdfs:Literal ;
@@ -1720,7 +1720,7 @@ Exemplo: MARC 21."""@pt-br ;
                       rdfs:label "situação da publicação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#softwareUtilizado
+###  https://cobib-ibict.github.io/ontologies/pinakes#softwareUtilizado
 :softwareUtilizado rdf:type owl:DatatypeProperty ;
                    rdfs:domain :Biblioteca ;
                    rdfs:range rdfs:Literal ;
@@ -1729,7 +1729,7 @@ Exemplo: MARC 21."""@pt-br ;
                    rdfs:label "software utilizado"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#statusDoRegistro
+###  https://cobib-ibict.github.io/ontologies/pinakes#statusDoRegistro
 :statusDoRegistro rdf:type owl:DatatypeProperty ;
                   rdfs:domain :PublicacaoSeriada ;
                   rdfs:range rdfs:Literal ;
@@ -1738,7 +1738,7 @@ Exemplo: MARC 21."""@pt-br ;
                   rdfs:label "status do registro"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#telefone
+###  https://cobib-ibict.github.io/ontologies/pinakes#telefone
 :telefone rdf:type owl:DatatypeProperty ;
           rdfs:domain :Contato ;
           rdfs:range rdfs:Literal ;
@@ -1747,7 +1747,7 @@ Exemplo: MARC 21."""@pt-br ;
           rdfs:label "telefone fixo"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#telefoneMovel
+###  https://cobib-ibict.github.io/ontologies/pinakes#telefoneMovel
 :telefoneMovel rdf:type owl:DatatypeProperty ;
                rdfs:domain :Contato ;
                rdfs:range rdfs:Literal ;
@@ -1756,7 +1756,7 @@ Exemplo: MARC 21."""@pt-br ;
                rdfs:label "telefone móvel ou celular"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipo
+###  https://cobib-ibict.github.io/ontologies/pinakes#tipo
 :tipo rdf:type owl:DatatypeProperty ;
       rdfs:domain :Obra ;
       rdfs:range rdfs:Literal ;
@@ -1765,7 +1765,7 @@ Exemplo: MARC 21."""@pt-br ;
       rdfs:label "tipologia documental"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipoDeRegistro
+###  https://cobib-ibict.github.io/ontologies/pinakes#tipoDeRegistro
 :tipoDeRegistro rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Obra ;
                 rdfs:range rdfs:Literal ;
@@ -1774,7 +1774,7 @@ Exemplo: MARC 21."""@pt-br ;
                 rdfs:label "tipo de registro"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipoRelacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#tipoRelacao
 :tipoRelacao rdf:type owl:DatatypeProperty ;
              rdfs:domain :PublicacaoRelacionada ;
              rdfs:comment "caracteriza  o tipo de relação entre obras"@pt-br ;
@@ -1782,7 +1782,7 @@ Exemplo: MARC 21."""@pt-br ;
              rdfs:label "tipo de relação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#tipoTitulo
+###  https://cobib-ibict.github.io/ontologies/pinakes#tipoTitulo
 :tipoTitulo rdf:type owl:DatatypeProperty ;
             rdfs:domain :TituloComplementar ;
             rdfs:range rdfs:Literal ;
@@ -1791,7 +1791,7 @@ Exemplo: MARC 21."""@pt-br ;
             rdfs:label "tipo de título complementar"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#tituloProprio
+###  https://cobib-ibict.github.io/ontologies/pinakes#tituloProprio
 :tituloProprio rdf:type owl:DatatypeProperty ;
                rdfs:domain :Obra ;
                rdfs:range rdfs:Literal ;
@@ -1800,7 +1800,7 @@ Exemplo: MARC 21."""@pt-br ;
                rdfs:label "título próprio"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#urlDoCatalogo
+###  https://cobib-ibict.github.io/ontologies/pinakes#urlDoCatalogo
 :urlDoCatalogo rdf:type owl:DatatypeProperty ;
                rdfs:domain :Biblioteca ;
                rdfs:range xsd:anyURI ;
@@ -1809,7 +1809,7 @@ Exemplo: MARC 21."""@pt-br ;
                rdfs:label "URL do catálogo"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#volume
+###  https://cobib-ibict.github.io/ontologies/pinakes#volume
 :volume rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf :designacaoNumerica ;
         rdfs:domain :Obra ;
@@ -1829,17 +1829,17 @@ Qualquer tipo de informação abstrata que não é registrada pelo uso de atribu
           rdfs:label "Coisa"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Agente
+###  https://cobib-ibict.github.io/ontologies/pinakes#Agente
 :Agente rdf:type owl:Class ;
         rdfs:subClassOf :Res ;
-        rdfs:comment """LRM-E6 Agente 
+        rdfs:comment """LRM-E6 Agente
 Uma entidade capaz de ações deliberadas, de cessão de direitos e de ser responsabilizada por suas ações.
 A entidade agente é uma superclasse estritamente equivalente à união das entidades pessoa e do agente coletivo. Ela é definida para reduzir a redundância no modelo, fornecendo uma única entidade para servir como domínio ou abrangência de certos relacionamentos que se aplicam a todos os tipos específicos de agentes. Ser um agente implica possuir, ou ter possuído o potencial de relacionamentos intencionais com instâncias de entidades de interesse bibliográfico (obras, expressões, manifestações, itens), quer esse agente específico já tenha feito isso ou não. Os seres humanos são direta ou indiretamente a força motriz por trás de todas essas ações realizadas por todos os agentes. Os autômatos (como dispositivos de registro climático, programas de tradução de software etc.), às vezes chamados de agentes tecnológicos, são vistos neste modelo como ferramentas utilizadas e configuradas por um agente real. [Fonte: IFLA LRM, 2017]."""@pt-br ;
         rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#Agente> ;
         rdfs:label "Agente"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#AgenteColetivo
+###  https://cobib-ibict.github.io/ontologies/pinakes#AgenteColetivo
 :AgenteColetivo rdf:type owl:Class ;
                 rdfs:subClassOf :Agente ;
                 rdfs:comment """LRM-E8 Agente coletivo
@@ -1849,7 +1849,7 @@ A entidade agente coletivo designa uma ampla variedade de grupos nomeados de pes
                 rdfs:label "Agente Coletivo"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaDeConhecimento
+###  https://cobib-ibict.github.io/ontologies/pinakes#AreaDeConhecimento
 :AreaDeConhecimento rdf:type owl:Class ;
                     rdfs:subClassOf :Nomen ,
                                     [ rdf:type owl:Restriction ;
@@ -1864,7 +1864,7 @@ A classificação das Áreas do Conhecimento tem finalidade eminentemente práti
                     rdfs:label "Área de Conhecimento"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado
+###  https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado
 :AssuntoControlado rdf:type owl:Class ;
                    rdfs:subClassOf :Nomen ,
                                    [ rdf:type owl:Restriction ;
@@ -1879,7 +1879,7 @@ Exemplo: 'Ensino a distância' é um termo que categoriza 'Aprendizado a distân
                    rdfs:label "Assunto Controlado"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca
+###  https://cobib-ibict.github.io/ontologies/pinakes#Biblioteca
 :Biblioteca rdf:type owl:Class ;
             rdfs:subClassOf :AgenteColetivo ,
                             [ rdf:type owl:Restriction ;
@@ -1913,7 +1913,7 @@ Exemplo: A Lydia de Queiroz Sambaquy é Biblioteca do Instituto Brasileiro em Ci
             rdfs:label "Biblioteca"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao
+###  https://cobib-ibict.github.io/ontologies/pinakes#Colecao
 :Colecao rdf:type owl:Class ;
          rdfs:subClassOf :Item ,
                          [ rdf:type owl:Restriction ;
@@ -1932,7 +1932,7 @@ Exemplo: A Lydia de Queiroz Sambaquy é Biblioteca do Instituto Brasileiro em Ci
          rdfs:seeAlso "http://purl.org/spar/fabio/ItemCollection" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato
+###  https://cobib-ibict.github.io/ontologies/pinakes#Contato
 :Contato rdf:type owl:Class ;
          rdfs:subClassOf owl:Thing ,
                          [ rdf:type owl:Restriction ;
@@ -1947,7 +1947,7 @@ Exemplo: (61)32176145 é o telefone e biblioteca@ibict.br é o email da da Bibli
          rdfs:label "Contato"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Editora
+###  https://cobib-ibict.github.io/ontologies/pinakes#Editora
 :Editora rdf:type owl:Class ;
          rdfs:subClassOf :Agente ;
          rdfs:comment """Entidade responsável por tornar uma obra ou recurso disponível ao público. Pode ser uma pessoa, organização ou serviço que atue na publicação, difusão ou disponibilização do conteúdo. [Fonte: Dublin Core, 2025].
@@ -1957,7 +1957,7 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia é a Ed
          rdfs:label "Editora"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco
+###  https://cobib-ibict.github.io/ontologies/pinakes#Endereco
 :Endereco rdf:type owl:Class ;
           rdfs:subClassOf :Lugar ,
                           [ rdf:type owl:Restriction ;
@@ -1972,7 +1972,7 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia é a Ed
 Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar  ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente."""@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Expressao
+###  https://cobib-ibict.github.io/ontologies/pinakes#Expressao
 :Expressao rdf:type owl:Class ;
            rdfs:subClassOf :Res ;
            rdfs:comment """LRM-E3 Expressão
@@ -1982,7 +1982,7 @@ Uma combinação específica de sinais que transmitem conteúdo intelectual ou a
            rdfs:seeAlso "http://purl.org/spar/fabio/Expression" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Homepage
+###  https://cobib-ibict.github.io/ontologies/pinakes#Homepage
 :Homepage rdf:type owl:Class ;
           rdfs:subClassOf owl:Thing ,
                           [ rdf:type owl:Restriction ;
@@ -1996,7 +1996,7 @@ Uma combinação específica de sinais que transmitem conteúdo intelectual ou a
           rdfs:seeAlso "https://schema.org/WebPage" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN
+###  https://cobib-ibict.github.io/ontologies/pinakes#ISSN
 :ISSN rdf:type owl:Class ;
       rdfs:subClassOf :Nomen ,
                       [ rdf:type owl:Restriction ;
@@ -2016,7 +2016,7 @@ Exemplo: o código 0100-1965 é o ISSN impresso da publicação seriada Ciência
       rdfs:label "ISSN"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma
+###  https://cobib-ibict.github.io/ontologies/pinakes#Idioma
 :Idioma rdf:type owl:Class ;
         rdfs:subClassOf :Expressao ;
         rdfs:comment """Idioma predominante em uma publicação, Indica o idioma principal em que a Obra foi publicada.
@@ -2026,7 +2026,7 @@ Exemplo: O idioma principal da publicação seriada Ciência da Informação é 
         rdfs:label "Idioma"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao
+###  https://cobib-ibict.github.io/ontologies/pinakes#Instituicao
 :Instituicao rdf:type owl:Class ;
              rdfs:subClassOf :AgenteColetivo ,
                              [ rdf:type owl:Restriction ;
@@ -2045,17 +2045,17 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT)
              rdfs:label "Instituição"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Item
+###  https://cobib-ibict.github.io/ontologies/pinakes#Item
 :Item rdf:type owl:Class ;
       rdfs:subClassOf :Res ;
-      rdfs:comment """LRM-E5 Item 
-Um ou vários objetos que carregam sinais destinados a transmitir conteúdo intelectual ou artístico. 
+      rdfs:comment """LRM-E5 Item
+Um ou vários objetos que carregam sinais destinados a transmitir conteúdo intelectual ou artístico.
 Em termos de conteúdo intelectual ou artístico e forma física, um item exemplificando uma manifestação normalmente reflete todas as características que definem a própria manifestação. Um item é, em muitos casos, um único objeto físico, mas em outros casos, um item pode consistir em várias peças ou objetos físicos. Um item pode fazer parte de um objeto físico maior, por exemplo, quando um arquivo é armazenado em um disco que também contém outros arquivos, a parte do disco que contém o arquivo é o suporte físico ou o item. [Fonte: IFLA LRM, 2017]."""@pt-br ;
       rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#Item> ;
       rdfs:label "Item"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade
+###  https://cobib-ibict.github.io/ontologies/pinakes#Localidade
 :Localidade rdf:type owl:Class ;
             rdfs:subClassOf :Lugar ,
                             [ rdf:type owl:Restriction ;
@@ -2071,17 +2071,17 @@ Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sa
             rdfs:seeAlso "http://www.geonames.org/ontology#City" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Lugar
+###  https://cobib-ibict.github.io/ontologies/pinakes#Lugar
 :Lugar rdf:type owl:Class ;
        rdfs:subClassOf :Res ;
-       rdfs:comment """LRM-E10 Lugar 
+       rdfs:comment """LRM-E10 Lugar
 Uma extensão de espaço determinada. A entidade lugar, relevante em um contexto bibliográfico, é uma construção cultural; é a identificação humana de uma área geográfica ou extensão do espaço. Lugares são geralmente identificados por meio de um objeto físico (uma característica geográfica ou um objeto feito pelo homem) ou devido à sua relevância em relação a um determinado agente (entidades geopolíticas como países, cidades) ou como a localização de um evento. O lugar como uma extensão do espaço é diferente dos órgãos governamentais que exercem a jurisdição nesse território. O governo responsável por um território é um agente coletivo. Lugares podem ser contemporâneos ou históricos, terrestres ou extraterrestres. Lugares imaginários, lendários ou fictícios não são instâncias da entidade lugar. Um lugar pode ter limites difusos. Os limites de um lugar podem mudar com o tempo (como uma cidade que incorpora subúrbios adjacentes) sem alterar a identidade do lugar para fins bibliográficos. Como pode ser um quadro de referência móvel, a entidade lugar não é necessariamente identificada apenas por suas coordenadas geoespaciais. [Fonte: IFLA LRM, 2017]."""@pt-br ;
        rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#Lugar> ;
        rdfs:label "Lugar"@pt-br ;
        rdfs:seeAlso "http://purl.org/vocab/frbr/core#Place" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Manifestacao
+###  https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao
 :Manifestacao rdf:type owl:Class ;
               rdfs:subClassOf :Res ;
               rdfs:comment """LRM-E4 Manifestação
@@ -2095,7 +2095,7 @@ usuários finais. Qualquer que seja a mídia de armazenamento utilizada, os arqu
               rdfs:label "Manifestação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#MeioFisico
+###  https://cobib-ibict.github.io/ontologies/pinakes#MeioFisico
 :MeioFisico rdf:type owl:Class ;
             rdfs:subClassOf :Manifestacao ;
             rdfs:comment """Carrier type: Uma categorização que reflete o formato do meio de armazenamento e do invólucro de um suporte, em combinação com o tipo de dispositivo de mediação necessário para visualizar, reproduzir, executar etc. o conteúdo de uma manifestação. [Source: Resource Description and Access - RDA]
@@ -2105,7 +2105,7 @@ Exemplo: Publicação seriada impressa é um item físico."""@pt-br ;
             rdfs:label "Meio Físico"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#NaturezaAdministrativa
+###  https://cobib-ibict.github.io/ontologies/pinakes#NaturezaAdministrativa
 :NaturezaAdministrativa rdf:type owl:Class ;
                         rdfs:subClassOf owl:Thing ;
                         rdfs:comment """Classificação da instituição responsável por uma biblioteca ou unidade, segundo sua esfera de gestão e regime administrativo (pública, privada etc.).
@@ -2115,17 +2115,17 @@ Exemplo: Lydia de Queiroz Sambaquy é uma Biblioteca de natureza administrativa 
                         rdfs:label "Natureza Administrativa"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nomen
+###  https://cobib-ibict.github.io/ontologies/pinakes#Nomen
 :Nomen rdf:type owl:Class ;
        rdfs:subClassOf :Res ;
-       rdfs:comment """LRM-E9 Nomen 
+       rdfs:comment """LRM-E9 Nomen
 Uma associação entre uma entidade e uma designação que se refere a ela.
 Um nomen associa qualquer denominação (isto é, combinação de sinais) utilizada para se referir a uma instância de qualquer entidade encontrada no universo bibliográfico com essa entidade. Qualquer entidade mencionada no universo do discurso é nomeada por meio de, no mínimo, um nomen. [Fonte: IFLA LRM, 2017]."""@pt-br ;
        rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#Nomen> ;
        rdfs:label "Nomen"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota
+###  https://cobib-ibict.github.io/ontologies/pinakes#Nota
 :Nota rdf:type owl:Class ;
       rdfs:subClassOf owl:Thing ,
                       [ rdf:type owl:Restriction ;
@@ -2138,7 +2138,7 @@ Um nomen associa qualquer denominação (isto é, combinação de sinais) utiliz
       rdfs:label "Nota"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra
 :Obra rdf:type owl:Class ;
       rdfs:subClassOf :Res ,
                       [ rdf:type owl:Restriction ;
@@ -2155,7 +2155,7 @@ Um nomen associa qualquer denominação (isto é, combinação de sinais) utiliz
                         owl:onClass :PublicacaoImprenta
                       ] ;
       rdfs:comment """LRM-E2 Obra
-O conteúdo intelectual ou artístico de uma criação específica. 
+O conteúdo intelectual ou artístico de uma criação específica.
 Uma obra é uma entidade abstrata que permite o agrupamento de expressões que são consideradas equivalentes funcionais ou
 quase equivalentes. Uma obra é um objeto conceitual, nenhum objeto material único pode ser identificado como a obra. A essência da obra é a conjunção de conceitos e ideias que formam o conteúdo compartilhado do que definimos como expressões da mesma obra. Uma obra é percebida por meio da identificação da semelhança de conteúdo entre várias expressões. No entanto, a similaridade de conteúdo factual ou
 temático por si só não é suficiente para agrupar expressões como realizações da mesma instância da obra. Por exemplo, dois livros didáticos, ambos apresentando uma introdução ao cálculo, ou duas pinturas a óleo da mesma vista (ainda que pintadas pelo mesmo artista), seriam considerados obras distintas se esforços intelectuais ou artísticos independentes estivessem envolvidos em sua criação. No caso de obras agregadas e obras seriadas a essência da obra é o conceito para planejamento da seleção, montagem e ordenação das expressões de outras obras materializadas na manifestação agregada resultante. Uma obra adquire existência simultaneamente com a criação da sua primeira expressão, nenhuma obra pode existir sem haver (ou ter havido em algum momento passado) pelo menos uma expressão da obra. [Fonte: IFLA LRM, 2017]."""@pt-br ;
@@ -2163,7 +2163,7 @@ temático por si só não é suficiente para agrupar expressões como realizaç�
       rdfs:label "Obra"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais
+###  https://cobib-ibict.github.io/ontologies/pinakes#Pais
 :Pais rdf:type owl:Class ;
       rdfs:subClassOf :Lugar ;
       rdfs:comment """Território definido politicamente, com fronteiras reconhecidas e governo soberano, utilizado para identificar a localização de agentes ou local de publicação.
@@ -2174,17 +2174,17 @@ Exemplo: O Brasil é país ou território geográfico onde uma Publicação seri
       rdfs:seeAlso "http://www.geonames.org/ontology#Country" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pessoa
+###  https://cobib-ibict.github.io/ontologies/pinakes#Pessoa
 :Pessoa rdf:type owl:Class ;
         rdfs:subClassOf :Agente ;
-        rdfs:comment """LRM-E7 Pessoa 
+        rdfs:comment """LRM-E7 Pessoa
 Um ser humano individual.
 A entidade pessoa é restrita a pessoas reais que vivem ou presume-se que tenham vivido. Não é necessária uma prova estrita da existência de uma pessoa, desde que haja uma aceitação geral de sua provável historicidade. No entanto, figuras geralmente consideradas fictícias (por exemplo, Caco o Sapo), literárias (por exemplo, Miss Jane Marple) ou puramente lendárias (por exemplo, o mago Merlin) não são instâncias da entidade pessoa. [Fonte: IFLA LRM, 2017]."""@pt-br ;
         rdfs:isDefinedBy <https://cobib-ibict.github.io/ontologies/pinakes#Pessoa> ;
         rdfs:label "Pessoa"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoImprenta
+###  https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoImprenta
 :PublicacaoImprenta rdf:type owl:Class ;
                     rdfs:subClassOf owl:Thing ,
                                     [ rdf:type owl:Restriction ;
@@ -2209,7 +2209,7 @@ Exemplo:  A revista Ciência da Informação foi publicada em 1972 em Brasília 
                     rdfs:label "Publicação Imprenta"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoRelacionada
+###  https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoRelacionada
 :PublicacaoRelacionada rdf:type owl:Class ;
                        rdfs:subClassOf [ rdf:type owl:Restriction ;
                                          owl:onProperty :hasOriginalPublication ;
@@ -2228,7 +2228,7 @@ Um suplemento consiste em um material adicional que é publicado separadamente, 
                        rdfs:seeAlso "http://purl.org/ontology/bibo/RelatedDocument"^^xsd:anyURI .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoSeriada
+###  https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoSeriada
 :PublicacaoSeriada rdf:type owl:Class ;
                    rdfs:subClassOf :SerialWork ;
                    rdfs:comment """Publicação, em qualquer suporte, editada em partes sucessivas, com conteúdo contínuo, com designação numérica e/ou cronológica e destinada a ser continuada indefinidamente, Exemplos: anais de eventos, séries monográficas, periódicos: revistas, jornais, publicações, anuários, boletins e suplementos independentes e números especiais independentes. [Centro Brasileiro do ISSN - CBISSN].
@@ -2239,7 +2239,7 @@ Exemplo: Ciência da Informação é publicação seriada quadrimestral"""@pt-br
                    rdfs:seeAlso "https://schema.org/Periodical" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Referenciador
+###  https://cobib-ibict.github.io/ontologies/pinakes#Referenciador
 :Referenciador rdf:type owl:Class ;
                rdfs:subClassOf owl:Thing ;
                rdfs:comment "Indica a base de dados, diretório ou sistema em que um periódico está indexado, nacional ou internacionalmente."@pt-br ;
@@ -2247,7 +2247,7 @@ Exemplo: Ciência da Informação é publicação seriada quadrimestral"""@pt-br
                rdfs:label "Referenciador"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao
+###  https://cobib-ibict.github.io/ontologies/pinakes#Regiao
 :Regiao rdf:type owl:Class ;
         rdfs:subClassOf :Lugar ;
         rdfs:comment """Área geográfica delimitada dentro de um país ou território, caracterizada por aspectos administrativos, físicos, culturais ou econômicos, utilizada para identificar a localização de agentes.
@@ -2257,7 +2257,7 @@ Exemplo: Centro Oeste é uma região ou divisão regional onde localiza-se a Bib
         rdfs:label "Região"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Res
+###  https://cobib-ibict.github.io/ontologies/pinakes#Res
 :Res rdf:type owl:Class ;
      rdfs:subClassOf owl:Thing ;
      rdfs:comment """LRM-E1 Res
@@ -2267,7 +2267,7 @@ Res (“coisa” em latim) é a entidade superior do modelo. Res inclui coisas e
      rdfs:label "Res"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#SerialWork
+###  https://cobib-ibict.github.io/ontologies/pinakes#SerialWork
 :SerialWork rdf:type owl:Class ;
             rdfs:subClassOf :Obra ;
             rdfs:comment """F18 Serial Work
@@ -2276,7 +2276,7 @@ Esta classe inclui obras que são, ou foram, planejadas para resultar em sequên
             rdfs:label "Obra Seriada"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TabelaAreaDeConhecimento
+###  https://cobib-ibict.github.io/ontologies/pinakes#TabelaAreaDeConhecimento
 :TabelaAreaDeConhecimento rdf:type owl:Class ;
                           rdfs:subClassOf :Nomen ;
                           rdfs:comment """Fonte oficial que organiza e padroniza os campos disciplinares e científicos utilizados na avaliação de programas de pós-graduação, pesquisas e publicações acadêmicas. Cada entrada na tabela representa uma área do conhecimento, permitindo classificar obras, pesquisas, cursos e programas conforme seu campo de estudo.
@@ -2286,7 +2286,7 @@ A classificação das Áreas do Conhecimento tem finalidade eminentemente práti
                           rdfs:label "Tabela de Área de Conhecimento"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TermoLivre
+###  https://cobib-ibict.github.io/ontologies/pinakes#TermoLivre
 :TermoLivre rdf:type owl:Class ;
             rdfs:subClassOf owl:Thing ;
             rdfs:comment """Diferentemente do Assunto Controlado, que utiliza termos padronizados de um vocabulário predefinido, o Termo Livre permite maior flexibilidade, podendo incluir jargões, abreviações, neologismos e outras expressões que não estão necessariamente presentes em vocabulários controlados.
@@ -2297,7 +2297,7 @@ Exemplo: Inteligência artificial é um termo livre."""@pt-br ;
             rdfs:seeAlso "http://purl.org/ontology/bibo/Term" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TipoDeBiblioteca
+###  https://cobib-ibict.github.io/ontologies/pinakes#TipoDeBiblioteca
 :TipoDeBiblioteca rdf:type owl:Class ;
                   rdfs:subClassOf owl:Thing ;
                   rdfs:comment """Categoria que identifica a natureza institucional e o público atendido de uma biblioteca, permitindo diferenciar bibliotecas públicas, privadas, acadêmicas, setoriais ou especializadas dentro de um sistema ou rede de informação.
@@ -2308,7 +2308,7 @@ Bilioteca central e setorial são categorias de bibliotecas."""@pt-br ;
                   rdfs:label "Tipo de Biblioteca"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TituloComplementar
+###  https://cobib-ibict.github.io/ontologies/pinakes#TituloComplementar
 :TituloComplementar rdf:type owl:Class ;
                     rdfs:subClassOf :Nomen ,
                                     [ rdf:type owl:Restriction ;
@@ -2324,7 +2324,7 @@ Exemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação."""@pt-b
                     rdfs:seeAlso "http://purl.org/ontology/bibo/Subtitle" .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade
+###  https://cobib-ibict.github.io/ontologies/pinakes#Unidade
 :Unidade rdf:type owl:Class ;
          rdfs:subClassOf :AgenteColetivo ,
                          [ rdf:type owl:Restriction ;
@@ -2343,7 +2343,7 @@ Exemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade 
          rdfs:label "Unidade"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa
+###  https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa
 :UnidadeFederativa rdf:type owl:Class ;
                    rdfs:subClassOf :Lugar ,
                                    [ rdf:type owl:Restriction ;
@@ -2368,7 +2368,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
 #    Individuals
 #################################################################
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaConhecimento_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#AreaConhecimento_1
 :AreaConhecimento_1 rdf:type owl:NamedIndividual ,
                              :AreaDeConhecimento ;
                     :hasKnowledgeAreaTable :Tabela_1 ;
@@ -2379,7 +2379,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                     rdfs:label "Ciência da Informação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#AreaConhecimento_8
+###  https://cobib-ibict.github.io/ontologies/pinakes#AreaConhecimento_8
 :AreaConhecimento_8 rdf:type owl:NamedIndividual ,
                              :AreaDeConhecimento ;
                     :isKnowledgeFieldOf :Obra_8 ;
@@ -2388,7 +2388,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                     rdfs:label "Biologia Geral"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoContolado_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#AssuntoContolado_1
 :AssuntoContolado_1 rdf:type owl:NamedIndividual ,
                              :AssuntoControlado ;
                     :assunto "Organização da informação"@pt-br ;
@@ -2398,7 +2398,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                     rdfs:label "Organização da Informação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado_2
 :AssuntoControlado_2 rdf:type owl:NamedIndividual ,
                               :AssuntoControlado ;
                      :nome "Recursos de informação"@pt-br ;
@@ -2407,7 +2407,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                      rdfs:label "Recursos da Informação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#AssuntoControlado_9
+###  https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado_9
 :AssuntoControlado_9 rdf:type owl:NamedIndividual ,
                               :AssuntoControlado ;
                      :assunto "Biologia"@pt-br ;
@@ -2417,7 +2417,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                      rdfs:label "Biologia"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Biblioteca_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Biblioteca_1
 :Biblioteca_1 rdf:type owl:NamedIndividual ,
                        :Biblioteca ;
               :hasAddress :Endereco_1 ;
@@ -2442,7 +2442,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
               rdfs:label "Biblioteca Lydia de Queiroz Sambaquy"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Colecao_1
 :Colecao_1 rdf:type owl:NamedIndividual ,
                     :Colecao ;
            :contains :Obra_1 ;
@@ -2454,7 +2454,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
            rdfs:label "IBICTC/BT"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Colecao_2
 :Colecao_2 rdf:type owl:NamedIndividual ,
                     :Colecao ;
            rdfs:comment "Exemplo de Coleção de periódicos por assunto"@pt-br ;
@@ -2462,7 +2462,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
            rdfs:label "Ciência da informação e Bibliografias"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Colecao_9
+###  https://cobib-ibict.github.io/ontologies/pinakes#Colecao_9
 :Colecao_9 rdf:type owl:NamedIndividual ,
                     :Colecao ;
            :contains :Obra_9 ;
@@ -2471,7 +2471,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
            rdfs:label "Coleção 1975/1995"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Contato_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Contato_1
 :Contato_1 rdf:type owl:NamedIndividual ,
                     :Contato ;
            :isContactOf :Biblioteca_1 ;
@@ -2482,7 +2482,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
            rdfs:label "(61)32176145"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#DataImprenta_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#DataImprenta_1
 :DataImprenta_1 rdf:type owl:NamedIndividual ,
                          :PublicacaoImprenta ;
                 :dataInicialPI "1972"^^xsd:gYear ;
@@ -2491,7 +2491,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                 rdfs:label "Data de imprenta da revista Ciência da Informação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#DataImprenta_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#DataImprenta_2
 :DataImprenta_2 rdf:type owl:NamedIndividual ,
                          :PublicacaoImprenta ;
                 :isPublicationDateOf :Obra_2 ;
@@ -2501,7 +2501,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                 rdfs:label "Data de Imprenta  da Revista a Hora Veterinária"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Editora_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Editora_1
 :Editora_1 rdf:type owl:NamedIndividual ,
                     :Editora ;
            :publisherOf :DataImprenta_1 ;
@@ -2511,7 +2511,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
            rdfs:label "Instituto Brasileiro de Informação em Ciência e Tecnologia"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Editora_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Editora_2
 :Editora_2 rdf:type owl:NamedIndividual ,
                     :Editora ;
            :nome "Centaurus"@pt-br ;
@@ -2520,7 +2520,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
            rdfs:label "Centaurus"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Editora_9
+###  https://cobib-ibict.github.io/ontologies/pinakes#Editora_9
 :Editora_9 rdf:type owl:NamedIndividual ,
                     :Editora ;
            :nome "Staatliches Museum fur Naturkunde"@de ;
@@ -2528,7 +2528,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
            rdfs:label "Editora Staatliches Museum fur Naturkunde"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Endereco_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Endereco_1
 :Endereco_1 rdf:type owl:NamedIndividual ,
                      :Endereco ;
             :isLocatedIn :Localidade_1 ;
@@ -2541,7 +2541,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
             rdfs:label "Logradouro da Biblioteca do Ibict"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Homepage_8
+###  https://cobib-ibict.github.io/ontologies/pinakes#Homepage_8
 :Homepage_8 rdf:type owl:NamedIndividual ,
                      :Homepage ;
             :isHomepageOf :Obra_8 ;
@@ -2550,7 +2550,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
             rdfs:label "Homepage da Obra Integrative Systematics"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#ISSN_1
 :ISSN_1 rdf:type owl:NamedIndividual ,
                  :ISSN ;
         :hasSupport :MeioFisico_1 ;
@@ -2561,7 +2561,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "ISSN: 0100-1965"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#ISSN_2
 :ISSN_2 rdf:type owl:NamedIndividual ,
                  :ISSN ;
         :isISSNOf :Obra_2 ;
@@ -2571,7 +2571,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "ISSN: 0101-9163"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_3
+###  https://cobib-ibict.github.io/ontologies/pinakes#ISSN_3
 :ISSN_3 rdf:type owl:NamedIndividual ,
                  :ISSN ;
         :descricao "0271-5694"@pt-br ;
@@ -2580,7 +2580,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "ISSN: 0271-5694"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_4
+###  https://cobib-ibict.github.io/ontologies/pinakes#ISSN_4
 :ISSN_4 rdf:type owl:NamedIndividual ,
                  :ISSN ;
         :descricao "0096-8471"@pt-br ;
@@ -2588,7 +2588,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "ISSN: 0096-8471"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_5
+###  https://cobib-ibict.github.io/ontologies/pinakes#ISSN_5
 :ISSN_5 rdf:type owl:NamedIndividual ,
                  :ISSN ;
         :hasSupport :MeioFisico_2 ;
@@ -2597,7 +2597,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "ISSN: 1518-8353"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_8
+###  https://cobib-ibict.github.io/ontologies/pinakes#ISSN_8
 :ISSN_8 rdf:type owl:NamedIndividual ,
                  :ISSN ;
         :isISSNOf :Obra_8 ;
@@ -2606,7 +2606,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "ISSN: 2628-2380"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#ISSN_9
+###  https://cobib-ibict.github.io/ontologies/pinakes#ISSN_9
 :ISSN_9 rdf:type owl:NamedIndividual ,
                  :ISSN ;
         :descricao "0341-0145" ;
@@ -2614,7 +2614,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "ISSN: 0341-0145"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Idioma_1
 :Idioma_1 rdf:type owl:NamedIndividual ,
                    :Idioma ;
           :nome "português"@pt-br ;
@@ -2624,7 +2624,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
           rdfs:label "Português-BR"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Idioma_2
 :Idioma_2 rdf:type owl:NamedIndividual ,
                    :Idioma ;
           :nome "inglês"@pt-br ;
@@ -2634,7 +2634,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
           rdfs:label "Inglês"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Idioma_3
+###  https://cobib-ibict.github.io/ontologies/pinakes#Idioma_3
 :Idioma_3 rdf:type owl:NamedIndividual ,
                    :Idioma ;
           :nome "espanhol"@pt-br ;
@@ -2644,7 +2644,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
           rdfs:label "Epanhol"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Instituicao_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Instituicao_1
 :Instituicao_1 rdf:type owl:NamedIndividual ,
                         :Instituicao ;
                :hasInstituitionAddress :Endereco_1 ;
@@ -2656,7 +2656,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                rdfs:label "Ibict"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Localidade_1
 :Localidade_1 rdf:type owl:NamedIndividual ,
                        :Localidade ;
               :hasFederativeUnit :UnidadeFederativa_1 ;
@@ -2669,7 +2669,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
               rdfs:label "Brasília"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Localidade_2
 :Localidade_2 rdf:type owl:NamedIndividual ,
                        :Localidade ;
               :nome "Rio de janeiro"@pt-br ;
@@ -2678,7 +2678,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
               rdfs:label "Rio de janeiro"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Localidade_3
+###  https://cobib-ibict.github.io/ontologies/pinakes#Localidade_3
 :Localidade_3 rdf:type owl:NamedIndividual ,
                        :Localidade ;
               :nome "São Paulo"@pt-br ;
@@ -2687,7 +2687,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
               rdfs:label "São Paulo"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#MeioFisico_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#MeioFisico_1
 :MeioFisico_1 rdf:type owl:NamedIndividual ,
                        :MeioFisico ;
               :isSupportOf :ISSN_2 ;
@@ -2697,7 +2697,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
               rdfs:label "Impresso"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#MeioFisico_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#MeioFisico_2
 :MeioFisico_2 rdf:type owl:NamedIndividual ,
                        :MeioFisico ;
               :nome "Online (Eletrônico)"@pt-br ;
@@ -2705,7 +2705,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
               rdfs:label "Online (Eletrônico)"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#NaturezaAdministrativa_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#NaturezaAdministrativa_1
 :NaturezaAdministrativa_1 rdf:type owl:NamedIndividual ,
                                    :NaturezaAdministrativa ;
                           :isAdminNatureOf :Instituicao_1 ;
@@ -2715,7 +2715,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                           rdfs:label "Pública"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#NaturezaAdministrativa_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#NaturezaAdministrativa_2
 :NaturezaAdministrativa_2 rdf:type owl:NamedIndividual ,
                                    :NaturezaAdministrativa ;
                           :nome "Privada"@pt-br ;
@@ -2724,7 +2724,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                           rdfs:label "Privada"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Nota_1
 :Nota_1 rdf:type owl:NamedIndividual ,
                  :Nota ;
         :notasGerais """Disponível online, em texto integral de 1995
@@ -2733,7 +2733,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Nota Geral da Revista Ciência da Informação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Nota_2
 :Nota_2 rdf:type owl:NamedIndividual ,
                  :Nota ;
         :notaDeSuplemento "Tem suplemento: Wines & Vines Annual Directory (ISSN 0084-0351)."@pt-br ;
@@ -2741,7 +2741,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Nota de Suplemento da Obra Wines & Vines Yearbook of the Wine Industry"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota_3
+###  https://cobib-ibict.github.io/ontologies/pinakes#Nota_3
 :Nota_3 rdf:type owl:NamedIndividual ,
                  :Nota ;
         :notasGerais "Publicação impressa suspensa"@pt-br ;
@@ -2750,7 +2750,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Nota geral da revista BIB"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota_4
+###  https://cobib-ibict.github.io/ontologies/pinakes#Nota_4
 :Nota_4 rdf:type owl:NamedIndividual ,
                  :Nota ;
         :notaDeComplexidade "Absorveu: Wine East (ISSN 0892-662X)."@pt-br ;
@@ -2758,7 +2758,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Nota de Complexidade da Obra Wines Review"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Nota_9
+###  https://cobib-ibict.github.io/ontologies/pinakes#Nota_9
 :Nota_9 rdf:type owl:NamedIndividual ,
                  :Nota ;
         :notasGerais "Continuado por: Integrative Systematics [ISSN 2628-2380]"@pt-br ;
@@ -2766,7 +2766,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Nota geral da série Stuttgarter Beitrage zur Naturkunde"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_1
 :Obra_1 rdf:type owl:NamedIndividual ,
                  :PublicacaoSeriada ;
         :hasControlledSubject :AssuntoContolado_1 ,
@@ -2809,7 +2809,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Ciência da Informação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_2
 :Obra_2 rdf:type owl:NamedIndividual ,
                  :PublicacaoSeriada ;
         :hasISSN :ISSN_2 ;
@@ -2819,7 +2819,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "A hora veterinária"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_3
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_3
 :Obra_3 rdf:type owl:NamedIndividual ,
                  :PublicacaoSeriada ;
         :hasISSN :ISSN_3 ;
@@ -2829,7 +2829,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Obra: Wines & Vines Yearbook of the Wine Industry"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_4
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_4
 :Obra_4 rdf:type owl:NamedIndividual ,
                  :PublicacaoSeriada ;
         :hasISSN :ISSN_4 ;
@@ -2839,7 +2839,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Obra: Wine Review (Los Angeles)"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_5
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_5
 :Obra_5 rdf:type owl:NamedIndividual ,
                  :PublicacaoSeriada ;
         :hasISSN :ISSN_5 ;
@@ -2848,7 +2848,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Bibliografia Brasileira de Documentação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_6
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_6
 :Obra_6 rdf:type owl:NamedIndividual ,
                  :PublicacaoSeriada ;
         :hasNote :Nota_3 ;
@@ -2858,7 +2858,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "BIB"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_7
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_7
 :Obra_7 rdf:type owl:NamedIndividual ,
                  :Obra ;
         :tituloProprio "Eine Kleine Nachtmusik"@de ;
@@ -2866,7 +2866,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Obra: Eine kleine Nachtmusik"@de .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_8
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_8
 :Obra_8 rdf:type owl:NamedIndividual ,
                  :PublicacaoSeriada ;
         :hasPublicationLanguage :Idioma_2 ;
@@ -2891,7 +2891,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Obra: Integrative Systematics"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Obra_9
+###  https://cobib-ibict.github.io/ontologies/pinakes#Obra_9
 :Obra_9 rdf:type owl:NamedIndividual ,
                  :PublicacaoSeriada ;
         :hasControlledSubject :AssuntoControlado_9 ;
@@ -2915,7 +2915,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Série  A: Stuttgarter Beitrage zur Naturkunde"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Pais_1
 :Pais_1 rdf:type owl:NamedIndividual ,
                  :Pais ;
         :hasCity :Localidade_1 ;
@@ -2928,7 +2928,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Brasil (BR)"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Pais_2
 :Pais_2 rdf:type owl:NamedIndividual ,
                  :Pais ;
         :codigoIso "DEU" ;
@@ -2938,7 +2938,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Alemanha"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Pais_3
+###  https://cobib-ibict.github.io/ontologies/pinakes#Pais_3
 :Pais_3 rdf:type owl:NamedIndividual ,
                  :Pais ;
         :nome "Estados Unidos da América"@pt-br ;
@@ -2947,7 +2947,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         rdfs:label "Estados Unidos (USA)"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoRelacionada_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoRelacionada_1
 :PublicacaoRelacionada_1 rdf:type owl:NamedIndividual ,
                                   :PublicacaoRelacionada ;
                          :hasOriginalPublication :Obra_1 ;
@@ -2957,7 +2957,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                          rdfs:label "Relação de continuidade da revista Ciência da Informação"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#PublicacaoRelacionada_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoRelacionada_2
 :PublicacaoRelacionada_2 rdf:type owl:NamedIndividual ,
                                   :PublicacaoRelacionada ;
                          :hasOriginalPublication :Obra_9 ;
@@ -2967,7 +2967,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                          rdfs:label "Relação de continuidade da obra Stuttgarter Beitrage zur Naturkunde"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Referenciador_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Referenciador_1
 :Referenciador_1 rdf:type owl:NamedIndividual ,
                           :Referenciador ;
                  :nome "Library & information science abstracts"@en ;
@@ -2976,7 +2976,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                  rdfs:label "Indexador: Library & information science abstracts"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Referenciador_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Referenciador_2
 :Referenciador_2 rdf:type owl:NamedIndividual ,
                           :Referenciador ;
                  :nome "Information science abstracts"@en ;
@@ -2985,7 +2985,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                  rdfs:label "Indexador: Information science abstracts"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Referenciador_8
+###  https://cobib-ibict.github.io/ontologies/pinakes#Referenciador_8
 :Referenciador_8 rdf:type owl:NamedIndividual ,
                           :Referenciador ;
                  :isIndexOf :Obra_8 ;
@@ -2995,7 +2995,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                  rdfs:label "Indexador: WIKIDATA"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Regiao_1
 :Regiao_1 rdf:type owl:NamedIndividual ,
                    :Regiao ;
           :isRegionOf :UnidadeFederativa_1 ;
@@ -3005,7 +3005,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
           rdfs:label "Região Centro-Oeste"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Regiao_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Regiao_2
 :Regiao_2 rdf:type owl:NamedIndividual ,
                    :Regiao ;
           :nome "Sudeste"@pt-br ;
@@ -3013,7 +3013,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
           rdfs:label "Região Sudeste"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Tabela_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Tabela_1
 :Tabela_1 rdf:type owl:NamedIndividual ,
                    :TabelaAreaDeConhecimento ;
           :nome "Tabela de Áreas de Conhecimento/Avaliação - CAPES"@pt-br ;
@@ -3022,7 +3022,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
           rdfs:label "Tabela CAPES"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Tabela_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Tabela_2
 :Tabela_2 rdf:type owl:NamedIndividual ,
                    :TabelaAreaDeConhecimento ;
           :nome "Tabela de áreas do conhecimento CNPq (ou  Conselho Nacional de Desenvolvimento Científico e Tecnológico)."@pt-br ;
@@ -3031,7 +3031,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
           rdfs:label "Tabela  CNPq"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TermoLivre_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#TermoLivre_1
 :TermoLivre_1 rdf:type owl:NamedIndividual ,
                        :TermoLivre ;
               :nome "CI"@pt-br ;
@@ -3040,7 +3040,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
               rdfs:label "Termo Livre: CI"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TermoLivre_8
+###  https://cobib-ibict.github.io/ontologies/pinakes#TermoLivre_8
 :TermoLivre_8 rdf:type owl:NamedIndividual ,
                        :TermoLivre ;
               :isFreeTermOf :Obra_8 ;
@@ -3049,7 +3049,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
               rdfs:label "Termo livre: Biologia"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TipoBiblioteca_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#TipoBiblioteca_1
 :TipoBiblioteca_1 rdf:type owl:NamedIndividual ,
                            :TipoDeBiblioteca ;
                   :nome "Biblioteca Setorial"@pt-br ;
@@ -3057,7 +3057,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                   rdfs:label "Biblioteca setorial"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TipoBiblioteca_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#TipoBiblioteca_2
 :TipoBiblioteca_2 rdf:type owl:NamedIndividual ,
                            :TipoDeBiblioteca ;
                   :nome "Biblioteca Especializada"@pt-br ;
@@ -3065,7 +3065,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                   rdfs:label "Biblioteca especializada"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TituloComplementar_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#TituloComplementar_1
 :TituloComplementar_1 rdf:type owl:NamedIndividual ,
                                :TituloComplementar ;
                       :isTitleComplementOf :Obra_1 ;
@@ -3076,7 +3076,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                       rdfs:label "Ciênc._Inf."@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#TituloComplementar_9
+###  https://cobib-ibict.github.io/ontologies/pinakes#TituloComplementar_9
 :TituloComplementar_9 rdf:type owl:NamedIndividual ,
                                :TituloComplementar ;
                       :nome "Stuttg. Beitr. Nat.kd., A Biol."@pt-br ;
@@ -3086,7 +3086,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                       rdfs:label "Stuttg. Beitr. Nat.kd., A Biol."@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_1
 :UnidadeFederativa_1 rdf:type owl:NamedIndividual ,
                               :UnidadeFederativa ;
                      :hasCountry :Pais_1 ;
@@ -3099,7 +3099,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                      rdfs:label "Distrito Federal"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_2
 :UnidadeFederativa_2 rdf:type owl:NamedIndividual ,
                               :UnidadeFederativa ;
                      :nome "Rio de Janeiro"@pt-br ;
@@ -3109,7 +3109,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                      rdfs:label "Rio de janeiro"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#UnidadeFederativa_3
+###  https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_3
 :UnidadeFederativa_3 rdf:type owl:NamedIndividual ,
                               :UnidadeFederativa ;
                      :nome "São Paulo"@pt-br ;
@@ -3119,7 +3119,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
                      rdfs:label "São Paulo"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade_1
+###  https://cobib-ibict.github.io/ontologies/pinakes#Unidade_1
 :Unidade_1 rdf:type owl:NamedIndividual ,
                     :Unidade ;
            :nome "Coordenação de Serviços Bibliográficos"@pt-br ;
@@ -3129,7 +3129,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
            rdfs:label "COBIB"@pt-br .
 
 
-###  https://cobib-ibict.github.io/ontologies/pinakes.rdf#Unidade_2
+###  https://cobib-ibict.github.io/ontologies/pinakes#Unidade_2
 :Unidade_2 rdf:type owl:NamedIndividual ,
                     :Unidade ;
            :nome "Instituto Brasileiro em Ciência e Tecnologia"@pt-br ;
