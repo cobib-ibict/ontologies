@@ -482,7 +482,7 @@ Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais 
         <owl:inverseOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isInstituicaoOf"/>
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Unidade"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"/>
-        <rdfs:comment>Propriedade que vincula Unidades e Instituições.</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">Propriedade que vincula Unidades e Instituições.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasInstituition"/>
         <rdfs:label xml:lang="pt-br">tem Instituição</rdfs:label>
     </owl:ObjectProperty>
