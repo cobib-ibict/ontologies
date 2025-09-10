@@ -1763,7 +1763,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
         <rdfs:comment xml:lang="pt-br">Indica a palavra-chave atribuída à obra a partir de um vocabulário controlado, tesauro ou lista padronizada que representa o conteúdo.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#assunto"/>
         <rdfs:label xml:lang="pt-br">assunto</rdfs:label>
-        <rdfs:seeAlso>http://purl.org/dc/elements/1.1/subject</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://purl.org/dc/elements/1.1/subject"/>
     </owl:DatatypeProperty>
 
 
@@ -1944,7 +1944,7 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
         <rdfs:comment xml:lang="pt-br">Indica o código International Standard Serial Number (ISSN) atribuído à publicação seriada, expresso no formato numérico padrão.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#descricao"/>
         <rdfs:label xml:lang="pt-br">descrição do ISSN</rdfs:label>
-        <rdfs:seeAlso>http://purl.org/ontology/bibo/issn</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://purl.org/ontology/bibo/issn"/>
     </owl:DatatypeProperty>
 
 
@@ -2551,7 +2551,7 @@ Exemplo: A Lydia de Queiroz Sambaquy é Biblioteca do Instituto Brasileiro em Ci
         <rdfs:comment xml:lang="pt-br">Um grupo de recursos reunidos por um agente a partir de diversas fontes. [Source: Resource Description and Access - RDA].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Colecao"/>
         <rdfs:label xml:lang="pt-br">Coleção</rdfs:label>
-        <rdfs:seeAlso>http://purl.org/spar/fabio/ItemCollection</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://purl.org/spar/fabio/ItemCollection"/>
     </owl:Class>
 
 
@@ -2617,7 +2617,7 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está l
 Uma combinação específica de sinais que transmitem conteúdo intelectual ou artístico.  Uma expressão é uma combinação específica de sinais de qualquer forma ou natureza (incluindo sinais visuais, auditivos ou gestuais) destinada a transmitir conteúdo intelectual ou artístico e identificável como tal. O termo “sinal” é entendido aqui tal qual o significado utilizado na semiótica. Uma expressão é uma entidade abstrata distinta dos suportes utilizados para gravá-la. Uma expressão é a forma intelectual ou artística específica que uma obra adquire cada vez que é “realizada”. A expressão abrange, por exemplo, as palavras específicas, as sentenças, os parágrafos etc., que resultam da realização de uma obra na forma de um texto, ou sons particulares, fraseados etc., resultantes da realização de uma obra musical. Os limites da entidade expressão são definidos, entretanto, para excluir aspectos incidentais do formato físico, tais como o tipo de letra e layout da página para um texto, a não ser que, devido à natureza da obra, eles sejam parte integrante da realização intelectual ou artística da obra como tal. Uma expressão adquire existência simultaneamente com a criação da sua primeira manifestação, nenhuma expressão pode existir sem haver (ou ter havido em algum momento passado) pelo menos uma manifestação. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Expressao"/>
         <rdfs:label xml:lang="pt-br">Expressão</rdfs:label>
-        <rdfs:seeAlso>http://purl.org/spar/fabio/Expression</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://purl.org/spar/fabio/Expression"/>
     </owl:Class>
 
 
@@ -2636,7 +2636,7 @@ Uma combinação específica de sinais que transmitem conteúdo intelectual ou a
         <rdfs:comment xml:lang="pt-br">Representa o endereço eletrônico (URL) de um recurso digital ou entidade. Corresponde à página principal de um site, fornecendo informações gerais sobre o recurso ou entidade associada [Fonte: Schema.org, 2025].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Homepage"/>
         <rdfs:label xml:lang="pt-br">Homepage</rdfs:label>
-        <rdfs:seeAlso>https://schema.org/WebPage</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="https://schema.org/WebPage"/>
     </owl:Class>
 
 
@@ -2736,7 +2736,7 @@ Em termos de conteúdo intelectual ou artístico e forma física, um item exempl
 Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Localidade"/>
         <rdfs:label xml:lang="pt-br">Localidade</rdfs:label>
-        <rdfs:seeAlso>http://www.geonames.org/ontology#City</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://www.geonames.org/ontology#City"/>
     </owl:Class>
 
 
@@ -2749,7 +2749,7 @@ Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sa
 Uma extensão de espaço determinada. A entidade lugar, relevante em um contexto bibliográfico, é uma construção cultural; é a identificação humana de uma área geográfica ou extensão do espaço. Lugares são geralmente identificados por meio de um objeto físico (uma característica geográfica ou um objeto feito pelo homem) ou devido à sua relevância em relação a um determinado agente (entidades geopolíticas como países, cidades) ou como a localização de um evento. O lugar como uma extensão do espaço é diferente dos órgãos governamentais que exercem a jurisdição nesse território. O governo responsável por um território é um agente coletivo. Lugares podem ser contemporâneos ou históricos, terrestres ou extraterrestres. Lugares imaginários, lendários ou fictícios não são instâncias da entidade lugar. Um lugar pode ter limites difusos. Os limites de um lugar podem mudar com o tempo (como uma cidade que incorpora subúrbios adjacentes) sem alterar a identidade do lugar para fins bibliográficos. Como pode ser um quadro de referência móvel, a entidade lugar não é necessariamente identificada apenas por suas coordenadas geoespaciais. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Lugar"/>
         <rdfs:label xml:lang="pt-br">Lugar</rdfs:label>
-        <rdfs:seeAlso>http://purl.org/vocab/frbr/core#Place</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     </owl:Class>
 
 
@@ -2871,7 +2871,7 @@ temático por si só não é suficiente para agrupar expressões como realizaç�
 Exemplo: O Brasil é país ou território geográfico onde uma Publicação seriada foi publicada.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Pais"/>
         <rdfs:label xml:lang="pt-br">País</rdfs:label>
-        <rdfs:seeAlso>http://www.geonames.org/ontology#Country</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://www.geonames.org/ontology#Country"/>
     </owl:Class>
 
 
@@ -2944,7 +2944,7 @@ Exemplo:  A revista Ciência da Informação foi publicada em 1972 em Brasília 
 Um suplemento consiste em um material adicional que é publicado separadamente, mas que está relacionado a outro documento principal, popularmente chamado de encarte. No caso de publicações seriadas, o suplemento pode fornecer informações complementares ou estendidas ao conteúdo principal. Para recursos contínuos, como periódicos, os suplementos podem conter edições especiais ou materiais adicionais relacionados ao tema da publicação. [Fonte: Centro Brasileiro do ISSN - CBISSN].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoRelacionada"/>
         <rdfs:label xml:lang="pt-br">Publicação Relacionada</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/ontology/bibo/RelatedDocument</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://purl.org/ontology/bibo/RelatedDocument"/>
     </owl:Class>
 
 
@@ -2958,7 +2958,7 @@ Um suplemento consiste em um material adicional que é publicado separadamente, 
 Exemplo: Ciência da Informação é publicação seriada quadrimestral</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoSeriada"/>
         <rdfs:label xml:lang="pt-br">Publicação Seriada</rdfs:label>
-        <rdfs:seeAlso>https://schema.org/Periodical</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="https://schema.org/Periodical"/>
     </owl:Class>
 
 
@@ -3034,7 +3034,7 @@ A classificação das Áreas do Conhecimento tem finalidade eminentemente práti
 Exemplo: Inteligência artificial é um termo livre.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#TermoLivre"/>
         <rdfs:label xml:lang="pt-br">Termo Livre</rdfs:label>
-        <rdfs:seeAlso>http://purl.org/ontology/bibo/Term</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://purl.org/ontology/bibo/Term"/>
     </owl:Class>
 
 
@@ -3069,7 +3069,7 @@ Bilioteca central e setorial são categorias de bibliotecas.</rdfs:comment>
 Exemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#TituloComplementar"/>
         <rdfs:label xml:lang="pt-br">Título Complementar</rdfs:label>
-        <rdfs:seeAlso>http://purl.org/ontology/bibo/Subtitle</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://purl.org/ontology/bibo/Subtitle"/>
     </owl:Class>
 
 
@@ -3123,7 +3123,7 @@ Exemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade 
 Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa"/>
         <rdfs:label xml:lang="pt-br">Unidade Federativa</rdfs:label>
-        <rdfs:seeAlso>http://www.geonames.org/ontology#A.ADM1</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="http://www.geonames.org/ontology#A.ADM1"/>
     </owl:Class>
 
 
