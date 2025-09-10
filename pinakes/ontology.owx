@@ -7,59 +7,49 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://cobib-ibict.github.io/ontologies/pinakes">
     <Prefix name="" IRI="https://cobib-ibict.github.io/ontologies/pinakes#"/>
-    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
-    <Prefix name="gn" IRI="http://www.geonames.org/ontology#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="bibo" IRI="http://purl.org/ontology/bibo/"/>
-    <Prefix name="doap" IRI="http://usefulinc.com/ns/doap#"/>
-    <Prefix name="lgdo" IRI="http://linkedgeodata.org/ontology/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="cerif" IRI="http://www.eurocris.org/ontologies/cerif/1.3#"/>
-    <Prefix name="fabio" IRI="http://purl.org/spar/fabio"/>
-    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
-    <Prefix name="schema" IRI="https://schema.org/"/>
-    <Prefix name="pinakes" IRI="https://cobib-ibict.github.io/ontologies/pinakes#"/>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:rights"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">CC BY 4.0</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
         <Literal xml:lang="pt-br">Ontologia Pinakes</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
         <Literal xml:lang="en">Pinakes Ontology</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
         <Literal xml:lang="pt-br">Pinakes - COBIB (Ibict)</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
         <Literal xml:lang="pt-br">Desenvolvida a partir dos modelos LRM e PRESSoo para representar, de forma estruturada, os conceitos e as relações do domínio dos serviços bibliográficos (ex, CCN e Bibliodata), modelando descrições de recursos, eventos e vínculos entre entidades usados no acesso à informação bibliográfica.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
         <Literal xml:lang="en">Developed based on the LRM and PRESSoo models to structurally represent the concepts and relationships in the domain of bibliographic services (e.g., CCN and Bibliodata), modeling descriptions of resources, events, and links between entities used in bibliographic information access.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
         <IRI>https://creativecommons.org/licenses/by/4.0</IRI>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:publisher"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/publisher"/>
         <IRI>https://pinakes.ibict.br</IRI>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="doap:bug-database"/>
+        <AnnotationProperty IRI="http://usefulinc.com/ns/doap#bug-database"/>
         <IRI>https://github.com/cobib-ibict/ontologies/issues</IRI>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="doap:repository"/>
+        <AnnotationProperty IRI="http://usefulinc.com/ns/doap#repository"/>
         <IRI>https://github.com/cobib-ibict/ontologies</IRI>
     </Annotation>
     <Annotation>
@@ -544,7 +534,7 @@
         <ObjectProperty IRI="#publisherOf"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="terms:issued"/>
+        <DataProperty IRI="http://purl.org/dc/terms/issued"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Responsavel"/>
@@ -937,28 +927,28 @@
         <NamedIndividual IRI="https://revista.ibict.br/Homepage_1"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:rights"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:publisher"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/publisher"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="doap:bug-database"/>
+        <AnnotationProperty IRI="http://usefulinc.com/ns/doap#bug-database"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="doap:repository"/>
+        <AnnotationProperty IRI="http://usefulinc.com/ns/doap#repository"/>
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:gYear"/>
@@ -2726,7 +2716,7 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#alfabetacao"/>
-        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <AnonymousIndividual nodeID="_:genid2147483686"/>
         <Literal xml:lang="pt-br"></Literal>
     </DataPropertyAssertion>
     <InverseObjectProperties>
@@ -3920,11 +3910,11 @@
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#anoFinal"/>
-        <DataProperty abbreviatedIRI="terms:issued"/>
+        <DataProperty IRI="http://purl.org/dc/terms/issued"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#anoInicial"/>
-        <DataProperty abbreviatedIRI="terms:issued"/>
+        <DataProperty IRI="http://purl.org/dc/terms/issued"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#edicao"/>
@@ -3939,7 +3929,7 @@
         <DataProperty IRI="#designacaoNumerica"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="terms:issued"/>
+        <DataProperty IRI="http://purl.org/dc/terms/issued"/>
         <Class IRI="#Obra"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -4171,7 +4161,7 @@
         <Class IRI="#Obra"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="terms:issued"/>
+        <DataProperty IRI="http://purl.org/dc/terms/issued"/>
         <Datatype abbreviatedIRI="xsd:gYear"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -4400,17 +4390,17 @@
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>terms:issued</AbbreviatedIRI>
+        <IRI>http://purl.org/dc/terms/issued</IRI>
         <Literal xml:lang="pt-br">Data formal de publicação da obra, representada como ano.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <AbbreviatedIRI>terms:issued</AbbreviatedIRI>
-        <AbbreviatedIRI>terms:issued</AbbreviatedIRI>
+        <IRI>http://purl.org/dc/terms/issued</IRI>
+        <IRI>http://purl.org/dc/terms/issued</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>terms:issued</AbbreviatedIRI>
+        <IRI>http://purl.org/dc/terms/issued</IRI>
         <Literal xml:lang="pt-br">ano de publicação</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -5069,7 +5059,7 @@ Em termos de conteúdo intelectual ou artístico e forma física, um item exempl
         <IRI>#Localidade</IRI>
         <Literal xml:lang="pt-br">Lugar físico identificado por endereço ou coordenada geográfica, associado a agentes para indicar sua localização ou a informações de imprenta para designar o local de publicação.
 
-Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy.</Literal>
+Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
@@ -5089,7 +5079,7 @@ Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sa
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Localidade_1</IRI>
-        <Literal xml:lang="pt-br">Cidade pertencente ao Distrtrito Federal, onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy.</Literal>
+        <Literal xml:lang="pt-br">Cidade pertencente ao Distrtrito Federal, onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
@@ -5712,7 +5702,7 @@ Exemplo: Ciência da Informação é publicação seriada quadrimestral</Literal
         <IRI>#Regiao</IRI>
         <Literal xml:lang="pt-br">Área geográfica delimitada dentro de um país ou território, caracterizada por aspectos administrativos, físicos, culturais ou econômicos, utilizada para identificar a localização de agentes.
 
-Exemplo: Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy.</Literal>
+Exemplo: Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
@@ -5986,7 +5976,7 @@ Exemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação.</Litera
         <IRI>#Unidade</IRI>
         <Literal xml:lang="pt-br">Entidade administrativa ou organizacional que integra uma instituição maior, possuindo identidade própria, funções definidas e, geralmente, autonomia parcial para executar atividades relacionadas à gestão de recursos, serviços ou informações.
 
-Exemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy.</Literal>
+Exemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
@@ -6003,7 +5993,7 @@ Exemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade 
         <IRI>#UnidadeFederativa</IRI>
         <Literal xml:lang="pt-br">Divisão político-administrativa do Brasil, correspondente a um estado, distrito federal ou território, que possui governo próprio e representação constitucional, permitindo identificar a localização geográfica e administrativa de agentes.
 
-Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy.</Literal>
+Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>

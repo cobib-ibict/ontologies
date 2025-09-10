@@ -2,20 +2,13 @@
 <rdf:RDF xmlns="https://cobib-ibict.github.io/ontologies/pinakes#"
      xml:base="https://cobib-ibict.github.io/ontologies/pinakes"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:gn="http://www.geonames.org/ontology#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:lgdo="http://linkedgeodata.org/ontology/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:cerif="http://www.eurocris.org/ontologies/cerif/1.3#"
-     xmlns:fabio="http://purl.org/spar/fabio"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:schema="https://schema.org/"
-     xmlns:pinakes="https://cobib-ibict.github.io/ontologies/pinakes#">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://cobib-ibict.github.io/ontologies/pinakes">
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">CC BY 4.0</dc:rights>
         <dc:title xml:lang="pt-br">Ontologia Pinakes</dc:title>
@@ -1241,7 +1234,7 @@ Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu 
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Unidade"/>
         <rdfs:comment xml:lang="pt-br">Vincula Instituições e Unidades.</rdfs:comment>
-        <rdfs:comment xml:lang="pt-br">é Institção de</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">é Instituição de</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isInstituicaoOf"/>
     </owl:ObjectProperty>
 
@@ -2740,7 +2733,7 @@ Em termos de conteúdo intelectual ou artístico e forma física, um item exempl
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt-br">Lugar físico identificado por endereço ou coordenada geográfica, associado a agentes para indicar sua localização ou a informações de imprenta para designar o local de publicação.
 
-Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy.</rdfs:comment>
+Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Localidade"/>
         <rdfs:label xml:lang="pt-br">Localidade</rdfs:label>
         <rdfs:seeAlso>http://www.geonames.org/ontology#City</rdfs:seeAlso>
@@ -2987,7 +2980,7 @@ Exemplo: Ciência da Informação é publicação seriada quadrimestral</rdfs:co
         <rdfs:subClassOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Lugar"/>
         <rdfs:comment xml:lang="pt-br">Área geográfica delimitada dentro de um país ou território, caracterizada por aspectos administrativos, físicos, culturais ou econômicos, utilizada para identificar a localização de agentes.
 
-Exemplo: Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy.</rdfs:comment>
+Exemplo: Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Regiao"/>
         <rdfs:label xml:lang="pt-br">Região</rdfs:label>
     </owl:Class>
@@ -3100,7 +3093,7 @@ Exemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação.</rdfs:c
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt-br">Entidade administrativa ou organizacional que integra uma instituição maior, possuindo identidade própria, funções definidas e, geralmente, autonomia parcial para executar atividades relacionadas à gestão de recursos, serviços ou informações.
 
-Exemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy.</rdfs:comment>
+Exemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Unidade"/>
         <rdfs:label xml:lang="pt-br">Unidade</rdfs:label>
     </owl:Class>
@@ -3127,7 +3120,7 @@ Exemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade 
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt-br">Divisão político-administrativa do Brasil, correspondente a um estado, distrito federal ou território, que possui governo próprio e representação constitucional, permitindo identificar a localização geográfica e administrativa de agentes.
 
-Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy.</rdfs:comment>
+Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa"/>
         <rdfs:label xml:lang="pt-br">Unidade Federativa</rdfs:label>
         <rdfs:seeAlso>http://www.geonames.org/ontology#A.ADM1</rdfs:seeAlso>
@@ -3527,7 +3520,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         <isLocalityOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Endereco_1"/>
         <isPlacePublicationOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#DataImprenta_1"/>
         <nome xml:lang="pt-br">Brasília</nome>
-        <rdfs:comment xml:lang="pt-br">Cidade pertencente ao Distrtrito Federal, onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy.</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">Cidade pertencente ao Distrtrito Federal, onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Localidade_1"/>
         <rdfs:label xml:lang="pt-br">Brasília</rdfs:label>
     </owl:NamedIndividual>
