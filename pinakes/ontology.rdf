@@ -21,7 +21,6 @@
         <doap:bug-database rdf:resource="https://github.com/cobib-ibict/ontologies/issues"/>
         <doap:repository rdf:resource="https://github.com/cobib-ibict/ontologies"/>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">https://cobib-ibict.github.io/ontologies/pinakes</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Ontologia Pinakes</rdfs:label>
         <owl:versionInfo xml:lang="pt-br">1.0</owl:versionInfo>
     </owl:Ontology>
@@ -127,7 +126,6 @@ Este relacionamento vincula um agente com um determinado nomen que foi atribuíd
 Por exemplo, a agência ISBN atribuiu ‘0-553-10953-7’ para a publicação de
 1998 de A Brief history of time, de Stephen Hawking.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#assigned"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Este relacionamento vincula um agente com um determinado nomen que foi atribuído por tal agente.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">atribuiu</rdfs:label>
     </owl:ObjectProperty>
 
@@ -144,7 +142,6 @@ Este é o relacionamento entre duas obras que são independentes, mas que també
 
 Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-2127’ é acompanhamento de / é complemento de periódico Applied Economics Quarterly  (ISSN 1611-6607).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#complements"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Este é o relacionamento entre duas obras que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou companhamento.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">acompanha</rdfs:label>
     </owl:ObjectProperty>
 
@@ -158,7 +155,6 @@ Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-212
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoSeriada"/>
         <rdfs:comment xml:lang="pt-br">Indica a relação inversa onde uma Coleção contém uma Publicação Seriada.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#contains"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esta propriedade conecta uma entidade com a entidade que ela contém.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">contém</rdfs:label>
     </owl:ObjectProperty>
 
@@ -173,7 +169,6 @@ Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-212
         <rdfs:comment xml:lang="pt-br">criou expressão [LRM-R6i]
 Indica a relaçãoem que um Agente criou uma expressão, como uma obra de arte, um texto, uma música, etc. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#createdExpressao"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esta propriedade conecta um Agente entidade com a expressão que foi criada por ela.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">criou Expressão</rdfs:label>
     </owl:ObjectProperty>
 
@@ -188,7 +183,6 @@ Indica a relaçãoem que um Agente criou uma expressão, como uma obra de arte, 
         <rdfs:comment xml:lang="pt-br">criou Manifestação [LRM-R7i]
 Indica a relação em que uma entidade criou uma manifestação, como uma edição física de um livro, uma exibição de arte, etc. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#createdManifestacao"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esta propriedade conecta um Agente com a manifestação que foi criada por ele.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">criou Manifestação</rdfs:label>
     </owl:ObjectProperty>
 
@@ -203,7 +197,6 @@ Indica a relação em que uma entidade criou uma manifestação, como uma ediç�
         <rdfs:comment xml:lang="pt-br">criou [LRM-R5i]
 Indica a relação em que um Agente criou uma Obra, como um livro, uma pintura, uma composição musical, etc. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#createdObra"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esta propriedade conecta um Agente com a Obra que foi criada por ele.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">criou Obra</rdfs:label>
     </owl:ObjectProperty>
 
@@ -218,7 +211,6 @@ Indica a relação em que um Agente criou uma Obra, como um livro, uma pintura, 
         <rdfs:comment xml:lang="pt-br">distribuiu [LRM-R9i]
 Indica a relação inversa em que um agente distribui manifestação. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#distributes"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esta propriedade conecta um Agente com a manifestação distribuida.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">distribuiu</rdfs:label>
     </owl:ObjectProperty>
 
@@ -233,7 +225,6 @@ Indica a relação inversa em que um agente distribui manifestação. [Fonte: IF
         <rdfs:comment xml:lang="pt-br">[LRM-R4i]
 Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#exemplifies"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Indica a relação em que um Item exemplifica ou representa uma Manifestação específica.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">exemplifica</rdfs:label>
     </owl:ObjectProperty>
 
@@ -247,7 +238,6 @@ Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fo
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Endereco"/>
         <rdfs:comment xml:lang="pt-br">Localiza uma Biblioteca a um endereço postal ou coordenadas geográficas.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasAddress"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esta propriedade conecta uma entidade com o endereço que ela possui.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem endereço</rdfs:label>
     </owl:ObjectProperty>
 
@@ -261,7 +251,6 @@ Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fo
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#NaturezaAdministrativa"/>
         <rdfs:comment xml:lang="pt-br">Essa propriedade é usada para relacionar uma instituição a um tipo específico de natureza administrativa que ela possui.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasAdminNature"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Refere-se à associação de uma instituição a uma categoria de natureza administrativa, indicando o tipo de administração que caracteriza a instituição.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem natureza administrativa</rdfs:label>
     </owl:ObjectProperty>
 
@@ -275,7 +264,6 @@ Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fo
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"/>
         <rdfs:comment xml:lang="pt-br">Relaciona obrigatoriamente pelo menos uma biblioteca a uma instituição.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasAffiliation"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Refere-se à associação de uma biblioteca ou sistema de bibliotecas com uma instituição específica, indicando que a biblioteca faz parte ou é afiliada a essa instituição.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem filiação</rdfs:label>
     </owl:ObjectProperty>
 
@@ -287,10 +275,10 @@ Esta propriedade conecta um Item com a Manifestação exemplificada por ele. [Fo
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"/>
-        <rdfs:comment xml:lang="pt-br">Os casos típicos são quando uma publicação, gravação de som, vídeo entre outros são publicados em mais de um formato ou quando é lançada simultaneamente por diferentes editores, em diferentes países.
+        <rdfs:comment xml:lang="pt-br">Este relacionamento envolve manifestações que efetivamente servem como alternativas umas para as outras.
+Os casos típicos são quando uma publicação, gravação de som, vídeo entre outros são publicados em mais de um formato ou quando é lançada simultaneamente por diferentes editores, em diferentes países.
 Por exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1931, no Reino Unido, por William Collins &amp; Sons possui como alternativa a publicação feita simultaneamente nos Estados Unidos, por Dodd, Mead &amp; Co., com o título The Murder at Hazelmoor.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasAlternative"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Este relacionamento envolve manifestações que efetivamente servem como alternativas umas para as outras.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">possui alternativa</rdfs:label>
     </owl:ObjectProperty>
 
@@ -304,7 +292,6 @@ Por exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Res"/>
         <rdfs:comment xml:lang="pt-br">Este é um relacionamento geral válido para todas as entidades no universo bibliográfico. Em geral, refinamentos específicos seriam definidos para carregar semânticas mais precisas.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasAssociationWith"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Este relacionamento vincula dois res que possuem algum tipo de associação.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">possui associação com</rdfs:label>
     </owl:ObjectProperty>
 
@@ -319,7 +306,6 @@ Por exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1
         <rdfs:comment xml:lang="pt-br">possui associação com Lugar [LRM-R33]
 Este relacionamento vincula qualquer entidade com uma determinada extensão de espaço. Na maioria das implementações, esse relacionamento seria refinado para refletir a natureza exata da associação, por exemplo: lugar de concepção ou criação da obra, lugar de criação da expressão (por exemplo, lugar da apresentação musical), lugar de publicação ou fabricação, lugar atual ou anterior de um item e a localização de um agente. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasAssociationWithLugar"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Este relacionamento vincula qualquer entidade com uma determinada extensão de espaço.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">possui associação com Lugar</rdfs:label>
     </owl:ObjectProperty>
 
@@ -333,7 +319,6 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Localidade"/>
         <rdfs:comment xml:lang="pt-br">Vincula instâncias entre países e cidades.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasCity"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esta propriedade conecta um País com a cidade específica que ele possui ou com a qual está associada.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">possui localidade</rdfs:label>
     </owl:ObjectProperty>
 
@@ -347,7 +332,6 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Colecao"/>
         <rdfs:comment xml:lang="pt-br">Relacionamento entre coleções e bibliotecas.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasCollection"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Propriedade que vincula uma biblioteca às coleções que ela disponibiliza.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem coleção</rdfs:label>
     </owl:ObjectProperty>
 
@@ -361,7 +345,6 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Contato"/>
         <rdfs:comment xml:lang="pt-br">Meio pelo qual o usuário se comunica diretamente com a Biblioteca.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasContact"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Propriedade que vincula obrigatoriamente uma Biblioteca a pelo menos um conjunto de informações contato.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">possui contato</rdfs:label>
     </owl:ObjectProperty>
 
@@ -375,7 +358,6 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado"/>
         <rdfs:comment xml:lang="pt-br">A conexão lógica entre uma Publicação Seriada e uma entidade de assunto controlado relacionada serve como base tanto para identificar o assunto de uma Publicação Seriada individual como para garantir que todos as Publicações Seriadas relevantes para um determinado assunto estejam vinculadas a ele.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasControlledSubject"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Este relacionamento vincula obrigatoriamente Publicação(ões) seriada(s) ao(s) assunto(s).</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">possui assunto controlado</rdfs:label>
     </owl:ObjectProperty>
 
@@ -389,7 +371,6 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Pais"/>
         <rdfs:comment xml:lang="pt-br">Indica a relação em que uma Unidade Federativa possui um país associado a ela.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasCountry"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esta propriedade conecta uma entidade com o país específico que ela possui ou com o qual está associada.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem país</rdfs:label>
     </owl:ObjectProperty>
 
@@ -403,7 +384,6 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Pais"/>
         <rdfs:comment xml:lang="pt-br">Relaciona cada publicação seriada a ao país onde foi publicada.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasCountryPublication"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Propriedade que vincula uma publicação seriada ao País de publicação.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">tem país de publicação</rdfs:label>
     </owl:ObjectProperty>
 
@@ -418,7 +398,6 @@ Este relacionamento vincula qualquer entidade com uma determinada extensão de e
         <rdfs:comment xml:lang="pt-br">possui denominação [LRM-R13]
 Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais ou símbolos por meio dos quais essa entidade é referida em um determinado esquema ou contexto. A consequência da definição de nomen como a associação entre algo e uma designação que se refere a ele, é que cada nomen está associado exclusivamente com uma única res dentro de um determinado esquema (que pode se estender de um sistema local específico para uma linguagem natural, por meio de um arquivo de autoridade compartilhado). A cardinalidade resultante do relacionamento de denominação é que, enquanto uma única res pode ter muitos nomens, cada nomen é a denominação de um único res. O fato de duas instâncias de nomen terem o mesmo valor para seu atributo nomen string não modifica essa cardinalidade e não implica que essas instâncias de nomen sejam na verdade uma e a mesma instância de nomen associada a mais de uma instância de res, mesmo que o esquema em questão seja uma linguagem natural. O nomen string &quot;Gift&quot; pode ser utilizado para se referir a um presente ou a um veneno, de acordo com o valor do nomen string para um nomen no idioma inglês ou para um nomen no idioma alemão: embora os valores do nomen string pareçam iguais, temos aqui duas instâncias distintas de nomen para duas instâncias distintas de res. Embora, em teoria, uma instância de nomen (uma subclasse de res) possa ser associada a outra instância de nomen por meio do relacionamento de denominação (resultando em um nomen para outro nomen), na prática, o caso geral não seria previsto para as implementações. Estruturalmente, em uma implementação de sistema em que as instâncias da entidade nomen recebem um identificador interno (também um nomen de um tipo específico), esse relacionamento estaria implícito no design do sistema. Um exemplo dessa situação pode ser encontrado em uma implementação de dados vinculados que atribui um URI (nomen) a instâncias de nomen de outros tipos. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasDenomination"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais ou símbolos por meio dos quais essa entidade é referida em um determinado esquema ou contexto.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">possui denominação</rdfs:label>
     </owl:ObjectProperty>
 
@@ -874,7 +853,6 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"/>
         <rdfs:comment xml:lang="pt-br">Categoriza uma natureza administrativa de cada Instituição.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isAdminNatureOf"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Refere-se à relação em que uma categoria de natureza administrativa é atribuída a uma instituição, indicando que a natureza administrativa pertence a essa instituição.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">é natureza administrativa de</rdfs:label>
     </owl:ObjectProperty>
 
@@ -1326,7 +1304,6 @@ Por exemplo, a publicação de 2013 da Historical Society of Western Pennsylvani
 
 Por exemplo, a notação musical do arranjo para piano de Hans Günter Heumann, da obra Eine kleine Nachtmusik, de Mozart, é materializada em uma publicação de Henry Lemoine, de 1996 e identificada com o número de chapa 26336HL.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isMaterializedIn"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Este relacionamento vincula uma expressão com uma manifestação na qual a expressão aparece.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">é materializado em</rdfs:label>
     </owl:ObjectProperty>
 
@@ -3463,8 +3440,8 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         <rdf:type rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Idioma"/>
         <nome xml:lang="pt-br">português</nome>
         <sigla xml:lang="pt-br">pt</sigla>
+        <rdfs:comment xml:lang="pt-br">Idioma do Brasil.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Idioma_1"/>
-        <rdfs:isDefinedBy xml:lang="pt-br">Idioma do Brasil.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt-br">Português-BR</rdfs:label>
     </owl:NamedIndividual>
 
