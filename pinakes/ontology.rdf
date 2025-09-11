@@ -1212,8 +1212,8 @@ Este é o relacionamento entre duas obras em que o conteúdo do primeiro serviu 
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Unidade"/>
         <rdfs:comment xml:lang="pt-br">Vincula Instituições e Unidades.</rdfs:comment>
-        <rdfs:comment xml:lang="pt-br">é Instituição de</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isInstituicaoOf"/>
+        <rdfs:label xml:lang="pt-br">é Instituição de</rdfs:label>
     </owl:ObjectProperty>
 
 
