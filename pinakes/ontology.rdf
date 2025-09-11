@@ -140,7 +140,7 @@ Por exemplo, a agência ISBN atribuiu ‘0-553-10953-7’ para a publicação de
         <rdfs:comment xml:lang="pt-br">acompanha/complementa [LRM-R20]
 Este é o relacionamento entre duas obras que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou acompanhamento. As duas obras podem agregar valor uma à outra (nesse caso, o relacionamento é simétrico); em outros casos, uma das obras é considerada secundária. [Fonte: IFLA LRM, 2017].
 
-Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-2127’ é acompanhamento de / é complemento de periódico Applied Economics Quarterly  (ISSN 1611-6607).</rdfs:comment>
+Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-2127’ é acompanhamento de / é complemento de periódico Applied Economics Quarterly (ISSN 1611-6607).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#complements"/>
         <rdfs:label xml:lang="pt-br">acompanha</rdfs:label>
     </owl:ObjectProperty>
@@ -167,7 +167,7 @@ Por exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-212
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Agente"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Expressao"/>
         <rdfs:comment xml:lang="pt-br">criou expressão [LRM-R6i]
-Indica a relaçãoem que um Agente criou uma expressão, como uma obra de arte, um texto, uma música, etc. [Fonte: IFLA LRM, 2017].</rdfs:comment>
+Indica a relação em que um Agente criou uma expressão, como uma obra de arte, um texto, uma música, etc. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#createdExpressao"/>
         <rdfs:label xml:lang="pt-br">criou Expressão</rdfs:label>
     </owl:ObjectProperty>
@@ -540,7 +540,7 @@ Propriedade inversa da propriedade de objeto &quot;é membro de&quot; (isMemberO
         <owl:inverseOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isNoteOf"/>
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Obra"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Nota"/>
-        <rdfs:comment xml:lang="pt-br">Vincula uma obra incluindo publicação seriada  a uma nota ou comentário.</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">Vincula uma obra incluindo publicação seriada a uma nota ou comentário.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasNote"/>
         <rdfs:label xml:lang="pt-br">tem nota</rdfs:label>
     </owl:ObjectProperty>
@@ -735,7 +735,7 @@ Este é o relacionamento entre duas obras em que o conteúdo de uma é component
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"/>
         <rdfs:comment xml:lang="pt-br">possui reprodução [LRM-R27]
-Este é o relacionamento entre duas manifestações que fornecem ao usuário final exatamente o mesmo conteúdo e no qual uma manifestação anterior forneceu uma fonte para a criação de uma manifestação subsequente, como fac-símiles, reproduções, reimpressões e reedições. Geralmente, para reimpressões e reedições, não é especificado nenhum item da manifestação original como a fonte da reprodução. Além disso, nesses casos, embora um item específico possa ter sido utilizado como fonte de reprodução, deve-se considerar que este item representa a manifestação original em sua totalidade. O processo de reprodução sempre resulta em uma nova manifestação, mesmo quando apenas um único item foi produzido a partir dessa manifestação.  [Fonte: IFLA LRM, 2017].</rdfs:comment>
+Este é o relacionamento entre duas manifestações que fornecem ao usuário final exatamente o mesmo conteúdo e no qual uma manifestação anterior forneceu uma fonte para a criação de uma manifestação subsequente, como fac-símiles, reproduções, reimpressões e reedições. Geralmente, para reimpressões e reedições, não é especificado nenhum item da manifestação original como a fonte da reprodução. Além disso, nesses casos, embora um item específico possa ter sido utilizado como fonte de reprodução, deve-se considerar que este item representa a manifestação original em sua totalidade. O processo de reprodução sempre resulta em uma nova manifestação, mesmo quando apenas um único item foi produzido a partir dessa manifestação. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasReproduction"/>
         <rdfs:label xml:lang="pt-br">possui reprodução</rdfs:label>
     </owl:ObjectProperty>
@@ -788,7 +788,7 @@ Este relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre 
         <owl:inverseOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isSupportCollectionOf"/>
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Colecao"/>
         <rdfs:range rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#MeioFisico"/>
-        <rdfs:comment xml:lang="pt-br">Indica a relação em que coleção tem  suporte ou meio físico associados a ela.</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">Indica a relação em que coleção tem suporte ou meio físico associados a ela.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#hasSupportCollection"/>
         <rdfs:label xml:lang="pt-br">Coleção tem suporte</rdfs:label>
     </owl:ObjectProperty>
@@ -1112,7 +1112,7 @@ Por exemplo, a publicação de Cai Hua, A Society without Fathers or Husbands: t
         <rdfs:comment xml:lang="pt-br">é equivalente a [LRM-R15]
 Este é o relacionamento entre dois nomens que são denominações de uma mesma res. Este é um atalho de um caminho totalmente desenvolvido: NOMEN1 é a denominação de RES + RES possui denominação NOMEN2 Os nomens relacionados por esse relacionamento têm um significado funcionalmente equivalente (atribuído às mesmas res), mas, como mantêm seus próprios valores em quaisquer atributos registrados para eles, não são intercambiáveis no que diz respeito ao uso. Os nomens equivalentes podem diferir quanto a atributos cruciais, como esquema, idioma ou contexto de uso. Esse relacionamento de equivalência relaciona instâncias de nomens e não os valores dos atributos do nomen string para esses nomens. Assim, mesmo que pareça contra-intuitivo, dois nomens que se referem a diferentes res, mesmo se gravados com a mesma string literal, não serão equivalentes. [Fonte: IFLA LRM, 2017].
 
-Por exemplo, ‘USA’ é equivalente a ‘United States of America’, ‘τὰ βιβλία’ é equivalente a ‘Bíblia’,  ‘Schubert, Franz, 1797-1828. Sonatas, piano, D. 959, A major’ é equivalente a ‘Schubert, Franz, 1797-1828. Sonates. Piano. D. 959. International Federation of Library Associations and Institutions’ é equivalente a ‘IFLA’.</rdfs:comment>
+Por exemplo, ‘USA’ é equivalente a ‘United States of America’, ‘τὰ βιβλία’ é equivalente a ‘Bíblia’, ‘Schubert, Franz, 1797-1828. Sonatas, piano, D. 959, A major’ é equivalente a ‘Schubert, Franz, 1797-1828. Sonates. Piano. D. 959. International Federation of Library Associations and Institutions’ é equivalente a ‘IFLA’.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isEqualTo"/>
         <rdfs:label xml:lang="pt-br">é equivalente a</rdfs:label>
     </owl:ObjectProperty>
@@ -1372,7 +1372,7 @@ foi modificado pela encadernadora Monique Mathieu.</rdfs:comment>
         <rdfs:comment xml:lang="pt-br">A conexão lógica entre obra e expressão, conforme refletida no modelo por meio desse relacionamento, serve como base tanto para identificar a obra representada por uma expressão individual, como para garantir que todas as expressões de uma obra estejam vinculadas à obra. Indiretamente, as relações entre uma obra e as várias expressões desta obra também servem para estabelecer um relacionamento “de
 parentesco” entre as diferentes expressões da obra.
 
-Por exemplo, a obra conhecida como Eine kleine Nachtmusik é realizada através da  notação musical encontrada nas edições de Eine kleine Nachtmusil, de 1989, por Bärenreiter, ISBN 3-370-003301, e por VEB Deutscher Verlag für Musik, ISBN 3-370-00301-5, e na edição sem data de Breitkopf &amp; Härtel, número de chapa 4956.</rdfs:comment>
+Por exemplo, a obra conhecida como Eine kleine Nachtmusik é realizada através da notação musical encontrada nas edições de Eine kleine Nachtmusil, de 1989, por Bärenreiter, ISBN 3-370-003301, e por VEB Deutscher Verlag für Musik, ISBN 3-370-00301-5, e na edição sem data de Breitkopf &amp; Härtel, número de chapa 4956.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#isPerformedThrough"/>
         <rdfs:label xml:lang="pt-br">é realizada através de</rdfs:label>
     </owl:ObjectProperty>
@@ -2317,7 +2317,7 @@ Exemplo: MARC 21.</rdfs:comment>
 
     <owl:DatatypeProperty rdf:about="https://cobib-ibict.github.io/ontologies/pinakes#tipoRelacao">
         <rdfs:domain rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoRelacionada"/>
-        <rdfs:comment xml:lang="pt-br">caracteriza  o tipo de relação entre obras</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">caracteriza o tipo de relação entre obras</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#tipoRelacao"/>
         <rdfs:label xml:lang="pt-br">tipo de relação</rdfs:label>
     </owl:DatatypeProperty>
@@ -2581,7 +2581,7 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia é a Ed
         <rdfs:label xml:lang="pt-br">Endereço</rdfs:label>
         <rdfs:label xml:lang="pt-br">Localidade específica (como rua, logradouro, bairro, setor ou avenida) que integra um endereço postal e/ou é identificada por coordenadas geográficas.
 
-Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar  ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente.</rdfs:label>
+Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente.</rdfs:label>
     </owl:Class>
 
 
@@ -2591,7 +2591,7 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está l
     <owl:Class rdf:about="https://cobib-ibict.github.io/ontologies/pinakes#Expressao">
         <rdfs:subClassOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Res"/>
         <rdfs:comment xml:lang="pt-br">LRM-E3 Expressão
-Uma combinação específica de sinais que transmitem conteúdo intelectual ou artístico.  Uma expressão é uma combinação específica de sinais de qualquer forma ou natureza (incluindo sinais visuais, auditivos ou gestuais) destinada a transmitir conteúdo intelectual ou artístico e identificável como tal. O termo “sinal” é entendido aqui tal qual o significado utilizado na semiótica. Uma expressão é uma entidade abstrata distinta dos suportes utilizados para gravá-la. Uma expressão é a forma intelectual ou artística específica que uma obra adquire cada vez que é “realizada”. A expressão abrange, por exemplo, as palavras específicas, as sentenças, os parágrafos etc., que resultam da realização de uma obra na forma de um texto, ou sons particulares, fraseados etc., resultantes da realização de uma obra musical. Os limites da entidade expressão são definidos, entretanto, para excluir aspectos incidentais do formato físico, tais como o tipo de letra e layout da página para um texto, a não ser que, devido à natureza da obra, eles sejam parte integrante da realização intelectual ou artística da obra como tal. Uma expressão adquire existência simultaneamente com a criação da sua primeira manifestação, nenhuma expressão pode existir sem haver (ou ter havido em algum momento passado) pelo menos uma manifestação. [Fonte: IFLA LRM, 2017].</rdfs:comment>
+Uma combinação específica de sinais que transmitem conteúdo intelectual ou artístico. Uma expressão é uma combinação específica de sinais de qualquer forma ou natureza (incluindo sinais visuais, auditivos ou gestuais) destinada a transmitir conteúdo intelectual ou artístico e identificável como tal. O termo “sinal” é entendido aqui tal qual o significado utilizado na semiótica. Uma expressão é uma entidade abstrata distinta dos suportes utilizados para gravá-la. Uma expressão é a forma intelectual ou artística específica que uma obra adquire cada vez que é “realizada”. A expressão abrange, por exemplo, as palavras específicas, as sentenças, os parágrafos etc., que resultam da realização de uma obra na forma de um texto, ou sons particulares, fraseados etc., resultantes da realização de uma obra musical. Os limites da entidade expressão são definidos, entretanto, para excluir aspectos incidentais do formato físico, tais como o tipo de letra e layout da página para um texto, a não ser que, devido à natureza da obra, eles sejam parte integrante da realização intelectual ou artística da obra como tal. Uma expressão adquire existência simultaneamente com a criação da sua primeira manifestação, nenhuma expressão pode existir sem haver (ou ter havido em algum momento passado) pelo menos uma manifestação. [Fonte: IFLA LRM, 2017].</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Expressao"/>
         <rdfs:label xml:lang="pt-br">Expressão</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://purl.org/spar/fabio/Expression"/>
@@ -2893,7 +2893,7 @@ A entidade pessoa é restrita a pessoas reais que vivem ou presume-se que tenham
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt-br">Representa as informações de publicação de uma obra. Inclui dados como local de publicação ou distribuição, nome da editora e data de publicação ou distribuição. Essa entidade se relaciona diretamente com Editora e Localidade, possibilitando a descrição estruturada das informações de imprenta.
 
-Exemplo:  A revista Ciência da Informação foi publicada em 1972 em Brasília pela Editora Ibict. Essas são as informações de imprenta da revista.</rdfs:comment>
+Exemplo: A revista Ciência da Informação foi publicada em 1972 em Brasília pela Editora Ibict. Essas são as informações de imprenta da revista.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoImprenta"/>
         <rdfs:label xml:lang="pt-br">Publicação Imprenta</rdfs:label>
     </owl:Class>
@@ -3022,7 +3022,7 @@ Exemplo: Inteligência artificial é um termo livre.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="pt-br">Categoria que identifica a natureza institucional e o público atendido de uma biblioteca, permitindo diferenciar bibliotecas públicas, privadas, acadêmicas, setoriais ou especializadas dentro de um sistema ou rede de informação.
 
-Exemplo: Biblioteca especializada é  um tipo de biblioteca.
+Exemplo: Biblioteca especializada é um tipo de biblioteca.
 Bilioteca central e setorial são categorias de bibliotecas.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#TipoDeBiblioteca"/>
         <rdfs:label xml:lang="pt-br">Tipo de Biblioteca</rdfs:label>
@@ -3253,7 +3253,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         <isContactOf rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Biblioteca_1"/>
         <email xml:lang="pt-br">biblioteca@ibict.br</email>
         <telefoneMovel xml:lang="pt-br">(61)32176145</telefoneMovel>
-        <rdfs:comment xml:lang="pt-br">Informação do  contato da Biblioteca do IBICT.</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">Informação do contato da Biblioteca do IBICT.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Contato_1"/>
         <rdfs:label xml:lang="pt-br">(61)32176145</rdfs:label>
     </owl:NamedIndividual>
@@ -3280,7 +3280,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         <dataInicialPI rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</dataInicialPI>
         <rdfs:comment xml:lang="pt-br">informação da imprenta referente a data de publicação da revista A hora Veterinária</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#DataImprenta_2"/>
-        <rdfs:label xml:lang="pt-br">Data de Imprenta  da Revista a Hora Veterinária</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Data de Imprenta da Revista a Hora Veterinária</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3778,7 +3778,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         <tipoDeRegistro xml:lang="pt-br">Material textual</tipoDeRegistro>
         <tituloProprio xml:lang="en">Integrative Systematics</tituloProprio>
         <volume>Vol. 1</volume>
-        <rdfs:comment xml:lang="pt-br">Continuação da obra  Stuttgarter Beitrage zur Naturkunde</rdfs:comment>
+        <rdfs:comment xml:lang="pt-br">Continuação da obra Stuttgarter Beitrage zur Naturkunde</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Obra_8"/>
         <rdfs:label xml:lang="pt-br">Obra: Integrative Systematics</rdfs:label>
     </owl:NamedIndividual>
@@ -3807,7 +3807,7 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
         <tituloProprio xml:lang="de">Stuttgarter Beitrage zur Naturkunde</tituloProprio>
         <rdfs:comment xml:lang="pt-br">Série de Publicações científicas sobre zoologia, botânica e ecologia.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Obra_9"/>
-        <rdfs:label xml:lang="pt-br">Série  A: Stuttgarter Beitrage zur Naturkunde</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Série A: Stuttgarter Beitrage zur Naturkunde</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3956,10 +3956,10 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Bibliotec
 
     <owl:NamedIndividual rdf:about="https://cobib-ibict.github.io/ontologies/pinakes#Tabela_2">
         <rdf:type rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#TabelaAreaDeConhecimento"/>
-        <nome xml:lang="pt-br">Tabela de áreas do conhecimento CNPq (ou  Conselho Nacional de Desenvolvimento Científico e Tecnológico).</nome>
+        <nome xml:lang="pt-br">Tabela de áreas do conhecimento CNPq (ou Conselho Nacional de Desenvolvimento Científico e Tecnológico).</nome>
         <rdfs:comment xml:lang="pt-br">Grande área; Área; Sub-área; Especialidade</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Tabela_2"/>
-        <rdfs:label xml:lang="pt-br">Tabela  CNPq</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Tabela CNPq</rdfs:label>
     </owl:NamedIndividual>
 
 
