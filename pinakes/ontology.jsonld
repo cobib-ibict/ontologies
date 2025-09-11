@@ -266,7 +266,7 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstituition"
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstitution"
   } ]
 }, {
   "@id" : "_:genid3",
@@ -308,26 +308,6 @@
   "https://cobib-ibict.github.io/ontologies/pinakes#alfabetacao" : [ {
     "@language" : "pt-br",
     "@value" : ""
-  } ]
-}, {
-  "@id" : "_:genid33",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
-  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
-    "@list" : [ {
-      "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Localidade_2"
-    }, {
-      "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_2"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid36",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
-  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
-    "@list" : [ {
-      "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Localidade_3"
-    }, {
-      "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_3"
-    } ]
   } ]
 }, {
   "@id" : "_:genid4",
@@ -468,7 +448,7 @@
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/rights" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@language" : "en",
     "@value" : "CC BY 4.0"
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
@@ -503,9 +483,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "https://cobib-ibict.github.io/ontologies/pinakes"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -520,7 +497,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "LRM-E6 Agente \nUma entidade capaz de ações deliberadas, de cessão de direitos e de ser responsabilizada por suas ações.\nA entidade agente é uma superclasse estritamente equivalente à união das entidades pessoa e do agente coletivo. Ela é definida para reduzir a redundância no modelo, fornecendo uma única entidade para servir como domínio ou abrangência de certos relacionamentos que se aplicam a todos os tipos específicos de agentes. Ser um agente implica possuir, ou ter possuído o potencial de relacionamentos intencionais com instâncias de entidades de interesse bibliográfico (obras, expressões, manifestações, itens), quer esse agente específico já tenha feito isso ou não. Os seres humanos são direta ou indiretamente a força motriz por trás de todas essas ações realizadas por todos os agentes. Os autômatos (como dispositivos de registro climático, programas de tradução de software etc.), às vezes chamados de agentes tecnológicos, são vistos neste modelo como ferramentas utilizadas e configuradas por um agente real. [Fonte: IFLA LRM, 2017]."
+    "@value" : "LRM-E6 Agente\nUma entidade capaz de ações deliberadas, de cessão de direitos e de ser responsabilizada por suas ações.\nA entidade agente é uma superclasse estritamente equivalente à união das entidades pessoa e do agente coletivo. Ela é definida para reduzir a redundância no modelo, fornecendo uma única entidade para servir como domínio ou abrangência de certos relacionamentos que se aplicam a todos os tipos específicos de agentes. Ser um agente implica possuir, ou ter possuído o potencial de relacionamentos intencionais com instâncias de entidades de interesse bibliográfico (obras, expressões, manifestações, itens), quer esse agente específico já tenha feito isso ou não. Os seres humanos são direta ou indiretamente a força motriz por trás de todas essas ações realizadas por todos os agentes. Os autômatos (como dispositivos de registro climático, programas de tradução de software etc.), às vezes chamados de agentes tecnológicos, são vistos neste modelo como ferramentas utilizadas e configuradas por um agente real. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Agente"
@@ -557,7 +534,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Área de conhecimento da revista Ciência da Informação"
+    "@value" : "Área de conhecimento da revista Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AreaConhecimento_1"
@@ -617,31 +594,6 @@
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoContolado_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "pt-br",
-    "@value" : "Um dos cabeçalhos mais específicos da revista Ciência da Informação."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoContolado_1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "pt-br",
-    "@value" : "Organização da Informação"
-  } ],
-  "https://cobib-ibict.github.io/ontologies/pinakes#assunto" : [ {
-    "@language" : "pt-br",
-    "@value" : "Organização da informação"
-  } ],
-  "https://cobib-ibict.github.io/ontologies/pinakes#fonte" : [ {
-    "@language" : "pt-br",
-    "@value" : "Tesauro Brasileiro de Ciência da Informação."
-  } ]
-}, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -659,6 +611,31 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Nomen"
   }, {
     "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt-br",
+    "@value" : "Um dos cabeçalhos mais específicos da revista Ciência da Informação."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado_1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt-br",
+    "@value" : "Organização da Informação"
+  } ],
+  "https://cobib-ibict.github.io/ontologies/pinakes#assunto" : [ {
+    "@language" : "pt-br",
+    "@value" : "Organização da Informação"
+  } ],
+  "https://cobib-ibict.github.io/ontologies/pinakes#fonte" : [ {
+    "@language" : "pt-br",
+    "@value" : "Tesauro Brasileiro de Ciência da Informação."
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado_2",
@@ -679,7 +656,7 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
-    "@value" : "Recursos de informação"
+    "@value" : "Recursos da Informação"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado_9",
@@ -740,7 +717,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Biblioteca do Instituto Brasileiro de Informação em Ciencia e Tecnologia (Ibict)"
+    "@value" : "Biblioteca do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Biblioteca_1"
@@ -779,7 +756,7 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
-    "@value" : "Lydia De Queiroz Sambaquy"
+    "@value" : "Lydia de Queiroz Sambaquy"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#paginaWeb" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -805,7 +782,7 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#urlDoCatalogo" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "@value" : "https://biblioteca.ibict.br."
+    "@value" : "https://biblioteca.ibict.br"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Colecao",
@@ -822,7 +799,7 @@
     "@value" : "Coleção"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://purl.org/spar/fabio/ItemCollection"
+    "@id" : "http://purl.org/spar/fabio/ItemCollection"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Item"
@@ -839,7 +816,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "As informações do conteúdo da Coleções são suas transcrições."
+    "@value" : "As informações do conteúdo das Coleções são suas transcrições."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Colecao_1"
@@ -870,14 +847,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Exemplo de Coleção de periódicos por assunto"
+    "@value" : "Exemplo de Coleção de periódicos por assunto."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Colecao_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Ciência da informação e Bibliografias"
+    "@value" : "Ciência da Informação e Bibliografias"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Colecao_9",
@@ -903,7 +880,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Conjunto de dados que permitem identificar e estabelecer comunicação com uma entidade (agente, pessoa ou agente coletivo), incluindo informações como telefone, e-mail ou outros meios de comunicação.\n\nExemplo: (61)32176145 é o telefone e biblioteca@ibict.br é o email da da Biblioteca do IBICT."
+    "@value" : "Conjunto de dados que permitem identificar e estabelecer comunicação com uma entidade (agente, pessoa ou agente coletivo), incluindo informações como telefone, e-mail ou outros meios de comunicação.\n\nExemplo: (61)32176145 é o telefone e biblioteca@ibict.br é o email da Biblioteca do IBICT."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Contato"
@@ -925,7 +902,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Informação do  contato da Biblioteca do IBICT."
+    "@value" : "Informação do contato da Biblioteca do IBICT."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Contato_1"
@@ -953,7 +930,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Data incial de publicação Imprenta da publicação seriada Ciência da Informação"
+    "@value" : "Data inicial de Publicação Imprenta da Publicação Seriada intitulada Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#DataImprenta_1"
@@ -974,14 +951,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "informação da imprenta referente a data de publicação da revista A hora Veterinária"
+    "@value" : "Informação da Imprenta referente à data de publicação da revista A hora Veterinária."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#DataImprenta_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Data de Imprenta  da Revista a Hora Veterinária"
+    "@value" : "Data de Imprenta da Revista A Hora Veterinária"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#dataInicialPI" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
@@ -1039,7 +1016,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Editora da publicação seriada: A Granja"
+    "@value" : "Editora da Publicação Seriada: A Granja."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Editora_2"
@@ -1063,11 +1040,11 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Editora Staatliches Museum fur Naturkunde"
+    "@value" : "Editora Staatliches Museum für Naturkunde"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "de",
-    "@value" : "Staatliches Museum fur Naturkunde"
+    "@value" : "Staatliches Museum für Naturkunde"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Endereco",
@@ -1080,7 +1057,7 @@
     "@value" : "Endereço"
   }, {
     "@language" : "pt-br",
-    "@value" : "Localidade específica (como rua, logradouro, bairro, setor ou avenida) que integra um endereço postal e/ou é identificada por coordenadas geográficas.\n\nExemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar  ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente."
+    "@value" : "Localidade específica (como rua, logradouro, bairro, setor ou avenida) que integra um endereço postal e/ou é identificada por coordenadas geográficas.\n\nExemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Lugar"
@@ -1128,7 +1105,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "LRM-E3 Expressão\nUma combinação específica de sinais que transmitem conteúdo intelectual ou artístico.  Uma expressão é uma combinação específica de sinais de qualquer forma ou natureza (incluindo sinais visuais, auditivos ou gestuais) destinada a transmitir conteúdo intelectual ou artístico e identificável como tal. O termo “sinal” é entendido aqui tal qual o significado utilizado na semiótica. Uma expressão é uma entidade abstrata distinta dos suportes utilizados para gravá-la. Uma expressão é a forma intelectual ou artística específica que uma obra adquire cada vez que é “realizada”. A expressão abrange, por exemplo, as palavras específicas, as sentenças, os parágrafos etc., que resultam da realização de uma obra na forma de um texto, ou sons particulares, fraseados etc., resultantes da realização de uma obra musical. Os limites da entidade expressão são definidos, entretanto, para excluir aspectos incidentais do formato físico, tais como o tipo de letra e layout da página para um texto, a não ser que, devido à natureza da obra, eles sejam parte integrante da realização intelectual ou artística da obra como tal. Uma expressão adquire existência simultaneamente com a criação da sua primeira manifestação, nenhuma expressão pode existir sem haver (ou ter havido em algum momento passado) pelo menos uma manifestação. [Fonte: IFLA LRM, 2017]."
+    "@value" : "LRM-E3 Expressão\nUma combinação específica de sinais que transmitem conteúdo intelectual ou artístico. Uma expressão é uma combinação específica de sinais de qualquer forma ou natureza (incluindo sinais visuais, auditivos ou gestuais) destinada a transmitir conteúdo intelectual ou artístico e identificável como tal. O termo “sinal” é entendido aqui tal qual o significado utilizado na semiótica. Uma expressão é uma entidade abstrata distinta dos suportes utilizados para gravá-la. Uma expressão é a forma intelectual ou artística específica que uma obra adquire cada vez que é “realizada”. A expressão abrange, por exemplo, as palavras específicas, as sentenças, os parágrafos etc., que resultam da realização de uma obra na forma de um texto, ou sons particulares, fraseados etc., resultantes da realização de uma obra musical. Os limites da entidade expressão são definidos, entretanto, para excluir aspectos incidentais do formato físico, tais como o tipo de letra e layout da página para um texto, a não ser que, devido à natureza da obra, eles sejam parte integrante da realização intelectual ou artística da obra como tal. Uma expressão adquire existência simultaneamente com a criação da sua primeira manifestação, nenhuma expressão pode existir sem haver (ou ter havido em algum momento passado) pelo menos uma manifestação. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Expressao"
@@ -1138,7 +1115,7 @@
     "@value" : "Expressão"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://purl.org/spar/fabio/Expression"
+    "@id" : "http://purl.org/spar/fabio/Expression"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Res"
@@ -1158,7 +1135,7 @@
     "@value" : "Homepage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "https://schema.org/WebPage"
+    "@id" : "https://schema.org/WebPage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
@@ -1241,7 +1218,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Código ISSN impresso da publicação seriada: A hora veterinária"
+    "@value" : "Código ISSN impresso da Publicação Seriada: A Hora Veterinária."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#ISSN_2"
@@ -1265,7 +1242,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "ISSN da revista Wines & Vines Yearbook of the Wine Industry"
+    "@value" : "ISSN da revista Wines & Vines Yearbook of the Wine Industry."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#ISSN_3"
@@ -1356,7 +1333,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Idioma predominante em uma publicação, Indica o idioma principal em que a Obra foi publicada.\n\nExemplo: O idioma principal da publicação seriada Ciência da Informação é o português."
+    "@value" : "Idioma predominante em uma publicação. Indica o idioma principal em que a Obra foi publicada.\n\nExemplo: O idioma principal da publicação seriada Ciência da Informação é o português."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Idioma"
@@ -1374,23 +1351,24 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Idioma"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Idioma_1"
-  }, {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Idioma do Brasil."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Idioma_1"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Português-BR"
+    "@value" : "Português (BR)"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
-    "@value" : "português"
+    "@value" : "Português (BR)"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#sigla" : [ {
     "@language" : "pt-br",
-    "@value" : "pt"
+    "@value" : "pt-br"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Idioma_2",
@@ -1411,7 +1389,7 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
-    "@value" : "inglês"
+    "@value" : "Inglês"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#sigla" : [ {
     "@language" : "pt-br",
@@ -1425,18 +1403,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Idioma ou linguagem"
+    "@value" : "Uma língua que se originou na Península Ibérica e se espalhou pelo mundo através da colonização e migração. É a língua oficial de diversos países da América Latina, além da Espanha, e é falada por milhões de pessoas como primeira ou segunda língua."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Idioma_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Epanhol"
+    "@value" : "Espanhol"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
-    "@value" : "espanhol"
+    "@value" : "Espanhol"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#sigla" : [ {
     "@language" : "pt-br",
@@ -1447,7 +1425,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Entidade jurídica ou organizacional (universidade, empresa, fundação, órgão público etc.) que mantém uma ou mais unidades/bibliotecas e é responsável pela gestão dessas unidades.\n\nExemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) é um exemplo de uma instituição de pesquisa."
+    "@value" : "Entidade jurídica ou organizacional (universidade, empresa, fundação, órgão público etc.) que mantém uma ou mais unidades/bibliotecas e é responsável pela gestão dessas unidades.\n\nExemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) é uma instituição de pesquisa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"
@@ -1471,7 +1449,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT)"
+    "@value" : "Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Instituicao_1"
@@ -1484,7 +1462,7 @@
     "@language" : "pt-br",
     "@value" : "04.082.993/0001-49"
   } ],
-  "https://cobib-ibict.github.io/ontologies/pinakes#hasInstituitionAddress" : [ {
+  "https://cobib-ibict.github.io/ontologies/pinakes#hasInstitutionAddress" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Endereco_1"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
@@ -1500,7 +1478,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "LRM-E5 Item \nUm ou vários objetos que carregam sinais destinados a transmitir conteúdo intelectual ou artístico. \nEm termos de conteúdo intelectual ou artístico e forma física, um item exemplificando uma manifestação normalmente reflete todas as características que definem a própria manifestação. Um item é, em muitos casos, um único objeto físico, mas em outros casos, um item pode consistir em várias peças ou objetos físicos. Um item pode fazer parte de um objeto físico maior, por exemplo, quando um arquivo é armazenado em um disco que também contém outros arquivos, a parte do disco que contém o arquivo é o suporte físico ou o item. [Fonte: IFLA LRM, 2017]."
+    "@value" : "LRM-E5 Item\nUm ou vários objetos que carregam sinais destinados a transmitir conteúdo intelectual ou artístico.\nEm termos de conteúdo intelectual ou artístico e forma física, um item exemplificando uma manifestação normalmente reflete todas as características que definem a própria manifestação. Um item é, em muitos casos, um único objeto físico, mas em outros casos, um item pode consistir em várias peças ou objetos físicos. Um item pode fazer parte de um objeto físico maior, por exemplo, quando um arquivo é armazenado em um disco que também contém outros arquivos, a parte do disco que contém o arquivo é o suporte físico ou o item. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Item"
@@ -1517,7 +1495,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Lugar físico identificado por endereço ou coordenada geográfica, associado a agentes para indicar sua localização ou a informações de imprenta para designar o local de publicação.\n\nExemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy"
+    "@value" : "Lugar físico identificado por endereço ou coordenada geográfica, associado a agentes para indicar sua localização ou a informações de imprenta para designar o local de publicação.\n\nExemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Localidade"
@@ -1527,7 +1505,7 @@
     "@value" : "Localidade"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://www.geonames.org/ontology#City"
+    "@id" : "http://www.geonames.org/ontology#City"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Lugar"
@@ -1542,7 +1520,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Cidade pertencente ao Distrtrito Federal, onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy"
+    "@value" : "Cidade pertencente ao Distrito Federal, onde se localiza a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Localidade_1"
@@ -1582,11 +1560,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Rio de janeiro"
+    "@value" : "Rio de Janeiro"
+  } ],
+  "http://www.w3.org/2002/07/owl#differentFrom" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_2"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
-    "@value" : "Rio de janeiro"
+    "@value" : "Rio de Janeiro"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Localidade_3",
@@ -1605,6 +1586,9 @@
     "@language" : "pt-br",
     "@value" : "São Paulo"
   } ],
+  "http://www.w3.org/2002/07/owl#differentFrom" : [ {
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_3"
+  } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
     "@value" : "São Paulo"
@@ -1614,7 +1598,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "LRM-E10 Lugar \nUma extensão de espaço determinada. A entidade lugar, relevante em um contexto bibliográfico, é uma construção cultural; é a identificação humana de uma área geográfica ou extensão do espaço. Lugares são geralmente identificados por meio de um objeto físico (uma característica geográfica ou um objeto feito pelo homem) ou devido à sua relevância em relação a um determinado agente (entidades geopolíticas como países, cidades) ou como a localização de um evento. O lugar como uma extensão do espaço é diferente dos órgãos governamentais que exercem a jurisdição nesse território. O governo responsável por um território é um agente coletivo. Lugares podem ser contemporâneos ou históricos, terrestres ou extraterrestres. Lugares imaginários, lendários ou fictícios não são instâncias da entidade lugar. Um lugar pode ter limites difusos. Os limites de um lugar podem mudar com o tempo (como uma cidade que incorpora subúrbios adjacentes) sem alterar a identidade do lugar para fins bibliográficos. Como pode ser um quadro de referência móvel, a entidade lugar não é necessariamente identificada apenas por suas coordenadas geoespaciais. [Fonte: IFLA LRM, 2017]."
+    "@value" : "LRM-E10 Lugar\nUma extensão de espaço determinada. A entidade lugar, relevante em um contexto bibliográfico, é uma construção cultural; é a identificação humana de uma área geográfica ou extensão do espaço. Lugares são geralmente identificados por meio de um objeto físico (uma característica geográfica ou um objeto feito pelo homem) ou devido à sua relevância em relação a um determinado agente (entidades geopolíticas como países, cidades) ou como a localização de um evento. O lugar como uma extensão do espaço é diferente dos órgãos governamentais que exercem a jurisdição nesse território. O governo responsável por um território é um agente coletivo. Lugares podem ser contemporâneos ou históricos, terrestres ou extraterrestres. Lugares imaginários, lendários ou fictícios não são instâncias da entidade lugar. Um lugar pode ter limites difusos. Os limites de um lugar podem mudar com o tempo (como uma cidade que incorpora subúrbios adjacentes) sem alterar a identidade do lugar para fins bibliográficos. Como pode ser um quadro de referência móvel, a entidade lugar não é necessariamente identificada apenas por suas coordenadas geoespaciais. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Lugar"
@@ -1624,7 +1608,7 @@
     "@value" : "Lugar"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://purl.org/vocab/frbr/core#Place"
+    "@id" : "http://purl.org/vocab/frbr/core#Place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Res"
@@ -1651,7 +1635,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Carrier type: Uma categorização que reflete o formato do meio de armazenamento e do invólucro de um suporte, em combinação com o tipo de dispositivo de mediação necessário para visualizar, reproduzir, executar etc. o conteúdo de uma manifestação. [Source: Resource Description and Access - RDA]\n\nExemplo: Publicação seriada impressa é um item físico."
+    "@value" : "Tipo de suporte: Uma categorização que reflete o formato do meio de armazenamento e do invólucro de um suporte, em combinação com o tipo de dispositivo de mediação necessário para visualizar, reproduzir, executar etc. o conteúdo de uma manifestação. [Source: Resource Description and Access - RDA]\n\nExemplo: Publicação seriada impressa é um item físico."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#MeioFisico"
@@ -1671,7 +1655,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "meio físico impresso dos códigos ISSN"
+    "@value" : "Meio físico impresso dos códigos ISSN."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#MeioFisico_1"
@@ -1729,7 +1713,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Categoria da natureza administrativa de uma biblioteca"
+    "@value" : "Categoria da natureza administrativa de uma biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#NaturezaAdministrativa_1"
@@ -1771,7 +1755,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "LRM-E9 Nomen \nUma associação entre uma entidade e uma designação que se refere a ela.\nUm nomen associa qualquer denominação (isto é, combinação de sinais) utilizada para se referir a uma instância de qualquer entidade encontrada no universo bibliográfico com essa entidade. Qualquer entidade mencionada no universo do discurso é nomeada por meio de, no mínimo, um nomen. [Fonte: IFLA LRM, 2017]."
+    "@value" : "LRM-E9 Nomen\nUma associação entre uma entidade e uma designação que se refere a ela.\nUm nomen associa qualquer denominação (isto é, combinação de sinais) utilizada para se referir a uma instância de qualquer entidade encontrada no universo bibliográfico com essa entidade. Qualquer entidade mencionada no universo do discurso é nomeada por meio de, no mínimo, um nomen. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Nomen"
@@ -1817,7 +1801,7 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#notasGerais" : [ {
     "@language" : "pt-br",
-    "@value" : "Disponível online, em texto integral de 1995\n- presente, no portal de periódicos da CAPES"
+    "@value" : "Disponível online, em texto integral de 1995, presente no portal de periódicos da CAPES"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Nota_2",
@@ -1885,7 +1869,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Nota geral da série Stuttgarter Beitrage zur Naturkunde"
+    "@value" : "Nota geral da série Stuttgarter Beiträge zur Naturkunde"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#notasGerais" : [ {
     "@language" : "pt-br",
@@ -1896,7 +1880,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "LRM-E2 Obra\nO conteúdo intelectual ou artístico de uma criação específica. \nUma obra é uma entidade abstrata que permite o agrupamento de expressões que são consideradas equivalentes funcionais ou\nquase equivalentes. Uma obra é um objeto conceitual, nenhum objeto material único pode ser identificado como a obra. A essência da obra é a conjunção de conceitos e ideias que formam o conteúdo compartilhado do que definimos como expressões da mesma obra. Uma obra é percebida por meio da identificação da semelhança de conteúdo entre várias expressões. No entanto, a similaridade de conteúdo factual ou\ntemático por si só não é suficiente para agrupar expressões como realizações da mesma instância da obra. Por exemplo, dois livros didáticos, ambos apresentando uma introdução ao cálculo, ou duas pinturas a óleo da mesma vista (ainda que pintadas pelo mesmo artista), seriam considerados obras distintas se esforços intelectuais ou artísticos independentes estivessem envolvidos em sua criação. No caso de obras agregadas e obras seriadas a essência da obra é o conceito para planejamento da seleção, montagem e ordenação das expressões de outras obras materializadas na manifestação agregada resultante. Uma obra adquire existência simultaneamente com a criação da sua primeira expressão, nenhuma obra pode existir sem haver (ou ter havido em algum momento passado) pelo menos uma expressão da obra. [Fonte: IFLA LRM, 2017]."
+    "@value" : "LRM-E2 Obra\nO conteúdo intelectual ou artístico de uma criação específica.\nUma obra é uma entidade abstrata que permite o agrupamento de expressões que são consideradas equivalentes funcionais ou\nquase equivalentes. Uma obra é um objeto conceitual. Nenhum objeto material único pode ser identificado como uma obra. A essência da obra é a conjunção de conceitos e ideias que formam o conteúdo compartilhado do que definimos como expressões da mesma obra. Uma obra é percebida por meio da identificação da semelhança de conteúdo entre várias expressões. No entanto, a similaridade de conteúdo factual ou\ntemático por si só não é suficiente para agrupar expressões como realizações da mesma instância da obra. Por exemplo, dois livros didáticos, ambos apresentando uma introdução ao cálculo, ou duas pinturas a óleo da mesma vista (ainda que pintadas pelo mesmo artista), seriam considerados obras distintas se esforços intelectuais ou artísticos independentes estivessem envolvidos em sua criação. No caso de obras agregadas e obras seriadas, a essência da obra é o conceito para planejamento da seleção, montagem e ordenação das expressões de outras obras materializadas na manifestação agregada resultante. Uma obra adquire existência simultaneamente com a criação da sua primeira expressão, nenhuma obra pode existir sem haver (ou ter havido em algum momento passado) pelo menos uma expressão da obra. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -1970,7 +1954,7 @@
     "@value" : "Quadrimestral"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#hasControlledSubject" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoContolado_1"
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado_1"
   }, {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AssuntoControlado_2"
   } ],
@@ -2059,7 +2043,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Exemplo de publicação da publicação seriada Bimestral"
+    "@value" : "Exemplo de Publicação Seriada bimestral."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra_2"
@@ -2149,7 +2133,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "BIB: revista brasileira de informação bibliográfica em Ciências Sociais"
+    "@value" : "BIB: Revista brasileira de informação bibliográfica em Ciências Sociais."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra_6"
@@ -2163,7 +2147,7 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#tituloProprio" : [ {
     "@language" : "pt-br",
-    "@value" : "BIB: revista brasileira de informação bibliográfica em Ciências Sociais"
+    "@value" : "BIB: Revista brasileira de informação bibliográfica em Ciências Sociais"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra_7",
@@ -2180,7 +2164,7 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#tituloProprio" : [ {
     "@language" : "de",
-    "@value" : "Eine Kleine Nachtmusik"
+    "@value" : "Eine kleine Nachtmusik"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra_8",
@@ -2190,7 +2174,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Continuação da obra  Stuttgarter Beitrage zur Naturkunde"
+    "@value" : "Continuação da obra Stuttgarter Beiträge zur Naturkunde."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra_8"
@@ -2280,7 +2264,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Série  A: Stuttgarter Beitrage zur Naturkunde"
+    "@value" : "Série A: Stuttgarter Beiträge zur Naturkunde"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#alfabetacao" : [ {
     "@value" : "0"
@@ -2339,14 +2323,14 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#tituloProprio" : [ {
     "@language" : "de",
-    "@value" : "Stuttgarter Beitrage zur Naturkunde"
+    "@value" : "Stuttgarter Beiträge zur Naturkunde"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Pais",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Território definido politicamente, com fronteiras reconhecidas e governo soberano, utilizado para identificar a localização de agentes ou local de publicação.\n\nExemplo: O Brasil é país ou território geográfico onde uma Publicação seriada foi publicada."
+    "@value" : "Território definido politicamente, com fronteiras reconhecidas e governo soberano, utilizado para identificar a localização de agentes ou local de publicação.\n\nExemplo: O Brasil é um país ou território geográfico onde uma Publicação seriada foi publicada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Pais"
@@ -2356,7 +2340,7 @@
     "@value" : "País"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://www.geonames.org/ontology#Country"
+    "@id" : "http://www.geonames.org/ontology#Country"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Lugar"
@@ -2369,7 +2353,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "República Federativa do Brasil"
+    "@value" : "República Federativa do Brasil."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Pais_1"
@@ -2403,7 +2387,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "País europeu nomeado Republica Federal da Alemanha"
+    "@value" : "País europeu nomeado República Federal da Alemanha."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Pais_2"
@@ -2427,14 +2411,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Estados Unidos da América"
+    "@value" : "Estados Unidos da América."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Pais_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Estados Unidos (USA)"
+    "@value" : "Estados Unidos (EUA)"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
@@ -2445,7 +2429,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "LRM-E7 Pessoa \nUm ser humano individual.\nA entidade pessoa é restrita a pessoas reais que vivem ou presume-se que tenham vivido. Não é necessária uma prova estrita da existência de uma pessoa, desde que haja uma aceitação geral de sua provável historicidade. No entanto, figuras geralmente consideradas fictícias (por exemplo, Caco o Sapo), literárias (por exemplo, Miss Jane Marple) ou puramente lendárias (por exemplo, o mago Merlin) não são instâncias da entidade pessoa. [Fonte: IFLA LRM, 2017]."
+    "@value" : "LRM-E7 Pessoa\nUm ser humano individual.\nA entidade pessoa é restrita a pessoas reais que vivem ou presume-se que tenham vivido. Não é necessária uma prova estrita da existência de uma pessoa, desde que haja uma aceitação geral de sua provável historicidade. No entanto, figuras geralmente consideradas fictícias (por exemplo, Caco o Sapo), literárias (por exemplo, Miss Jane Marple) ou puramente lendárias (por exemplo, o mago Merlin) não são instâncias da entidade pessoa. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Pessoa"
@@ -2462,7 +2446,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Representa as informações de publicação de uma obra. Inclui dados como local de publicação ou distribuição, nome da editora e data de publicação ou distribuição. Essa entidade se relaciona diretamente com Editora e Localidade, possibilitando a descrição estruturada das informações de imprenta.\n\nExemplo:  A revista Ciência da Informação foi publicada em 1972 em Brasília pela Editora Ibict. Essas são as informações de imprenta da revista."
+    "@value" : "Representa as informações de publicação de uma obra. Inclui dados como local de publicação ou distribuição, nome da editora e data de publicação ou distribuição. Essa entidade se relaciona diretamente com Editora e Localidade, possibilitando a descrição estruturada das informações de imprenta.\n\nExemplo: A revista Ciência da Informação foi publicada em 1972 em Brasília pela Editora Ibict. Essas são as informações de imprenta da revista."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoImprenta"
@@ -2495,8 +2479,7 @@
     "@value" : "Publicação Relacionada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "@value" : "http://purl.org/ontology/bibo/RelatedDocument"
+    "@id" : "http://purl.org/ontology/bibo/RelatedDocument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid25"
@@ -2537,7 +2520,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Relação de continuidade da obra Stuttgarter Beitrage zur Naturkunde"
+    "@value" : "Relação de continuidade da obra Stuttgarter Beiträge zur Naturkunde"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#hasOriginalPublication" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra_9"
@@ -2554,7 +2537,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Publicação, em qualquer suporte, editada em partes sucessivas, com conteúdo contínuo, com designação numérica e/ou cronológica e destinada a ser continuada indefinidamente, Exemplos: anais de eventos, séries monográficas, periódicos: revistas, jornais, publicações, anuários, boletins e suplementos independentes e números especiais independentes. [Centro Brasileiro do ISSN - CBISSN].\n\nExemplo: Ciência da Informação é publicação seriada quadrimestral"
+    "@value" : "Publicação, em qualquer suporte, editada em partes sucessivas, com conteúdo contínuo, com designação numérica e/ou cronológica e destinada a ser continuada indefinidamente. Exemplos: anais de eventos, séries monográficas, periódicos: revistas, jornais, publicações, anuários, boletins e suplementos independentes e números especiais independentes. [Centro Brasileiro do ISSN - CBISSN].\n\nExemplo: Ciência da Informação é publicação seriada quadrimestral."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoSeriada"
@@ -2564,7 +2547,7 @@
     "@value" : "Publicação Seriada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "https://schema.org/Periodical"
+    "@id" : "https://schema.org/Periodical"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#SerialWork"
@@ -2594,7 +2577,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indexador de uma publicação seriada"
+    "@value" : "Indexador de uma Publicação Seriada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Referenciador_1"
@@ -2615,7 +2598,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indexador da publicação seriada"
+    "@value" : "Indexador de uma Publicação Seriada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Referenciador_2"
@@ -2636,7 +2619,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Dados de critérios para o Diretório Indexador Scielo"
+    "@value" : "Dados de critérios para o Diretório Indexador Scielo."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Referenciador_8"
@@ -2657,7 +2640,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Área geográfica delimitada dentro de um país ou território, caracterizada por aspectos administrativos, físicos, culturais ou econômicos, utilizada para identificar a localização de agentes.\n\nExemplo: Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy"
+    "@value" : "Área geográfica delimitada dentro de um país ou território, caracterizada por aspectos administrativos, físicos, culturais ou econômicos, utilizada para identificar a localização de agentes.\n\nExemplo: Centro-oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Regiao"
@@ -2677,7 +2660,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Divisão regional onde localiza-se o Distrito Federal e a Biblioteca Lydia de Queiroz Sambaquy"
+    "@value" : "Divisão regional onde se localiza o Distrito Federal e a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Regiao_1"
@@ -2789,7 +2772,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Classificação das Áreas do Conhecimento - 1º Nível: Grande área; 2º Nível: Área do conhecimento; 3º Nível: Subárea; 4º Nível: Especialidade"
+    "@value" : "Classificação das Áreas do Conhecimento - 1º Nível: Grande área; 2º Nível: Área do conhecimento; 3º Nível: Subárea; 4º Nível: Especialidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Tabela_1"
@@ -2810,18 +2793,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Grande área; Área; Sub-área; Especialidade"
+    "@value" : "Grande área; Área; Sub-área; Especialidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Tabela_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Tabela  CNPq"
+    "@value" : "Tabela CNPq"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
-    "@value" : "Tabela de áreas do conhecimento CNPq (ou  Conselho Nacional de Desenvolvimento Científico e Tecnológico)."
+    "@value" : "Tabela de áreas do conhecimento CNPq (ou Conselho Nacional de Desenvolvimento Científico e Tecnológico)."
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#TermoLivre",
@@ -2838,7 +2821,7 @@
     "@value" : "Termo Livre"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://purl.org/ontology/bibo/Term"
+    "@id" : "http://purl.org/ontology/bibo/Term"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
@@ -2851,7 +2834,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Termo livre da resvista Ciência da Informação"
+    "@value" : "Termo livre da revista Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#TermoLivre_1"
@@ -2895,7 +2878,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Biblioteca setorial"
+    "@value" : "Biblioteca Setorial"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
@@ -2912,7 +2895,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Biblioteca especializada"
+    "@value" : "Biblioteca Especializada"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
@@ -2923,7 +2906,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Categoria que identifica a natureza institucional e o público atendido de uma biblioteca, permitindo diferenciar bibliotecas públicas, privadas, acadêmicas, setoriais ou especializadas dentro de um sistema ou rede de informação.\n\nExemplo: Biblioteca especializada é  um tipo de biblioteca.\nBilioteca central e setorial são categorias de bibliotecas."
+    "@value" : "Categoria que identifica a natureza institucional e o público atendido de uma biblioteca, permitindo diferenciar bibliotecas públicas, privadas, acadêmicas, setoriais ou especializadas dentro de um sistema ou rede de informação.\n\nExemplo: Biblioteca especializada é um tipo de biblioteca.\nBiblioteca central e setorial são categorias de bibliotecas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#TipoDeBiblioteca"
@@ -2940,7 +2923,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Other title information: Uma palavra, caractere ou grupo de palavras ou caracteres que aparece em conjunto com um título próprio de uma manifestação e é subordinado a ele. [Source: Resource Description and Access - RDA].\n\nExemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação."
+    "@value" : "Informações complementares do título: Uma palavra, caractere ou grupo de palavras ou caracteres que aparece em conjunto com um título próprio de uma manifestação e é subordinado a ele. [Source: Resource Description and Access - RDA].\n\nExemplo: Ciênc. Inf. é título abreviado de: Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#TituloComplementar"
@@ -2950,7 +2933,7 @@
     "@value" : "Título Complementar"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://purl.org/ontology/bibo/Subtitle"
+    "@id" : "http://purl.org/ontology/bibo/Subtitle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Nomen"
@@ -2965,7 +2948,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Título abreviado de: Ciência da Informação"
+    "@value" : "Título abreviado de: Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#TituloComplementar_1"
@@ -2993,7 +2976,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Título abreviado da série Stuttgarter Beitrage zur Naturkunde"
+    "@value" : "Título abreviado da série Stuttgarter Beiträge zur Naturkunde."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#TituloComplementar_9"
@@ -3015,7 +2998,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Entidade administrativa ou organizacional que integra uma instituição maior, possuindo identidade própria, funções definidas e, geralmente, autonomia parcial para executar atividades relacionadas à gestão de recursos, serviços ou informações.\n\nExemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy"
+    "@value" : "Entidade administrativa ou organizacional que integra uma instituição maior, possuindo identidade própria, funções definidas e, geralmente, autonomia parcial para executar atividades relacionadas à gestão de recursos, serviços ou informações.\n\nExemplo: O Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Unidade"
@@ -3036,7 +3019,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Divisão político-administrativa do Brasil, correspondente a um estado, distrito federal ou território, que possui governo próprio e representação constitucional, permitindo identificar a localização geográfica e administrativa de agentes.\n\nExemplo: Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy"
+    "@value" : "Divisão político-administrativa do Brasil, correspondente a um estado, distrito federal ou território, que possui governo próprio e representação constitucional, permitindo identificar a localização geográfica e administrativa de agentes.\n\nExemplo: Distrito Federal é a Unidade Federativa onde se localiza a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa"
@@ -3046,7 +3029,7 @@
     "@value" : "Unidade Federativa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://www.geonames.org/ontology#A.ADM1"
+    "@id" : "http://www.geonames.org/ontology#A.ADM1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Lugar"
@@ -3063,7 +3046,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Unidade federativa do Brasil representada pela sigla DF"
+    "@value" : "Unidade Federativa do Brasil, representada pela sigla DF."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_1"
@@ -3097,14 +3080,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Unidade federativa do Brasil representada pela sigla RJ"
+    "@value" : "Unidade Federativa do Brasil, representada pela sigla RJ."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Rio de janeiro"
+    "@value" : "Rio de Janeiro"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
@@ -3122,7 +3105,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Unidade federativa do Brasil representada pela sigla SP."
+    "@value" : "Unidade Federativa do Brasil, representada pela sigla SP."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#UnidadeFederativa_3"
@@ -3171,14 +3154,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Instituto Brasileiro em Ciência e Tecnologia, unidade de pesquisa do Ministério de Ciência, Tecnologia e Inovação"
+    "@value" : "Instituto Brasileiro em Ciência e Tecnologia, unidade de pesquisa do Ministério de Ciência, Tecnologia e Inovação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Unidade_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "IBCT"
+    "@value" : "Ibict"
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#nome" : [ {
     "@language" : "pt-br",
@@ -3186,7 +3169,7 @@
   } ],
   "https://cobib-ibict.github.io/ontologies/pinakes#sigla" : [ {
     "@language" : "pt-br",
-    "@value" : "IBCT"
+    "@value" : "Ibict"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#alfabetacao",
@@ -3259,16 +3242,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "atribuiu [LRM-R14] \nEste relacionamento vincula um agente com um determinado nomen que foi atribuído por tal agente. No contexto bibliográfico, a atribuição do nomen se aplica à criação de termos para assunto, pontos de acesso controlado, identificadores, entre outros. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, a agência ISBN atribuiu ‘0-553-10953-7’ para a publicação de\n1998 de A Brief history of time, de Stephen Hawking."
+    "@value" : "atribuiu [LRM-R14]\nEste relacionamento vincula um agente com um determinado nomen que foi atribuído por tal agente. No contexto bibliográfico, a atribuição do nomen se aplica à criação de termos para assunto, pontos de acesso controlado, identificadores, entre outros. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, a agência ISBN atribuiu ‘0-553-10953-7’ para a publicação de\n1998 de A Brief History of Time, de Stephen Hawking."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#assigned"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Este relacionamento vincula um agente com um determinado nomen que foi atribuído por tal agente."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3301,7 +3281,7 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://purl.org/dc/elements/1.1/subject"
+    "@id" : "http://purl.org/dc/elements/1.1/subject"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#cep",
@@ -3368,7 +3348,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica o código que identifica a área do conhecimento baseado em classificações oficiais, como as da CAPES ou do CNPq."
+    "@value" : "Indica o código que identifica a área do conhecimento, baseado em classificações oficiais, como as da CAPES ou do CNPq."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AreaDeConhecimento"
@@ -3428,16 +3408,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "acompanha/complementa [LRM-R20] \nEste é o relacionamento entre duas obras que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou acompanhamento. As duas obras podem agregar valor uma à outra (nesse caso, o relacionamento é simétrico); em outros casos, uma das obras é considerada secundária. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-2127’ é acompanhamento de / é complemento de periódico Applied Economics Quarterly  (ISSN 1611-6607)."
+    "@value" : "acompanha/complementa [LRM-R20]\nEste é o relacionamento entre duas obras que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou acompanhamento. As duas obras podem agregar valor uma à outra (nesse caso, o relacionamento é simétrico); em outros casos, uma das obras é considerada secundária. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-2127) é acompanhamento de / é complemento de periódico Applied Economics Quarterly (ISSN 1611-6607)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#complements"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Este é o relacionamento entre duas obras que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou companhamento."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3458,9 +3435,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#contains"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta uma entidade com a entidade que ela contém."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3517,16 +3491,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "criou expressão [LRM-R6i]\nIndica a relaçãoem que um Agente criou uma expressão, como uma obra de arte, um texto, uma música, etc. [Fonte: IFLA LRM, 2017]."
+    "@value" : "criou expressão [LRM-R6i]\nIndica a relação em que um Agente criou uma expressão, como uma obra de arte, um texto, uma música, etc. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#createdExpressao"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um Agente entidade com a expressão que foi criada por ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3550,9 +3521,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#createdManifestacao"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um Agente com a manifestação que foi criada por ele."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3569,16 +3537,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "criou [LRM-R5i] \nIndica a relação em que um Agente criou uma Obra, como um livro, uma pintura, uma composição musical, etc. [Fonte: IFLA LRM, 2017]."
+    "@value" : "criou [LRM-R5i]\nIndica a relação em que um Agente criou uma Obra, como um livro, uma pintura, uma composição musical, etc. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#createdObra"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um Agente com a Obra que foi criada por ele."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3731,14 +3696,14 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "http://purl.org/ontology/bibo/issn"
+    "@id" : "http://purl.org/ontology/bibo/issn"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#designacaoNumerica",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica informações referentes a edição, número e volume de uma obra."
+    "@value" : "Indica informações referentes à edição, número e volume de uma obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -3758,16 +3723,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "distribuiu [LRM-R9i] \nIndica a relação inversa em que um agente distribui manifestação. [Fonte: IFLA LRM, 2017]."
+    "@value" : "distribuiu [LRM-R9i]\nIndica a relação inversa em que um agente distribui uma manifestação. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#distributes"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um Agente com a manifestação distribuida."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3854,9 +3816,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#exemplifies"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Indica a relação em que um Item exemplifica ou representa uma Manifestação específica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3913,7 +3872,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica o padrão ou extensão disponível para exportação das informações de uma publicação seriada ou coleção. \nExemplo: MARC 21."
+    "@value" : "Indica o padrão ou extensão disponível para exportação das informações de uma publicação seriada ou coleção.\nExemplo: MARC 21."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Colecao"
@@ -3960,9 +3919,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasAddress"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta uma entidade com o endereço que ela possui."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3986,9 +3942,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasAdminNature"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Refere-se à associação de uma instituição a uma categoria de natureza administrativa, indicando o tipo de administração que caracteriza a instituição."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4012,9 +3965,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasAffiliation"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Refere-se à associação de uma biblioteca ou sistema de bibliotecas com uma instituição específica, indicando que a biblioteca faz parte ou é afiliada a essa instituição."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4031,16 +3981,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Os casos típicos são quando uma publicação, gravação de som, vídeo entre outros são publicados em mais de um formato ou quando é lançada simultaneamente por diferentes editores, em diferentes países.\nPor exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1931, no Reino Unido, por William Collins & Sons possui como alternativa a publicação feita simultaneamente nos Estados Unidos, por Dodd, Mead & Co., com o título The Murder at Hazelmoor."
+    "@value" : "Este relacionamento envolve manifestações que efetivamente servem como alternativas umas para as outras.\nOs casos típicos são quando uma publicação, gravação de som, vídeo, entre outros, são publicados em mais de um formato ou quando é lançada simultaneamente por diferentes editores, em diferentes países.\nPor exemplo, o romance The Sittaford Mystery, de Agatha Christie, publicado em 1931, no Reino Unido, por William Collins & Sons possui como alternativa a publicação feita simultaneamente nos Estados Unidos, por Dodd, Mead & Co., com o título The Murder at Hazelmoor."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasAlternative"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Este relacionamento envolve manifestações que efetivamente servem como alternativas umas para as outras."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4061,9 +4008,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasAssociationWith"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Este relacionamento vincula dois res que possuem algum tipo de associação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4077,16 +4021,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "possui associação com Lugar [LRM-R33] \nEste relacionamento vincula qualquer entidade com uma determinada extensão de espaço. Na maioria das implementações, esse relacionamento seria refinado para refletir a natureza exata da associação, por exemplo: lugar de concepção ou criação da obra, lugar de criação da expressão (por exemplo, lugar da apresentação musical), lugar de publicação ou fabricação, lugar atual ou anterior de um item e a localização de um agente. [Fonte: IFLA LRM, 2017]."
+    "@value" : "possui associação com Lugar [LRM-R33]\nEste relacionamento vincula qualquer entidade com uma determinada extensão de espaço. Na maioria das implementações, esse relacionamento seria refinado para refletir a natureza exata da associação, por exemplo: lugar de concepção ou criação da obra, lugar de criação da expressão (por exemplo, lugar da apresentação musical), lugar de publicação ou fabricação, lugar atual ou anterior de um item e a localização de um agente. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Res"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasAssociationWithLugar"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Este relacionamento vincula qualquer entidade com uma determinada extensão de espaço."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4110,9 +4051,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasCity"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um País com a cidade específica que ele possui ou com a qual está associada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4136,9 +4074,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasCollection"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Propriedade que vincula uma biblioteca às coleções que ela disponibiliza."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4162,9 +4097,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasContact"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Propriedade que vincula obrigatoriamente uma Biblioteca a pelo menos um conjunto de informações contato."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4188,9 +4120,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasControlledSubject"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Este relacionamento vincula obrigatoriamente Publicação(ões) seriada(s) ao(s) assunto(s)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4214,9 +4143,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasCountry"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta uma entidade com o país específico que ela possui ou com o qual está associada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4233,16 +4159,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relaciona cada publicação seriada a ao país onde foi publicada."
+    "@value" : "Relaciona cada publicação seriada ao país onde foi publicada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasCountryPublication"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Propriedade que vincula uma publicação seriada ao País de publicação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4266,9 +4189,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasDenomination"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Esse relacionamento vincula uma entidade com um sinal ou combinação de sinais ou símbolos por meio dos quais essa entidade é referida em um determinado esquema ou contexto."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4373,16 +4293,17 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isISSNOf"
   } ]
 }, {
-  "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstituition",
+  "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstitution",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt-br",
     "@value" : "Propriedade que vincula Unidades e Instituições."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Unidade"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstituition"
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstitution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4395,7 +4316,7 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isInstituicaoOf"
   } ]
 }, {
-  "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstituitionAddress",
+  "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstitutionAddress",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
@@ -4405,7 +4326,7 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstituitionAddress"
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasInstitutionAddress"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4415,7 +4336,7 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Endereco"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isInstituitonAddressOf"
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isInstitutionAddressOf"
   } ]
 }, {
   "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#hasKnowledgeAreaTable",
@@ -4445,7 +4366,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação em que uma entidade possui um área de conhecimento associado a ela."
+    "@value" : "Indica a relação em que uma entidade possui uma área de conhecimento associado a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -4514,7 +4435,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Vincula uma obra incluindo publicação seriada  a uma nota ou comentário."
+    "@value" : "Vincula uma obra incluindo publicação seriada a uma nota ou comentário."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -4537,7 +4458,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a obra original da qual deriva a publicação relacionada, como fonte de uma tradução, adaptação ou continuação"
+    "@value" : "Indica a obra original da qual deriva a publicação relacionada, como fonte de uma tradução, adaptação ou continuação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoRelacionada"
@@ -4560,7 +4481,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Agente Coletivo possui parte [LRM-R31]\nEste é um relacionamento entre dois agentes coletivos em que um é componente do outro. [Fonte: IFLA LRM, 2017].\n\nPor exermplo, IFLA Cataloguing Section é parte de IFLA."
+    "@value" : "Agente Coletivo possui parte [LRM-R31]\nEste é um relacionamento entre dois agentes coletivos em que um é componente do outro. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, IFLA Cataloguing Section é parte de IFLA."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#AgenteColetivo"
@@ -4600,7 +4521,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Lugar possui parte [LRM-R34]\nEste é um relacionamento entre dois lugares em que um é componente do outro. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, a Califórnia é parte dos Estados Unidos da América (USA)."
+    "@value" : "Lugar possui parte [LRM-R34]\nEste é um relacionamento entre dois lugares em que um é componente do outro. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, a Califórnia é parte dos Estados Unidos da América (EUA)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Lugar"
@@ -4620,7 +4541,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Manifestação possui parte [LRM-R26]  \nEste é um relacionamento entre duas manifestações em que uma é componente da outra. Em alguns casos, os componentes de uma manifestação são baseados em considerações físicas relacionadas ao suporte na qual a manifestação deve ser emitida (por exemplo, uma gravação é muito longa para caber em um único disco e é publicada em uma caixa de dois discos). Uma manifestação alternativa em outro suporte pode não exibir os mesmos componentes. No entanto, no caso em que o relacionamento componente-todo é um aspecto inerente das obras, se aplica para todas as expressões e manifestações da obra maior e de suas obras componentes, se a expressão ou manifestação compreende a obra maior ou apenas um ou mais (mas não todas) das obras componentes. [Fonte: IFLA LRM, 2017]."
+    "@value" : "Manifestação possui parte [LRM-R26]\nEste é um relacionamento entre duas manifestações em que uma é componente da outra. Em alguns casos, os componentes de uma manifestação são baseados em considerações físicas relacionadas ao suporte no qual a manifestação deve ser emitida (por exemplo, uma gravação é muito longa para caber em um único disco e é publicada em uma caixa de dois discos). Uma manifestação alternativa em outro suporte pode não exibir os mesmos componentes. No entanto, no caso em que o relacionamento componente-todo é um aspecto inerente das obras, se aplica para todas as expressões e manifestações da obra maior e de suas obras componentes, se a expressão ou manifestação compreende a obra maior ou apenas um ou mais (mas não todas) das obras componentes. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"
@@ -4640,7 +4561,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Nomen possui parte [LRM-R16]\nEste relacionamento indica que um nomen é construído utilizando outro nomen como componente. O relacionamento todo-parte para nomens é essencial para lidar com os atributos dos componentes de nomens construídos utilizando nomens pré-existentes, já que alguns atributos, como o idioma, podem diferir entre as partes de um nomen composto. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, Schubert, Franz, 1797-1828. Sonatas, piano, D. 959, A major’ possui parte ‘Schubert, Franz, 1797-1828’, ‘1830-1886’ é parte de ‘Dickinson, Emily, 1830-1886’ ."
+    "@value" : "Nomen possui parte [LRM-R16]\nEste relacionamento indica que um nomen é construído utilizando outro nomen como componente. O relacionamento todo-parte para nomens é essencial para lidar com os atributos dos componentes de nomens construídos utilizando nomens pré-existentes, já que alguns atributos, como o idioma, podem diferir entre as partes de um nomen composto. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, ‘Schubert, Franz, 1797-1828. Sonatas, piano, D. 959, A major’ possui parte ‘Schubert, Franz, 1797-1828’, ‘1830-1886’ é parte de ‘Dickinson, Emily, 1830-1886’."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Nomen"
@@ -4660,7 +4581,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Obra possui parte [LRM-R18] \nEste é o relacionamento entre duas obras em que o conteúdo de uma é componente da outra. Isto se aplica quando o relacionamento componente-todo é um aspecto inerente das obras e vale para todas as expressões e manifestações da obra maior e de suas obras componentes, se a expressão ou manifestação compreende a obra maior ou apenas uma ou várias obras componentes (mas não todas). Exemplos: movimentos de concertos, poemas em ciclos de poesia, romances multipartes e trípticos. [Fonte: IFLA LRM, 2017]."
+    "@value" : "Obra possui parte [LRM-R18]\nEste é o relacionamento entre duas obras em que o conteúdo de uma é componente da outra. Isto se aplica quando o relacionamento componente-todo é um aspecto inerente das obras e vale para todas as expressões e manifestações da obra maior e de suas obras componentes, se a expressão ou manifestação compreende a obra maior ou apenas uma ou várias obras componentes (mas não todas). Exemplos: movimentos de concertos, poemas em ciclos de poesia, romances multipartes e trípticos. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -4818,7 +4739,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "possui reprodução [LRM-R27]\nEste é o relacionamento entre duas manifestações que fornecem ao usuário final exatamente o mesmo conteúdo e no qual uma manifestação anterior forneceu uma fonte para a criação de uma manifestação subsequente, como fac-símiles, reproduções, reimpressões e reedições. Geralmente, para reimpressões e reedições, não é especificado nenhum item da manifestação original como a fonte da reprodução. Além disso, nesses casos, embora um item específico possa ter sido utilizado como fonte de reprodução, deve-se considerar que este item representa a manifestação original em sua totalidade. O processo de reprodução sempre resulta em uma nova manifestação, mesmo quando apenas um único item foi produzido a partir dessa manifestação.  [Fonte: IFLA LRM, 2017]."
+    "@value" : "possui reprodução [LRM-R27]\nEste é o relacionamento entre duas manifestações que fornecem ao usuário final exatamente o mesmo conteúdo e no qual uma manifestação anterior forneceu uma fonte para a criação de uma manifestação subsequente, como fac-símiles, reproduções, reimpressões e reedições. Geralmente, para reimpressões e reedições, não é especificado nenhum item da manifestação original como a fonte da reprodução. Além disso, nesses casos, embora um item específico possa ter sido utilizado como fonte de reprodução, deve-se considerar que este item representa a manifestação original em sua totalidade. O processo de reprodução sempre resulta em uma nova manifestação, mesmo quando apenas um único item foi produzido a partir dessa manifestação. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"
@@ -4861,7 +4782,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "possui como assunto [LRM-R12] \nEste relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre uma obra e uma entidade de assunto relacionada serve como base tanto para identificar o assunto de uma obra individual como para garantir que todos as obras relevantes para um determinado assunto estejam vinculadas a este assunto. [Fonte: IFLA LRM, 2017]."
+    "@value" : "possui como assunto [LRM-R12]\nEste relacionamento vincula uma obra ao(s) tópico(s). A conexão lógica entre uma obra e uma entidade de assunto relacionada serve como base tanto para identificar o assunto de uma obra individual como para garantir que todos as obras relevantes para um determinado assunto estejam vinculadas a este assunto. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -4907,7 +4828,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação em que coleção tem  suporte ou meio físico associados a ela."
+    "@value" : "Indica a relação em que coleção tem suporte ou meio físico associados a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Colecao"
@@ -5026,9 +4947,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isAdminNatureOf"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Refere-se à relação em que uma categoria de natureza administrativa é atribuída a uma instituição, indicando que a natureza administrativa pertence a essa instituição."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5052,7 +4970,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "é filiado com"
+    "@value" : "é filiado a"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Biblioteca"
@@ -5102,7 +5020,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Lugar é associado com [LRM-R33i] \nIndica a relação em que um lugar está associado a outra entidade."
+    "@value" : "Lugar é associado com [LRM-R33i]\nIndica a relação em que um lugar está associado a outra entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Lugar"
@@ -5162,7 +5080,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade que relaciona uma biblioteca à coleções que ela disponibiliza."
+    "@value" : "Propriedade que relaciona uma biblioteca a coleções que ela disponibiliza."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Colecao"
@@ -5202,7 +5120,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relacionamento entre uma instância de Publicação Seriada com instância(s) de Coleção."
+    "@value" : "Relacionamento entre uma instância de Publicação Seriada e instância(s) de Coleção."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoSeriada"
@@ -5302,7 +5220,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Manifestação foi criada por [LRM-R7] \nEste relacionamento vincula uma manifestação a um agente responsável pela criação da manifestação. Para uma manifestação, a noção de criação inclui, em termos gerais, o processo de publicação das manifestações publicadas. A conexão lógica entre uma manifestação e um agente relacionado serve como base tanto para identificar um agente responsável pela criação de uma manifestação quanto para garantir que todas as manifestações criadas por um agente estejam vinculadas a esse agente. [Fonte: IFLA LRM, 2017]."
+    "@value" : "Manifestação foi criada por [LRM-R7]\nEste relacionamento vincula uma manifestação a um agente responsável pela criação da manifestação. Para uma manifestação, a noção de criação inclui, em termos gerais, o processo de publicação das manifestações publicadas. A conexão lógica entre uma manifestação e um agente relacionado serve como base tanto para identificar um agente responsável pela criação de uma manifestação quanto para garantir que todas as manifestações criadas por um agente estejam vinculadas a esse agente. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"
@@ -5322,7 +5240,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Obra foi criada por [LRM-R5] \nEste relacionamento vincula uma obra a um agente responsável pela criação do conteúdo intelectual ou artístico. A conexão lógica entre uma obra e um agente relacionado serve como base tanto para identificar um agente responsável por uma obra individual, quanto para garantir que todas as obras de um agente em particular estejam vinculadas com tal agente. [Fonte: IFLA LRM, 2017]."
+    "@value" : "Obra foi criada por [LRM-R5]\nEste relacionamento vincula uma obra a um agente responsável pela criação do conteúdo intelectual ou artístico. A conexão lógica entre uma obra e um agente relacionado serve como base tanto para identificar um agente responsável por uma obra individual, quanto para garantir que todas as obras de um agente em particular estejam vinculadas com tal agente. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -5422,7 +5340,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "é equivalente a [LRM-R15]\nEste é o relacionamento entre dois nomens que são denominações de uma mesma res. Este é um atalho de um caminho totalmente desenvolvido: NOMEN1 é a denominação de RES + RES possui denominação NOMEN2 Os nomens relacionados por esse relacionamento têm um significado funcionalmente equivalente (atribuído às mesmas res), mas, como mantêm seus próprios valores em quaisquer atributos registrados para eles, não são intercambiáveis no que diz respeito ao uso. Os nomens equivalentes podem diferir quanto a atributos cruciais, como esquema, idioma ou contexto de uso. Esse relacionamento de equivalência relaciona instâncias de nomens e não os valores dos atributos do nomen string para esses nomens. Assim, mesmo que pareça contra-intuitivo, dois nomens que se referem a diferentes res, mesmo se gravados com a mesma string literal, não serão equivalentes. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, ‘USA’ é equivalente a ‘United States of America’, ‘τὰ βιβλία’ é equivalente a ‘Bíblia’,  ‘Schubert, Franz, 1797-1828. Sonatas, piano, D. 959, A major’ é equivalente a ‘Schubert, Franz, 1797-1828. Sonates. Piano. D. 959. International Federation of Library Associations and Institutions’ é equivalente a ‘IFLA’."
+    "@value" : "é equivalente a [LRM-R15]\nEste é o relacionamento entre dois nomens que são denominações de uma mesma res. Este é um atalho de um caminho totalmente desenvolvido: NOMEN1 é a denominação de RES + RES possui denominação NOMEN2. Os nomens relacionados por esse relacionamento têm um significado funcionalmente equivalente (atribuído às mesmas res), mas, como mantêm seus próprios valores em quaisquer atributos registrados para eles, não são intercambiáveis no que diz respeito ao uso. Os nomens equivalentes podem diferir quanto a atributos cruciais, como esquema, idioma ou contexto de uso. Esse relacionamento de equivalência relaciona instâncias de nomens e não os valores dos atributos do nomen string para esses nomens. Assim, mesmo que pareça contra-intuitivo, dois nomens que se referem a diferentes res, mesmo se gravados com a mesma string literal, não serão equivalentes. [Fonte: IFLA LRM, 2017].\n\nPor exemplo, ‘USA’ é equivalente a ‘United States of America’, ‘τὰ βιβλία’ é equivalente a ‘Bíblia’, ‘Schubert, Franz, 1797-1828. Sonatas, piano, D. 959, A major’ é equivalente a ‘Schubert, Franz, 1797-1828. Sonates. Piano. D. 959. International Federation of Library Associations and Institutions’ é equivalente a ‘IFLA’."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Nomen"
@@ -5482,7 +5400,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relação entre Publicações Seriadas e Termos Livres"
+    "@value" : "Relação entre Publicações Seriadas e Termos Livres."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#TermoLivre"
@@ -5562,7 +5480,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "é inspiração para [LRM-R21] \nEste é o relacionamento entre duas obras em que o conteúdo do primeiro serviu como fonte de ideias para o segundo. [Fonte: IFLA LRM, 2017]."
+    "@value" : "é inspiração para [LRM-R21]\nEste é o relacionamento entre duas obras em que o conteúdo do primeiro serviu como fonte de ideias para o segundo. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -5583,9 +5501,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
     "@value" : "Vincula Instituições e Unidades."
-  }, {
-    "@language" : "pt-br",
-    "@value" : "é Instituição de"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Instituicao"
@@ -5593,11 +5508,15 @@
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isInstituicaoOf"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt-br",
+    "@value" : "é Instituição de"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Unidade"
   } ]
 }, {
-  "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isInstituitonAddressOf",
+  "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isInstitutionAddressOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
@@ -5607,7 +5526,7 @@
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Endereco"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isInstituitonAddressOf"
+    "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isInstitutionAddressOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5734,9 +5653,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#isMaterializedIn"
-  }, {
-    "@language" : "pt-br",
-    "@value" : "Este relacionamento vincula uma expressão com uma manifestação na qual a expressão aparece."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5816,7 +5732,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica que esta obra é a origem de uma publicação relacionada"
+    "@value" : "Indica que esta obra é a origem de uma publicação relacionada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -5836,7 +5752,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "A conexão lógica entre obra e expressão, conforme refletida no modelo por meio desse relacionamento, serve como base tanto para identificar a obra representada por uma expressão individual, como para garantir que todas as expressões de uma obra estejam vinculadas à obra. Indiretamente, as relações entre uma obra e as várias expressões desta obra também servem para estabelecer um relacionamento “de\nparentesco” entre as diferentes expressões da obra.\n\nPor exemplo, a obra conhecida como Eine kleine Nachtmusik é realizada através da  notação musical encontrada nas edições de Eine kleine Nachtmusil, de 1989, por Bärenreiter, ISBN 3-370-003301, e por VEB Deutscher Verlag für Musik, ISBN 3-370-00301-5, e na edição sem data de Breitkopf & Härtel, número de chapa 4956."
+    "@value" : "A conexão lógica entre obra e expressão, conforme refletida no modelo por meio desse relacionamento, serve como base tanto para identificar a obra representada por uma expressão individual, como para garantir que todas as expressões de uma obra estejam vinculadas à obra. Indiretamente, as relações entre uma obra e as várias expressões desta obra também servem para estabelecer um relacionamento “de\nparentesco” entre as diferentes expressões da obra.\n\nPor exemplo, a obra conhecida como Eine kleine Nachtmusik é realizada através da notação musical encontrada nas edições de Eine kleine Nachtmusil, de 1989, por Bärenreiter, ISBN 3-370-003301, e por VEB Deutscher Verlag für Musik, ISBN 3-370-00301-5, e na edição sem data de Breitkopf & Härtel, número de chapa 4956."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -6082,7 +5998,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade inversa de \"tem complemento de tíitulo\" (hasTitleComplement)."
+    "@value" : "Propriedade inversa de \"tem complemento de título\" (hasTitleComplement)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#TituloComplementar"
@@ -6102,7 +6018,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "é transformação de [LRM-R22] \nEste relacionamento indica que uma nova obra foi criada alterando o escopo ou a política editorial (como em uma obra seriada ou agregada), o gênero ou a forma literária (dramatização, novelização), público-alvo (adaptação para crianças) ou estilo (paráfrase, imitação, paródia) de uma obra existente. Algumas transformações podem ser consideradas inspiradas apenas por uma obra existente. [Fonte: IFLA LRM, 2017]."
+    "@value" : "é transformação de [LRM-R22]\nEste relacionamento indica que uma nova obra foi criada alterando o escopo ou a política editorial (como em uma obra seriada ou agregada), o gênero ou a forma literária (dramatização, novelização), público-alvo (adaptação para crianças) ou estilo (paráfrase, imitação, paródia) de uma obra existente. Algumas transformações podem ser consideradas inspiradas apenas por uma obra existente. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -6222,7 +6138,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relacionamento inverso de \"foi produzida por\" (ismanufacturedBy)."
+    "@value" : "Relacionamento inverso de \"foi produzida por\" (isManufacturedBy)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Agente"
@@ -6242,7 +6158,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "materializa [LRM-R3i] \nRelacionamento inverso da propriedade \"é materializada em\" (isMaterializedIn)."
+    "@value" : "materializa [LRM-R3i]\nRelacionamento inverso da propriedade \"é materializada em\" (isMaterializedIn)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Manifestacao"
@@ -6445,7 +6361,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "realiza [LRM-R2i]\nPropriedade inversa da propriedade é realizado através de (isPerformadedThrough)."
+    "@value" : "realiza [LRM-R2i]\nPropriedade inversa da propriedade é realizado através de (isPerformedThrough)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Expressao"
@@ -6485,7 +6401,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Obra precede [LRM-R19] \nEste é o relacionamento de duas obras, em que o conteúdo da segunda é uma continuação lógica da primeira. O relacionamento é sobre uma sequência de ideias que não deve ser confundida com o tempo de criação das respectivas obras. Como esse relacionamento diz respeito à continuação lógica do conteúdo das respectivas obras, ele não se aplica às obras em série que se transformam ao longo do tempo (por meio de grandes alterações de título, alterações no tipo de mídia e entre outros), mas mantêm uma continuidade em sua forma ou esquema de numeração. [Fonte: IFLA LRM, 2017]."
+    "@value" : "Obra precede [LRM-R19]\nEste é o relacionamento de duas obras, em que o conteúdo da segunda é uma continuação lógica da primeira. O relacionamento é sobre uma sequência de ideias que não deve ser confundida com o tempo de criação das respectivas obras. Como esse relacionamento diz respeito à continuação lógica do conteúdo das respectivas obras, ele não se aplica às obras em série que se transformam ao longo do tempo (por meio de grandes alterações de título, alterações no tipo de mídia e entre outros), mas mantêm uma continuidade em sua forma ou esquema de numeração. [Fonte: IFLA LRM, 2017]."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Obra"
@@ -6605,7 +6521,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica os serviços bibliográficos gerenciados pelo Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT)."
+    "@value" : "Indica os serviços bibliográficos gerenciados pelo Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Biblioteca"
@@ -6625,7 +6541,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica uma abreviação ou palavra formada pelas iniciais de qualquer instância."
+    "@value" : "Indica uma abreviação ou palavra formada pelas iniciais de qualquer entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#Res"
@@ -6785,7 +6701,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "caracteriza  o tipo de relação entre obras"
+    "@value" : "Caracteriza o tipo de relação entre obras."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://cobib-ibict.github.io/ontologies/pinakes#PublicacaoRelacionada"
