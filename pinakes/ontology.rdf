@@ -4113,9 +4113,6 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza a Biblioteca 
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Homepage_1"/>
         <rdfs:label xml:lang="pt-br">Homepage da Publicação Seriada Ciência da Informação</rdfs:label>
     </owl:NamedIndividual>
-    <rdf:Description>
-        <alfabetacao xml:lang="pt-br"></alfabetacao>
-    </rdf:Description>
 </rdf:RDF>
 
 
