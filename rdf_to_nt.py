@@ -12,5 +12,5 @@
 from rdflib import Graph
 
 g = Graph()
-g.parse("ontology.rdf", format="xml")   # RDF/XML
-g.serialize("ontology.nt", format="nt") # N-Triples
+g.parse('ontology.rdf', format='xml')                      # RDF/XML
+g.serialize('ontology.nt', format='nt', encoding='utf-8')  # N-Triples
