@@ -2579,9 +2579,9 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia é a Ed
         </rdfs:subClassOf>
         <rdfs:isDefinedBy rdf:resource="https://cobib-ibict.github.io/ontologies/pinakes#Endereco"/>
         <rdfs:label xml:lang="pt-br">Endereço</rdfs:label>
-        <rdfs:label xml:lang="pt-br">Localidade específica (como rua, logradouro, bairro, setor ou avenida) que integra um endereço postal e/ou é identificada por coordenadas geográficas.
+        <rdfs:comment xml:lang="pt-br">Localidade específica (como rua, logradouro, bairro, setor ou avenida) que integra um endereço postal e/ou é identificada por coordenadas geográficas.
 
-Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente.</rdfs:label>
+Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente.</rdfs:comment>
     </owl:Class>
 
 
