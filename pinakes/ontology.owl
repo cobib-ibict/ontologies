@@ -707,6 +707,225 @@
         <DataProperty IRI="#volume"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#AreaConhecimento_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AreaConhecimento_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssuntoControlado_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssuntoControlado_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssuntoControlado_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colecao_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colecao_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colecao_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contato_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataImprenta_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataImprenta_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Editora_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Editora_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Editora_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Endereco_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Homepage_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISSN_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISSN_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISSN_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISSN_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISSN_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISSN_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISSN_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Idioma_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Idioma_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Idioma_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Instituicao_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Localidade_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Localidade_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Localidade_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MeioFisico_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MeioFisico_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NaturezaAdministrativa_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NaturezaAdministrativa_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nota_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nota_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nota_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nota_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nota_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obra_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pais_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pais_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pais_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PublicacaoRelacionada_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PublicacaoRelacionada_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Referenciador_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Referenciador_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Referenciador_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Regiao_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Regiao_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tabela_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tabela_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TermoLivre_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TermoLivre_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TipoBiblioteca_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TipoBiblioteca_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TituloComplementar_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TituloComplementar_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnidadeFederativa_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnidadeFederativa_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unidade_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unidade_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://revista.ibict.br/Homepage_1"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:rights"/>
     </Declaration>
     <Declaration>
@@ -1098,6 +1317,1401 @@
             <Class IRI="#Pais"/>
         </ObjectMaxCardinality>
     </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#AreaDeConhecimento"/>
+        <NamedIndividual IRI="#AreaConhecimento_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AreaDeConhecimento"/>
+        <NamedIndividual IRI="#AreaConhecimento_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssuntoControlado"/>
+        <NamedIndividual IRI="#AssuntoControlado_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssuntoControlado"/>
+        <NamedIndividual IRI="#AssuntoControlado_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssuntoControlado"/>
+        <NamedIndividual IRI="#AssuntoControlado_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biblioteca"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Colecao"/>
+        <NamedIndividual IRI="#Colecao_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Colecao"/>
+        <NamedIndividual IRI="#Colecao_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Colecao"/>
+        <NamedIndividual IRI="#Colecao_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contato"/>
+        <NamedIndividual IRI="#Contato_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoImprenta"/>
+        <NamedIndividual IRI="#DataImprenta_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoImprenta"/>
+        <NamedIndividual IRI="#DataImprenta_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editora"/>
+        <NamedIndividual IRI="#Editora_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editora"/>
+        <NamedIndividual IRI="#Editora_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editora"/>
+        <NamedIndividual IRI="#Editora_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Endereco"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homepage"/>
+        <NamedIndividual IRI="#Homepage_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISSN"/>
+        <NamedIndividual IRI="#ISSN_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISSN"/>
+        <NamedIndividual IRI="#ISSN_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISSN"/>
+        <NamedIndividual IRI="#ISSN_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISSN"/>
+        <NamedIndividual IRI="#ISSN_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISSN"/>
+        <NamedIndividual IRI="#ISSN_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISSN"/>
+        <NamedIndividual IRI="#ISSN_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISSN"/>
+        <NamedIndividual IRI="#ISSN_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idioma"/>
+        <NamedIndividual IRI="#Idioma_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idioma"/>
+        <NamedIndividual IRI="#Idioma_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idioma"/>
+        <NamedIndividual IRI="#Idioma_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instituicao"/>
+        <NamedIndividual IRI="#Instituicao_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Localidade"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Localidade"/>
+        <NamedIndividual IRI="#Localidade_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Localidade"/>
+        <NamedIndividual IRI="#Localidade_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeioFisico"/>
+        <NamedIndividual IRI="#MeioFisico_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeioFisico"/>
+        <NamedIndividual IRI="#MeioFisico_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturezaAdministrativa"/>
+        <NamedIndividual IRI="#NaturezaAdministrativa_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturezaAdministrativa"/>
+        <NamedIndividual IRI="#NaturezaAdministrativa_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nota"/>
+        <NamedIndividual IRI="#Nota_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nota"/>
+        <NamedIndividual IRI="#Nota_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nota"/>
+        <NamedIndividual IRI="#Nota_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nota"/>
+        <NamedIndividual IRI="#Nota_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nota"/>
+        <NamedIndividual IRI="#Nota_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoSeriada"/>
+        <NamedIndividual IRI="#Obra_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoSeriada"/>
+        <NamedIndividual IRI="#Obra_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoSeriada"/>
+        <NamedIndividual IRI="#Obra_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoSeriada"/>
+        <NamedIndividual IRI="#Obra_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoSeriada"/>
+        <NamedIndividual IRI="#Obra_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoSeriada"/>
+        <NamedIndividual IRI="#Obra_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Obra"/>
+        <NamedIndividual IRI="#Obra_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoSeriada"/>
+        <NamedIndividual IRI="#Obra_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoSeriada"/>
+        <NamedIndividual IRI="#Obra_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pais"/>
+        <NamedIndividual IRI="#Pais_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pais"/>
+        <NamedIndividual IRI="#Pais_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pais"/>
+        <NamedIndividual IRI="#Pais_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoRelacionada"/>
+        <NamedIndividual IRI="#PublicacaoRelacionada_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicacaoRelacionada"/>
+        <NamedIndividual IRI="#PublicacaoRelacionada_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Referenciador"/>
+        <NamedIndividual IRI="#Referenciador_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Referenciador"/>
+        <NamedIndividual IRI="#Referenciador_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Referenciador"/>
+        <NamedIndividual IRI="#Referenciador_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regiao"/>
+        <NamedIndividual IRI="#Regiao_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regiao"/>
+        <NamedIndividual IRI="#Regiao_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TabelaAreaDeConhecimento"/>
+        <NamedIndividual IRI="#Tabela_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TabelaAreaDeConhecimento"/>
+        <NamedIndividual IRI="#Tabela_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TermoLivre"/>
+        <NamedIndividual IRI="#TermoLivre_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TermoLivre"/>
+        <NamedIndividual IRI="#TermoLivre_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TipoDeBiblioteca"/>
+        <NamedIndividual IRI="#TipoBiblioteca_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TipoDeBiblioteca"/>
+        <NamedIndividual IRI="#TipoBiblioteca_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TituloComplementar"/>
+        <NamedIndividual IRI="#TituloComplementar_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TituloComplementar"/>
+        <NamedIndividual IRI="#TituloComplementar_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnidadeFederativa"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnidadeFederativa"/>
+        <NamedIndividual IRI="#UnidadeFederativa_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnidadeFederativa"/>
+        <NamedIndividual IRI="#UnidadeFederativa_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unidade"/>
+        <NamedIndividual IRI="#Unidade_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unidade"/>
+        <NamedIndividual IRI="#Unidade_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homepage"/>
+        <NamedIndividual IRI="https://revista.ibict.br/Homepage_1"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Localidade_2"/>
+        <NamedIndividual IRI="#UnidadeFederativa_2"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Localidade_3"/>
+        <NamedIndividual IRI="#UnidadeFederativa_3"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKnowledgeAreaTable"/>
+        <NamedIndividual IRI="#AreaConhecimento_1"/>
+        <NamedIndividual IRI="#Tabela_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isKnowledgeFieldOf"/>
+        <NamedIndividual IRI="#AreaConhecimento_8"/>
+        <NamedIndividual IRI="#Obra_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAddress"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAffiliation"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <NamedIndividual IRI="#Instituicao_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCollection"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <NamedIndividual IRI="#Colecao_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCollection"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <NamedIndividual IRI="#Colecao_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasContact"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <NamedIndividual IRI="#Contato_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLibraryType"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <NamedIndividual IRI="#TipoBiblioteca_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUnit"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <NamedIndividual IRI="#Unidade_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Colecao_1"/>
+        <NamedIndividual IRI="#Obra_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCollectionOf"/>
+        <NamedIndividual IRI="#Colecao_1"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Colecao_9"/>
+        <NamedIndividual IRI="#Obra_9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContactOf"/>
+        <NamedIndividual IRI="#Contato_1"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPublicationDateOf"/>
+        <NamedIndividual IRI="#DataImprenta_2"/>
+        <NamedIndividual IRI="#Obra_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publisherOf"/>
+        <NamedIndividual IRI="#Editora_1"/>
+        <NamedIndividual IRI="#DataImprenta_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHomepageOf"/>
+        <NamedIndividual IRI="#Homepage_8"/>
+        <NamedIndividual IRI="#Obra_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSupport"/>
+        <NamedIndividual IRI="#ISSN_1"/>
+        <NamedIndividual IRI="#MeioFisico_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isISSNOf"/>
+        <NamedIndividual IRI="#ISSN_1"/>
+        <NamedIndividual IRI="#Obra_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isISSNOf"/>
+        <NamedIndividual IRI="#ISSN_2"/>
+        <NamedIndividual IRI="#Obra_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSupport"/>
+        <NamedIndividual IRI="#ISSN_5"/>
+        <NamedIndividual IRI="#MeioFisico_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isISSNOf"/>
+        <NamedIndividual IRI="#ISSN_8"/>
+        <NamedIndividual IRI="#Obra_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInstitutionAddress"/>
+        <NamedIndividual IRI="#Instituicao_1"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFederativeUnit"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCityOf"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+        <NamedIndividual IRI="#Pais_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocalityOf"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPlacePublicationOf"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+        <NamedIndividual IRI="#DataImprenta_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSupportOf"/>
+        <NamedIndividual IRI="#MeioFisico_1"/>
+        <NamedIndividual IRI="#ISSN_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAdminNatureOf"/>
+        <NamedIndividual IRI="#NaturezaAdministrativa_1"/>
+        <NamedIndividual IRI="#Instituicao_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasControlledSubject"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#AssuntoControlado_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasControlledSubject"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#AssuntoControlado_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFreeTerm"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#TermoLivre_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHomepage"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="https://revista.ibict.br/Homepage_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasISSN"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#ISSN_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKnowledgeField"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#AreaConhecimento_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNote"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#Nota_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPublicationDate"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#DataImprenta_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPublicationLanguage"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#Idioma_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPublicationLanguage"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#Idioma_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTitleComplement"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#TituloComplementar_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#indexedBy"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#Referenciador_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#indexedBy"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#Referenciador_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <NamedIndividual IRI="#Colecao_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasISSN"/>
+        <NamedIndividual IRI="#Obra_2"/>
+        <NamedIndividual IRI="#ISSN_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasISSN"/>
+        <NamedIndividual IRI="#Obra_3"/>
+        <NamedIndividual IRI="#ISSN_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNote"/>
+        <NamedIndividual IRI="#Obra_3"/>
+        <NamedIndividual IRI="#Nota_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasISSN"/>
+        <NamedIndividual IRI="#Obra_4"/>
+        <NamedIndividual IRI="#ISSN_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNote"/>
+        <NamedIndividual IRI="#Obra_4"/>
+        <NamedIndividual IRI="#Nota_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasISSN"/>
+        <NamedIndividual IRI="#Obra_5"/>
+        <NamedIndividual IRI="#ISSN_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNote"/>
+        <NamedIndividual IRI="#Obra_6"/>
+        <NamedIndividual IRI="#Nota_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPublicationLanguage"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <NamedIndividual IRI="#Idioma_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasControlledSubject"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <NamedIndividual IRI="#AssuntoControlado_9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasISSN"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <NamedIndividual IRI="#ISSN_9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNote"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <NamedIndividual IRI="#Nota_9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTitleComplement"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <NamedIndividual IRI="#TituloComplementar_9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCity"/>
+        <NamedIndividual IRI="#Pais_1"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCountryOf"/>
+        <NamedIndividual IRI="#Pais_1"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCountryPublicationOf"/>
+        <NamedIndividual IRI="#Pais_1"/>
+        <NamedIndividual IRI="#Obra_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOriginalPublication"/>
+        <NamedIndividual IRI="#PublicacaoRelacionada_1"/>
+        <NamedIndividual IRI="#Obra_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRelatedPublication"/>
+        <NamedIndividual IRI="#PublicacaoRelacionada_1"/>
+        <NamedIndividual IRI="#Obra_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOriginalPublication"/>
+        <NamedIndividual IRI="#PublicacaoRelacionada_2"/>
+        <NamedIndividual IRI="#Obra_9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRelatedPublication"/>
+        <NamedIndividual IRI="#PublicacaoRelacionada_2"/>
+        <NamedIndividual IRI="#Obra_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIndexOf"/>
+        <NamedIndividual IRI="#Referenciador_8"/>
+        <NamedIndividual IRI="#Obra_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRegionOf"/>
+        <NamedIndividual IRI="#Regiao_1"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFreeTermOf"/>
+        <NamedIndividual IRI="#TermoLivre_8"/>
+        <NamedIndividual IRI="#Obra_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTitleComplementOf"/>
+        <NamedIndividual IRI="#TituloComplementar_1"/>
+        <NamedIndividual IRI="#Obra_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCountry"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+        <NamedIndividual IRI="#Pais_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+        <NamedIndividual IRI="#Regiao_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFederativeUnitOf"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codigo"/>
+        <NamedIndividual IRI="#AreaConhecimento_1"/>
+        <Literal xml:lang="pt-br">60700010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#AreaConhecimento_1"/>
+        <Literal xml:lang="pt-br">Ciência da Informação</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#AreaConhecimento_8"/>
+        <Literal xml:lang="pt-br">Biologia Geral</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#assunto"/>
+        <NamedIndividual IRI="#AssuntoControlado_1"/>
+        <Literal xml:lang="pt-br">Organização da Informação</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fonte"/>
+        <NamedIndividual IRI="#AssuntoControlado_1"/>
+        <Literal xml:lang="pt-br">Tesauro Brasileiro de Ciência da Informação.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#AssuntoControlado_2"/>
+        <Literal xml:lang="pt-br">Recursos da Informação</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#assunto"/>
+        <NamedIndividual IRI="#AssuntoControlado_9"/>
+        <Literal xml:lang="pt-br">Biologia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fonte"/>
+        <NamedIndividual IRI="#AssuntoControlado_9"/>
+        <Literal>Tesauro SPINES (Science Policy Information Exchange System)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataAtualizacaoBiblioteca"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataCadastroBiblioteca"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1995-11-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal xml:lang="pt-br">Lydia de Queiroz Sambaquy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#paginaWeb"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://biblioteca.ibict.br</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicosBiblioteca"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal xml:lang="pt-br">Bibliodata</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicosBiblioteca"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal xml:lang="pt-br">CCN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#servicosBiblioteca"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal xml:lang="pt-br">COMUT</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal xml:lang="pt-br">LQS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#softwareUtilizado"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal xml:lang="pt-br">Koha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#urlDoCatalogo"/>
+        <NamedIndividual IRI="#Biblioteca_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://biblioteca.ibict.br</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conteudoColecao"/>
+        <NamedIndividual IRI="#Colecao_1"/>
+        <Literal xml:lang="pt-br">1972 1(1-2); 1973 2(1-2); 1974 3(1-2); 1975 4(1-2); 1976 5(1/2); 1977 6(1- 2); 1978 7(1-2); 1979 8(1-2); 1980 9(1/2); 1981 10(1-2); 1982 11(1-2); 1983 12(1 -2); 1984 13(1-2); 1985 14(1-2); 1986 15(1-2); 1987 16(1-2); 1988 17(1- 2); 1989 18(1-2); 1990 19(1-2); 1991 20(1-2); 1992 21(1-3); 1993 22(1-3); 1994 23(1-3); 1 995 24(1-3); 1996 25(1-3); 1997 26(1-3); 1998 27(1-3); 1999 28(1-3); 2000 29(1-3 ); 2001 30(1-3); 2002 31(1-3); 2003 32(1-3); 2004 33(1-3); 2005 34(1-3); 2006 35 (1-3); 2007 36(1-3); 2008 37(1-3); 2009 38(1-3); 2010 39(1-3); 2011 40(1- 3); 201 5 44(1)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDocumento"/>
+        <NamedIndividual IRI="#Colecao_1"/>
+        <Literal xml:lang="pt-br">XML</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conteudoColecao"/>
+        <NamedIndividual IRI="#Colecao_9"/>
+        <Literal>1975/1995 (267-398,400-536)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#Contato_1"/>
+        <Literal xml:lang="pt-br">biblioteca@ibict.br</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#telefoneMovel"/>
+        <NamedIndividual IRI="#Contato_1"/>
+        <Literal xml:lang="pt-br">(61)32176145</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataInicialPI"/>
+        <NamedIndividual IRI="#DataImprenta_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#gYear">1972</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataInicialPI"/>
+        <NamedIndividual IRI="#DataImprenta_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#gYear">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Editora_1"/>
+        <Literal xml:lang="pt-br">Instituto Brasileiro de Informação em Ciência e Tecnologia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#Editora_1"/>
+        <Literal xml:lang="pt-br">Ibict</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Editora_2"/>
+        <Literal xml:lang="pt-br">Centaurus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Editora_9"/>
+        <Literal xml:lang="de">Staatliches Museum für Naturkunde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cep"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+        <Literal xml:lang="pt-br">70070-912</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#latitude"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">-15.8024936</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#logradouro"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+        <Literal xml:lang="pt-br">Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#longitude"/>
+        <NamedIndividual IRI="#Endereco_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">-47.8824090</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#enderecoEletronico"/>
+        <NamedIndividual IRI="#Homepage_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://bioone.org/journals/integrative-systematics-sttutgart-contributions-to-natural-history</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descricao"/>
+        <NamedIndividual IRI="#ISSN_1"/>
+        <Literal xml:lang="pt-br">0100-1965</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descricao"/>
+        <NamedIndividual IRI="#ISSN_2"/>
+        <Literal xml:lang="pt-br">0101-9163</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descricao"/>
+        <NamedIndividual IRI="#ISSN_3"/>
+        <Literal xml:lang="pt-br">0271-5694</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descricao"/>
+        <NamedIndividual IRI="#ISSN_4"/>
+        <Literal xml:lang="pt-br">0096-8471</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descricao"/>
+        <NamedIndividual IRI="#ISSN_5"/>
+        <Literal xml:lang="pt-br">1518-8353</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descricao"/>
+        <NamedIndividual IRI="#ISSN_8"/>
+        <Literal xml:lang="pt-br">2628-2380</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descricao"/>
+        <NamedIndividual IRI="#ISSN_9"/>
+        <Literal>0341-0145</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Idioma_1"/>
+        <Literal xml:lang="pt-br">Português (BR)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#Idioma_1"/>
+        <Literal xml:lang="pt-br">pt-br</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Idioma_2"/>
+        <Literal xml:lang="pt-br">Inglês</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#Idioma_2"/>
+        <Literal xml:lang="pt-br">en</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Idioma_3"/>
+        <Literal xml:lang="pt-br">Espanhol</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#Idioma_3"/>
+        <Literal xml:lang="pt-br">es</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cnpj"/>
+        <NamedIndividual IRI="#Instituicao_1"/>
+        <Literal xml:lang="pt-br">04.082.993/0001-49</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Instituicao_1"/>
+        <Literal xml:lang="pt-br">Instituto Brasileiro de Informação em Ciência e Tecnologia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#Instituicao_1"/>
+        <Literal xml:lang="pt-br">Ibict</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Localidade_1"/>
+        <Literal xml:lang="pt-br">Brasília</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Localidade_2"/>
+        <Literal xml:lang="pt-br">Rio de Janeiro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Localidade_3"/>
+        <Literal xml:lang="pt-br">São Paulo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#MeioFisico_1"/>
+        <Literal xml:lang="pt-br">Impresso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#MeioFisico_2"/>
+        <Literal xml:lang="pt-br">Online (Eletrônico)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#NaturezaAdministrativa_1"/>
+        <Literal xml:lang="pt-br">Pública (Federal)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#NaturezaAdministrativa_2"/>
+        <Literal xml:lang="pt-br">Privada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#notasGerais"/>
+        <NamedIndividual IRI="#Nota_1"/>
+        <Literal xml:lang="pt-br">Disponível online, em texto integral de 1995, presente no portal de periódicos da CAPES</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#notaDeSuplemento"/>
+        <NamedIndividual IRI="#Nota_2"/>
+        <Literal xml:lang="pt-br">Tem suplemento: Wines &amp; Vines Annual Directory (ISSN 0084-0351).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#notasGerais"/>
+        <NamedIndividual IRI="#Nota_3"/>
+        <Literal xml:lang="pt-br">Publicação impressa suspensa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#notaDeComplexidade"/>
+        <NamedIndividual IRI="#Nota_4"/>
+        <Literal xml:lang="pt-br">Absorveu: Wine East (ISSN 0892-662X).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#notasGerais"/>
+        <NamedIndividual IRI="#Nota_9"/>
+        <Literal xml:lang="pt-br">Continuado por: Integrative Systematics [ISSN 2628-2380]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#alfabetacao"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anoFinal"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#gYear">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anoInicial"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#gYear">1972</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conteudo"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Científico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataDeAtualizacao"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-11T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataDeCadastro"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDeCatalogacao"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">AACR2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDeCatalogacao"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Dublin Core</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDeCatalogacao"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">MARC 21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#frequencia"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Quadrimestral</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelBibliografico"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Periódico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelDeCatalogacao"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Nível Central</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numero"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal>no. 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requerimentoDeLigacao"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">0100-1965 (ISSN-L)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#responsavelIntelectual"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#situacaoDaPublicacao"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Descontinuada (versão impressa)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#statusDoRegistro"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Alterado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Periódico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeRegistro"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Material textual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Ciência da Informação</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#volume"/>
+        <NamedIndividual IRI="#Obra_1"/>
+        <Literal xml:lang="pt-br">Vol. 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_2"/>
+        <Literal xml:lang="pt-br">A Hora Veterinária</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_3"/>
+        <Literal xml:lang="en">Wines &amp; Vines Yearbook of the Wine Industry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_4"/>
+        <Literal xml:lang="en">Wine Review (Los Angeles)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_5"/>
+        <Literal xml:lang="pt-br">Ciência da Informação (Online)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_6"/>
+        <Literal xml:lang="pt-br">BIB: Revista brasileira de informação bibliográfica em Ciências Sociais</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_7"/>
+        <Literal xml:lang="de">Eine kleine Nachtmusik</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#alfabetacao"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anoInicial"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#gYear">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conteudo"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Técnico-científico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataDeAtualizacao"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-04T22:31:31.413</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataDeCadastro"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-04T22:15:29.884</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDeCatalogacao"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">AACR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#frequencia"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Anual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelBibliografico"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Publicação seriada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelDeCatalogacao"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Básico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requerimentoDeLigacao"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Não especificado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#situacaoDaPublicacao"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Corrente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#statusDoRegistro"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Novo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipo"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Periódico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeRegistro"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="pt-br">Material textual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal xml:lang="en">Integrative Systematics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#volume"/>
+        <NamedIndividual IRI="#Obra_8"/>
+        <Literal>Vol. 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#alfabetacao"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal>0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anoFinal"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#gYear">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anoInicial"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#gYear">1973</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#conteudo"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal xml:lang="pt-br">Técnico-Científico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataDeAtualizacao"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dataDeCadastro"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1984-08-02T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDeCatalogacao"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal xml:lang="pt-br">Desconhecido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#frequencia"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal xml:lang="pt-br">Irregular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numero"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#situacaoDaPublicacao"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal xml:lang="pt-br">Suspensa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#statusDoRegistro"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal xml:lang="pt-br">Alterado ou Revisado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tituloProprio"/>
+        <NamedIndividual IRI="#Obra_9"/>
+        <Literal xml:lang="de">Stuttgarter Beiträge zur Naturkunde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codigoIso"/>
+        <NamedIndividual IRI="#Pais_1"/>
+        <Literal xml:lang="pt-br">BRA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Pais_1"/>
+        <Literal xml:lang="pt-br">Brasil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codigoIso"/>
+        <NamedIndividual IRI="#Pais_2"/>
+        <Literal>DEU</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Pais_2"/>
+        <Literal xml:lang="pt-br">Alemanha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Pais_3"/>
+        <Literal xml:lang="pt-br">Estados Unidos da América</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoRelacao"/>
+        <NamedIndividual IRI="#PublicacaoRelacionada_1"/>
+        <Literal xml:lang="pt-br">Continuação</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoRelacao"/>
+        <NamedIndividual IRI="#PublicacaoRelacionada_2"/>
+        <Literal xml:lang="pt-br">Continuação</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Referenciador_1"/>
+        <Literal xml:lang="en">Library &amp; information science abstracts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Referenciador_2"/>
+        <Literal xml:lang="en">Information science abstracts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Referenciador_8"/>
+        <Literal xml:lang="en">WIKIDATA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Regiao_1"/>
+        <Literal xml:lang="pt-br">Centro-Oeste</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Regiao_2"/>
+        <Literal xml:lang="pt-br">Sudeste</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Tabela_1"/>
+        <Literal xml:lang="pt-br">Tabela de Áreas de Conhecimento/Avaliação - CAPES</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Tabela_2"/>
+        <Literal xml:lang="pt-br">Tabela de áreas do conhecimento CNPq (ou Conselho Nacional de Desenvolvimento Científico e Tecnológico).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#TermoLivre_1"/>
+        <Literal xml:lang="pt-br">CI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#TermoLivre_8"/>
+        <Literal xml:lang="pt-br">Biologia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#TipoBiblioteca_1"/>
+        <Literal xml:lang="pt-br">Biblioteca Setorial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#TipoBiblioteca_2"/>
+        <Literal xml:lang="pt-br">Biblioteca Especializada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#TituloComplementar_1"/>
+        <Literal xml:lang="pt-br">Ciên. Inf.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoTitulo"/>
+        <NamedIndividual IRI="#TituloComplementar_1"/>
+        <Literal xml:lang="pt-br">Título Abreviado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#TituloComplementar_9"/>
+        <Literal xml:lang="pt-br">Stuttg. Beitr. Nat.kd., A Biol.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoTitulo"/>
+        <NamedIndividual IRI="#TituloComplementar_9"/>
+        <Literal xml:lang="pt-br">Título Abreviado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+        <Literal xml:lang="pt-br">Distrito Federal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#UnidadeFederativa_1"/>
+        <Literal xml:lang="pt-br">DF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#UnidadeFederativa_2"/>
+        <Literal xml:lang="pt-br">Rio de Janeiro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#UnidadeFederativa_2"/>
+        <Literal xml:lang="pt-br">RJ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#UnidadeFederativa_3"/>
+        <Literal xml:lang="pt-br">São Paulo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#UnidadeFederativa_3"/>
+        <Literal>SP</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Unidade_1"/>
+        <Literal xml:lang="pt-br">Coordenação de Serviços Bibliográficos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#Unidade_1"/>
+        <Literal xml:lang="pt-br">COBIB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Unidade_2"/>
+        <Literal xml:lang="pt-br">Instituto Brasileiro em Ciência e Tecnologia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sigla"/>
+        <NamedIndividual IRI="#Unidade_2"/>
+        <Literal xml:lang="pt-br">Ibict</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#enderecoEletronico"/>
+        <NamedIndividual IRI="https://revista.ibict.br/Homepage_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://revista.ibict.br/ciinf/article/view/6125</Literal>
+    </DataPropertyAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#assigned"/>
         <ObjectProperty IRI="#isAssignedBy"/>
@@ -2833,6 +4447,31 @@ A entidade agente coletivo designa uma ampla variedade de grupos nomeados de pes
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AreaConhecimento_1</IRI>
+        <Literal xml:lang="pt-br">Área de conhecimento da revista Ciência da Informação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AreaConhecimento_1</IRI>
+        <IRI>#AreaConhecimento_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AreaConhecimento_1</IRI>
+        <Literal xml:lang="pt-br">Ciência da Informação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AreaConhecimento_8</IRI>
+        <IRI>#AreaConhecimento_8</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AreaConhecimento_8</IRI>
+        <Literal xml:lang="pt-br">Biologia Geral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AreaDeConhecimento</IRI>
         <Literal xml:lang="pt-br">Categoria utilizada para identificar o campo disciplinar ou científico a que uma obra, publicação, pesquisa ou instituição acadêmica está associada, permitindo a organização, indexação e recuperação da informação de forma sistemática.
 
@@ -2867,6 +4506,51 @@ Exemplo: &apos;Ensino a distância&apos; é um termo que categoriza &apos;Aprend
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AssuntoControlado_1</IRI>
+        <Literal xml:lang="pt-br">Um dos cabeçalhos mais específicos da revista Ciência da Informação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AssuntoControlado_1</IRI>
+        <IRI>#AssuntoControlado_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AssuntoControlado_1</IRI>
+        <Literal xml:lang="pt-br">Organização da Informação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AssuntoControlado_2</IRI>
+        <Literal xml:lang="pt-br">Um cabeçalho específico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AssuntoControlado_2</IRI>
+        <IRI>#AssuntoControlado_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AssuntoControlado_2</IRI>
+        <Literal xml:lang="pt-br">Recursos da Informação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AssuntoControlado_9</IRI>
+        <Literal xml:lang="pt-br">Assunto controlado de uma série de publicações científicas sobre zoologia, botânica e ecologia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AssuntoControlado_9</IRI>
+        <IRI>#AssuntoControlado_9</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AssuntoControlado_9</IRI>
+        <Literal xml:lang="pt-br">Biologia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Biblioteca</IRI>
         <Literal xml:lang="pt-br">Instituição que organiza, conserva e disponibiliza coleções de recursos informacionais, em qualquer formato, para atender às necessidades de informação, educação, pesquisa e lazer de seu público, promovendo o acesso à cultura, ao conhecimento e à preservação da memória coletiva.
 
@@ -2881,6 +4565,21 @@ Exemplo: A Lydia de Queiroz Sambaquy é Biblioteca do Instituto Brasileiro em Ci
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Biblioteca</IRI>
         <Literal xml:lang="pt-br">Biblioteca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Biblioteca_1</IRI>
+        <Literal xml:lang="pt-br">Biblioteca do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Biblioteca_1</IRI>
+        <IRI>#Biblioteca_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biblioteca_1</IRI>
+        <Literal xml:lang="pt-br">Biblioteca Lydia de Queiroz Sambaquy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2904,6 +4603,46 @@ Exemplo: A Lydia de Queiroz Sambaquy é Biblioteca do Instituto Brasileiro em Ci
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Colecao_1</IRI>
+        <Literal xml:lang="pt-br">As informações do conteúdo das Coleções são suas transcrições.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Colecao_1</IRI>
+        <IRI>#Colecao_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Colecao_1</IRI>
+        <Literal xml:lang="pt-br">IBICTC/BT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Colecao_2</IRI>
+        <Literal xml:lang="pt-br">Exemplo de Coleção de periódicos por assunto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Colecao_2</IRI>
+        <IRI>#Colecao_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Colecao_2</IRI>
+        <Literal xml:lang="pt-br">Ciência da Informação e Bibliografias</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Colecao_9</IRI>
+        <IRI>#Colecao_9</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Colecao_9</IRI>
+        <Literal xml:lang="pt-br">Coleção 1975/1995</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Contato</IRI>
         <Literal xml:lang="pt-br">Conjunto de dados que permitem identificar e estabelecer comunicação com uma entidade (agente, pessoa ou agente coletivo), incluindo informações como telefone, e-mail ou outros meios de comunicação.
 
@@ -2918,6 +4657,51 @@ Exemplo: (61)32176145 é o telefone e biblioteca@ibict.br é o email da Bibliote
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Contato</IRI>
         <Literal xml:lang="pt-br">Contato</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Contato_1</IRI>
+        <Literal xml:lang="pt-br">Informação do contato da Biblioteca do IBICT.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Contato_1</IRI>
+        <IRI>#Contato_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Contato_1</IRI>
+        <Literal xml:lang="pt-br">(61)32176145</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DataImprenta_1</IRI>
+        <Literal xml:lang="pt-br">Data inicial de Publicação Imprenta da Publicação Seriada intitulada Ciência da Informação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DataImprenta_1</IRI>
+        <IRI>#DataImprenta_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataImprenta_1</IRI>
+        <Literal xml:lang="pt-br">Data de imprenta da revista Ciência da Informação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DataImprenta_2</IRI>
+        <Literal xml:lang="pt-br">Informação da Imprenta referente à data de publicação da revista A hora Veterinária.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DataImprenta_2</IRI>
+        <IRI>#DataImprenta_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DataImprenta_2</IRI>
+        <Literal xml:lang="pt-br">Data de Imprenta da Revista A Hora Veterinária</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2937,6 +4721,41 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia é a Ed
         <Literal xml:lang="pt-br">Editora</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Editora_1</IRI>
+        <IRI>#Editora_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Editora_1</IRI>
+        <Literal xml:lang="pt-br">Instituto Brasileiro de Informação em Ciência e Tecnologia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Editora_2</IRI>
+        <Literal xml:lang="pt-br">Editora da Publicação Seriada: A Granja.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Editora_2</IRI>
+        <IRI>#Editora_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Editora_2</IRI>
+        <Literal xml:lang="pt-br">Centaurus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Editora_9</IRI>
+        <IRI>#Editora_9</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Editora_9</IRI>
+        <Literal xml:lang="pt-br">Editora Staatliches Museum für Naturkunde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Endereco</IRI>
         <Literal xml:lang="pt-br">Localidade específica (como rua, logradouro, bairro, setor ou avenida) que integra um endereço postal e/ou é identificada por coordenadas geográficas.
@@ -2952,6 +4771,21 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia está l
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Endereco</IRI>
         <Literal xml:lang="pt-br">Endereço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Endereco_1</IRI>
+        <Literal xml:lang="pt-br">Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Endereco_1</IRI>
+        <IRI>#Endereco_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Endereco_1</IRI>
+        <Literal xml:lang="pt-br">Logradouro da Biblioteca do Ibict</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2995,6 +4829,16 @@ Uma combinação específica de sinais que transmitem conteúdo intelectual ou a
         <IRI>https://schema.org/WebPage</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Homepage_8</IRI>
+        <IRI>#Homepage_8</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Homepage_8</IRI>
+        <Literal xml:lang="pt-br">Homepage da Obra Integrative Systematics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ISSN</IRI>
         <Literal xml:lang="pt-br">O Número Padrão Internacional para Publicação Seriada (ISSN) é um identificador aceito internacionalmente para individualizar o título de um recurso contínuo, tornando-o único e definitivo. A sigla ISSN deve ser utilizada tanto para o singular quanto para o plural. Número: Refere-se a uma parte específica de um recurso contínuo. Os números geralmente são publicados com uma frequência específica (por exemplo, mensal, semanal) e estão vinculados a uma sequência dentro de um volume ou ano de publicação. [Fonte: Centro Brasileiro do ISSN - CBISSN].
@@ -3010,6 +4854,91 @@ Exemplo: o código 0100-1965 é o ISSN impresso da publicação seriada Ciência
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ISSN</IRI>
         <Literal xml:lang="pt-br">ISSN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISSN_1</IRI>
+        <Literal xml:lang="pt-br">ISSN impresso da publicação seriada: Ciência da Informação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ISSN_1</IRI>
+        <IRI>#ISSN_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ISSN_1</IRI>
+        <Literal xml:lang="pt-br">ISSN: 0100-1965</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISSN_2</IRI>
+        <Literal xml:lang="pt-br">Código ISSN impresso da Publicação Seriada: A Hora Veterinária.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ISSN_2</IRI>
+        <IRI>#ISSN_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ISSN_2</IRI>
+        <Literal xml:lang="pt-br">ISSN: 0101-9163</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISSN_3</IRI>
+        <Literal xml:lang="pt-br">ISSN da revista Wines &amp; Vines Yearbook of the Wine Industry.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ISSN_3</IRI>
+        <IRI>#ISSN_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ISSN_3</IRI>
+        <Literal xml:lang="pt-br">ISSN: 0271-5694</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ISSN_4</IRI>
+        <IRI>#ISSN_4</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ISSN_4</IRI>
+        <Literal xml:lang="pt-br">ISSN: 0096-8471</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ISSN_5</IRI>
+        <IRI>#ISSN_5</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ISSN_5</IRI>
+        <Literal xml:lang="pt-br">ISSN: 1518-8353</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ISSN_8</IRI>
+        <IRI>#ISSN_8</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ISSN_8</IRI>
+        <Literal xml:lang="pt-br">ISSN: 2628-2380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ISSN_9</IRI>
+        <IRI>#ISSN_9</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ISSN_9</IRI>
+        <Literal xml:lang="pt-br">ISSN: 0341-0145</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3030,6 +4959,51 @@ Exemplo: O idioma principal da publicação seriada Ciência da Informação é 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Idioma_1</IRI>
+        <Literal xml:lang="pt-br">Idioma do Brasil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Idioma_1</IRI>
+        <IRI>#Idioma_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Idioma_1</IRI>
+        <Literal xml:lang="pt-br">Português (BR)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Idioma_2</IRI>
+        <Literal xml:lang="pt-br">Uma língua germânica ocidental que se originou nos reinos anglo-saxões da Inglaterra e se espalhou para outras regiões, tornando-se um dos idiomas mais falados no mundo. Hoje, é a língua oficial de diversos países, incluindo Estados Unidos, Reino Unido, Canadá, Austrália e Nova Zelândia, além de ser amplamente utilizada como segunda língua em muitos outros.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Idioma_2</IRI>
+        <IRI>#Idioma_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Idioma_2</IRI>
+        <Literal xml:lang="pt-br">Inglês</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Idioma_3</IRI>
+        <Literal xml:lang="pt-br">Uma língua que se originou na Península Ibérica e se espalhou pelo mundo através da colonização e migração. É a língua oficial de diversos países da América Latina, além da Espanha, e é falada por milhões de pessoas como primeira ou segunda língua.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Idioma_3</IRI>
+        <IRI>#Idioma_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Idioma_3</IRI>
+        <Literal xml:lang="pt-br">Espanhol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Instituicao</IRI>
         <Literal xml:lang="pt-br">Entidade jurídica ou organizacional (universidade, empresa, fundação, órgão público etc.) que mantém uma ou mais unidades/bibliotecas e é responsável pela gestão dessas unidades.
 
@@ -3044,6 +5018,21 @@ Exemplo: O Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Instituicao</IRI>
         <Literal xml:lang="pt-br">Instituição</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Instituicao_1</IRI>
+        <Literal xml:lang="pt-br">Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Instituicao_1</IRI>
+        <IRI>#Instituicao_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Instituicao_1</IRI>
+        <Literal xml:lang="pt-br">Ibict</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3083,6 +5072,51 @@ Exemplo: Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sa
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#Localidade</IRI>
         <IRI>http://www.geonames.org/ontology#City</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Localidade_1</IRI>
+        <Literal xml:lang="pt-br">Cidade pertencente ao Distrito Federal, onde se localiza a Biblioteca Lydia de Queiroz Sambaquy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Localidade_1</IRI>
+        <IRI>#Localidade_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Localidade_1</IRI>
+        <Literal xml:lang="pt-br">Brasília</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Localidade_2</IRI>
+        <Literal xml:lang="pt-br">Cidade da Unidade Federativa Rio de Janeiro.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Localidade_2</IRI>
+        <IRI>#Localidade_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Localidade_2</IRI>
+        <Literal xml:lang="pt-br">Rio de Janeiro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Localidade_3</IRI>
+        <Literal xml:lang="pt-br">Cidade do Estado de São Paulo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Localidade_3</IRI>
+        <IRI>#Localidade_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Localidade_3</IRI>
+        <Literal xml:lang="pt-br">São Paulo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3145,6 +5179,31 @@ Exemplo: Publicação seriada impressa é um item físico.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MeioFisico_1</IRI>
+        <Literal xml:lang="pt-br">Meio físico impresso dos códigos ISSN.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#MeioFisico_1</IRI>
+        <IRI>#MeioFisico_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeioFisico_1</IRI>
+        <Literal xml:lang="pt-br">Impresso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#MeioFisico_2</IRI>
+        <IRI>#MeioFisico_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeioFisico_2</IRI>
+        <Literal xml:lang="pt-br">Online (Eletrônico)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#NaturezaAdministrativa</IRI>
         <Literal xml:lang="pt-br">Classificação da instituição responsável por uma biblioteca ou unidade, segundo sua esfera de gestão e regime administrativo (pública, privada etc.).
 
@@ -3159,6 +5218,36 @@ Exemplo: Lydia de Queiroz Sambaquy é uma Biblioteca de natureza administrativa 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#NaturezaAdministrativa</IRI>
         <Literal xml:lang="pt-br">Natureza Administrativa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaturezaAdministrativa_1</IRI>
+        <Literal xml:lang="pt-br">Categoria da natureza administrativa de uma biblioteca.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#NaturezaAdministrativa_1</IRI>
+        <IRI>#NaturezaAdministrativa_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturezaAdministrativa_1</IRI>
+        <Literal xml:lang="pt-br">Pública</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaturezaAdministrativa_2</IRI>
+        <Literal xml:lang="pt-br">Categoria da natureza administrativa de uma biblioteca.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#NaturezaAdministrativa_2</IRI>
+        <IRI>#NaturezaAdministrativa_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturezaAdministrativa_2</IRI>
+        <Literal xml:lang="pt-br">Privada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3193,6 +5282,61 @@ Um nomen associa qualquer denominação (isto é, combinação de sinais) utiliz
         <Literal xml:lang="pt-br">Nota</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Nota_1</IRI>
+        <IRI>#Nota_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nota_1</IRI>
+        <Literal xml:lang="pt-br">Nota Geral da Revista Ciência da Informação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Nota_2</IRI>
+        <IRI>#Nota_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nota_2</IRI>
+        <Literal xml:lang="pt-br">Nota de Suplemento da Obra Wines &amp; Vines Yearbook of the Wine Industry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nota_3</IRI>
+        <Literal xml:lang="pt-br">Nota para publicação seriada BIB: revista brasileira de informação bibliográfica em Ciências Sociais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Nota_3</IRI>
+        <IRI>#Nota_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nota_3</IRI>
+        <Literal xml:lang="pt-br">Nota geral da revista BIB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Nota_4</IRI>
+        <IRI>#Nota_4</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nota_4</IRI>
+        <Literal xml:lang="pt-br">Nota de Complexidade da Obra Wines Review</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Nota_9</IRI>
+        <IRI>#Nota_9</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nota_9</IRI>
+        <Literal xml:lang="pt-br">Nota geral da série Stuttgarter Beiträge zur Naturkunde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Obra</IRI>
         <Literal xml:lang="pt-br">LRM-E2 Obra
@@ -3210,6 +5354,121 @@ temático por si só não é suficiente para agrupar expressões como realizaç�
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Obra</IRI>
         <Literal xml:lang="pt-br">Obra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obra_1</IRI>
+        <Literal xml:lang="pt-br">Publicação seriada quadrimestral.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_1</IRI>
+        <IRI>#Obra_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_1</IRI>
+        <Literal xml:lang="pt-br">Ciência da Informação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obra_2</IRI>
+        <Literal xml:lang="pt-br">Exemplo de Publicação Seriada bimestral.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_2</IRI>
+        <IRI>#Obra_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_2</IRI>
+        <Literal xml:lang="pt-br">A hora veterinária</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_3</IRI>
+        <IRI>#Obra_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_3</IRI>
+        <Literal xml:lang="pt-br">Obra: Wines &amp; Vines Yearbook of the Wine Industry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_4</IRI>
+        <IRI>#Obra_4</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_4</IRI>
+        <Literal xml:lang="pt-br">Obra: Wine Review (Los Angeles)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_5</IRI>
+        <IRI>#Obra_5</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_5</IRI>
+        <Literal xml:lang="pt-br">Bibliografia Brasileira de Documentação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obra_6</IRI>
+        <Literal xml:lang="pt-br">BIB: Revista brasileira de informação bibliográfica em Ciências Sociais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_6</IRI>
+        <IRI>#Obra_6</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_6</IRI>
+        <Literal xml:lang="pt-br">BIB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_7</IRI>
+        <IRI>#Obra_7</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_7</IRI>
+        <Literal xml:lang="de">Obra: Eine kleine Nachtmusik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obra_8</IRI>
+        <Literal xml:lang="pt-br">Continuação da obra Stuttgarter Beiträge zur Naturkunde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_8</IRI>
+        <IRI>#Obra_8</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_8</IRI>
+        <Literal xml:lang="pt-br">Obra: Integrative Systematics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obra_9</IRI>
+        <Literal xml:lang="pt-br">Série de Publicações científicas sobre zoologia, botânica e ecologia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obra_9</IRI>
+        <IRI>#Obra_9</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obra_9</IRI>
+        <Literal xml:lang="pt-br">Série A: Stuttgarter Beiträge zur Naturkunde</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3232,6 +5491,51 @@ Exemplo: O Brasil é um país ou território geográfico onde uma Publicação s
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#Pais</IRI>
         <IRI>http://www.geonames.org/ontology#Country</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pais_1</IRI>
+        <Literal xml:lang="pt-br">República Federativa do Brasil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pais_1</IRI>
+        <IRI>#Pais_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pais_1</IRI>
+        <Literal xml:lang="pt-br">Brasil (BR)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pais_2</IRI>
+        <Literal xml:lang="pt-br">País europeu nomeado República Federal da Alemanha.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pais_2</IRI>
+        <IRI>#Pais_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pais_2</IRI>
+        <Literal xml:lang="pt-br">Alemanha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pais_3</IRI>
+        <Literal xml:lang="pt-br">Estados Unidos da América.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pais_3</IRI>
+        <IRI>#Pais_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pais_3</IRI>
+        <Literal xml:lang="pt-br">Estados Unidos (EUA)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3289,6 +5593,26 @@ Um suplemento consiste em um material adicional que é publicado separadamente, 
         <IRI>http://purl.org/ontology/bibo/RelatedDocument</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PublicacaoRelacionada_1</IRI>
+        <IRI>#PublicacaoRelacionada_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PublicacaoRelacionada_1</IRI>
+        <Literal xml:lang="pt-br">Relação de continuidade da revista Ciência da Informação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PublicacaoRelacionada_2</IRI>
+        <IRI>#PublicacaoRelacionada_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PublicacaoRelacionada_2</IRI>
+        <Literal xml:lang="pt-br">Relação de continuidade da obra Stuttgarter Beiträge zur Naturkunde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#PublicacaoSeriada</IRI>
         <Literal xml:lang="pt-br">Publicação, em qualquer suporte, editada em partes sucessivas, com conteúdo contínuo, com designação numérica e/ou cronológica e destinada a ser continuada indefinidamente. Exemplos: anais de eventos, séries monográficas, periódicos: revistas, jornais, publicações, anuários, boletins e suplementos independentes e números especiais independentes. [Centro Brasileiro do ISSN - CBISSN].
@@ -3327,6 +5651,51 @@ Exemplo: Ciência da Informação é publicação seriada quadrimestral.</Litera
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Referenciador_1</IRI>
+        <Literal xml:lang="pt-br">Indexador de uma Publicação Seriada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Referenciador_1</IRI>
+        <IRI>#Referenciador_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Referenciador_1</IRI>
+        <Literal xml:lang="pt-br">Indexador: Library &amp; information science abstracts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Referenciador_2</IRI>
+        <Literal xml:lang="pt-br">Indexador de uma Publicação Seriada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Referenciador_2</IRI>
+        <IRI>#Referenciador_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Referenciador_2</IRI>
+        <Literal xml:lang="pt-br">Indexador: Information science abstracts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Referenciador_8</IRI>
+        <Literal xml:lang="pt-br">Dados de critérios para o Diretório Indexador Scielo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Referenciador_8</IRI>
+        <IRI>#Referenciador_8</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Referenciador_8</IRI>
+        <Literal xml:lang="pt-br">Indexador: WIKIDATA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Regiao</IRI>
         <Literal xml:lang="pt-br">Área geográfica delimitada dentro de um país ou território, caracterizada por aspectos administrativos, físicos, culturais ou econômicos, utilizada para identificar a localização de agentes.
 
@@ -3341,6 +5710,31 @@ Exemplo: Centro-oeste é uma região ou divisão regional onde localiza-se a Bib
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Regiao</IRI>
         <Literal xml:lang="pt-br">Região</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regiao_1</IRI>
+        <Literal xml:lang="pt-br">Divisão regional onde se localiza o Distrito Federal e a Biblioteca Lydia de Queiroz Sambaquy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Regiao_1</IRI>
+        <IRI>#Regiao_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Regiao_1</IRI>
+        <Literal xml:lang="pt-br">Região Centro-Oeste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Regiao_2</IRI>
+        <IRI>#Regiao_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Regiao_2</IRI>
+        <Literal xml:lang="pt-br">Região Sudeste</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3409,6 +5803,36 @@ A classificação das Áreas do Conhecimento tem finalidade eminentemente práti
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tabela_1</IRI>
+        <Literal xml:lang="pt-br">Classificação das Áreas do Conhecimento - 1º Nível: Grande área; 2º Nível: Área do conhecimento; 3º Nível: Subárea; 4º Nível: Especialidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Tabela_1</IRI>
+        <IRI>#Tabela_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tabela_1</IRI>
+        <Literal xml:lang="pt-br">Tabela CAPES</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tabela_2</IRI>
+        <Literal xml:lang="pt-br">Grande área; Área; Sub-área; Especialidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Tabela_2</IRI>
+        <IRI>#Tabela_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tabela_2</IRI>
+        <Literal xml:lang="pt-br">Tabela CNPq</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#TermoLivre</IRI>
         <Literal xml:lang="pt-br">Diferentemente do Assunto Controlado, que utiliza termos padronizados de um vocabulário predefinido, o Termo Livre permite maior flexibilidade, podendo incluir jargões, abreviações, neologismos e outras expressões que não estão necessariamente presentes em vocabulários controlados.
 
@@ -3428,6 +5852,51 @@ Exemplo: Inteligência artificial é um termo livre.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#TermoLivre</IRI>
         <IRI>http://purl.org/ontology/bibo/Term</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TermoLivre_1</IRI>
+        <Literal xml:lang="pt-br">Termo livre da revista Ciência da Informação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TermoLivre_1</IRI>
+        <IRI>#TermoLivre_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TermoLivre_1</IRI>
+        <Literal xml:lang="pt-br">Termo Livre: CI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TermoLivre_8</IRI>
+        <IRI>#TermoLivre_8</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TermoLivre_8</IRI>
+        <Literal xml:lang="pt-br">Termo livre: Biologia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TipoBiblioteca_1</IRI>
+        <IRI>#TipoBiblioteca_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TipoBiblioteca_1</IRI>
+        <Literal xml:lang="pt-br">Biblioteca Setorial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TipoBiblioteca_2</IRI>
+        <IRI>#TipoBiblioteca_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TipoBiblioteca_2</IRI>
+        <Literal xml:lang="pt-br">Biblioteca Especializada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3471,6 +5940,36 @@ Exemplo: Ciênc. Inf. é título abreviado de: Ciência da Informação.</Litera
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TituloComplementar_1</IRI>
+        <Literal xml:lang="pt-br">Título abreviado de: Ciência da Informação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TituloComplementar_1</IRI>
+        <IRI>#TituloComplementar_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TituloComplementar_1</IRI>
+        <Literal xml:lang="pt-br">Ciênc._Inf.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TituloComplementar_9</IRI>
+        <Literal xml:lang="pt-br">Título abreviado da série Stuttgarter Beiträge zur Naturkunde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TituloComplementar_9</IRI>
+        <IRI>#TituloComplementar_9</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TituloComplementar_9</IRI>
+        <Literal xml:lang="pt-br">Stuttg. Beitr. Nat.kd., A Biol.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Unidade</IRI>
         <Literal xml:lang="pt-br">Entidade administrativa ou organizacional que integra uma instituição maior, possuindo identidade própria, funções definidas e, geralmente, autonomia parcial para executar atividades relacionadas à gestão de recursos, serviços ou informações.
 
@@ -3507,6 +6006,81 @@ Exemplo: Distrito Federal é a Unidade Federativa onde se localiza a Biblioteca 
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#UnidadeFederativa</IRI>
         <IRI>http://www.geonames.org/ontology#A.ADM1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnidadeFederativa_1</IRI>
+        <Literal xml:lang="pt-br">Unidade Federativa do Brasil, representada pela sigla DF.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#UnidadeFederativa_1</IRI>
+        <IRI>#UnidadeFederativa_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UnidadeFederativa_1</IRI>
+        <Literal xml:lang="pt-br">Distrito Federal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnidadeFederativa_2</IRI>
+        <Literal xml:lang="pt-br">Unidade Federativa do Brasil, representada pela sigla RJ.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#UnidadeFederativa_2</IRI>
+        <IRI>#UnidadeFederativa_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UnidadeFederativa_2</IRI>
+        <Literal xml:lang="pt-br">Rio de Janeiro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnidadeFederativa_3</IRI>
+        <Literal xml:lang="pt-br">Unidade Federativa do Brasil, representada pela sigla SP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#UnidadeFederativa_3</IRI>
+        <IRI>#UnidadeFederativa_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UnidadeFederativa_3</IRI>
+        <Literal xml:lang="pt-br">São Paulo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Unidade_1</IRI>
+        <Literal xml:lang="pt-br">Coordenação de Serviços Bibliográficos, unidade do Ibict que administra a biblioteca.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Unidade_1</IRI>
+        <IRI>#Unidade_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unidade_1</IRI>
+        <Literal xml:lang="pt-br">COBIB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Unidade_2</IRI>
+        <Literal xml:lang="pt-br">Instituto Brasileiro em Ciência e Tecnologia, unidade de pesquisa do Ministério de Ciência, Tecnologia e Inovação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Unidade_2</IRI>
+        <IRI>#Unidade_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unidade_2</IRI>
+        <Literal xml:lang="pt-br">Ibict</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6186,6 +8760,21 @@ Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma con
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#volume</IRI>
         <Literal xml:lang="pt-br">volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://revista.ibict.br/Homepage_1</IRI>
+        <Literal xml:lang="pt-br">Homepage da Revista Ciência da Informação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://revista.ibict.br/Homepage_1</IRI>
+        <IRI>#Homepage_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://revista.ibict.br/Homepage_1</IRI>
+        <Literal xml:lang="pt-br">Homepage da Publicação Seriada Ciência da Informação</Literal>
     </AnnotationAssertion>
 </Ontology>
 
