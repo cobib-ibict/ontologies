@@ -11990,6 +11990,34 @@ semântica com bases de dados institucionais e aplicações voltadas à gestão 
 </div>
 </div>
 </div>
+<div id="ConsultaSPARQL">
+<h2 id="SPA" class="list"> Exemplo de Consulta SPARQL<span class="backlink"> de volta ao <a href="#toc">&iacute;ndice</a></span></h2>
+<p>
+    A seguir apresenta-se um exemplo de consulta <i>SPARQL</i> dos títulos e respectivos códigos ISSN das Publicações Seriadas descritas na Ontologia Pinakes.
+    Para executar consultas semelhantes, recomenda-se que o usuário descarregue o modelo RDF disponível para download e o importe em um ambiente de gerenciamento de triplas, como o <i>GraphDB</i>.
+    Uma vez carregado o modelo, é possível realizar consultas interativas diretamente no console da ferramenta, validar as questões de competência e explorar a estrutura semântica da ontologia.
+  </p>
+  
+  <pre><code class="sparql">
+PREFIX pinakes: &lt;https://cobib-ibict.github.io/ontologies/pinakes.rdf#&gt;
+
+SELECT DISTINCT ?titulo ?codigo
+WHERE {
+  ?pub a pinakes:PublicacaoSeriada ;
+       pinakes:tituloProprio ?titulo ;
+       pinakes:hasISSN ?issn .
+  ?issn pinakes:descricao ?codigo .
+}
+  </code></pre>
+
+    <figure>
+  <img src="https://cobib-ibict.github.io/ontologies/pinakes/figura4.gif" alt="Resultado da consulta SPARQL no GraphDB local" style="max-width:100%; height:auto;">
+  <figcaption>
+    Figura 4 – Resultado da consulta <i>SPARQL</i> no GraphDB local. Visualização dos títulos e códigos ISSN recuperados a partir da Ontologia Pinakes.
+  </figcaption>
+</figure>
+</div>
+		
 <div id="acknowledgments">
 <h2 id="ack" class="list">Agradecimentos <span class="backlink"> de volta ao <a href="#toc">&iacute;ndice</a></span></h2>
 <p>Os autores gostariam de agradecer a <a href="http://www.essepuntato.it/">Silvio Peroni</a> para o desenvolvimento de <a href="http://www.essepuntato.it/lode">LODE</a>, documenta&ccedil;&atilde;o ambiente para OWL que &eacute; usada para gerar a descri&ccedil;&atilde;o de ontologias termos aqui descritos; e <a href="http://purl.org/net/dgarijo">Daniel Garijo</a> para o desenvolvimento de <a href="https://github.com/dgarijo/Widoco">Widoco</a>, o programa usado para criar o modelo de documento utilizado nesta documenta&ccedil;&atilde;o.</p>
